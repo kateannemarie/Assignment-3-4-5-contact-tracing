@@ -6,5 +6,10 @@ namespace ContactTracingApp.Dalangin
         {
             InitializeComponent();
         }
+
+        private void contactnumberLabel_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
