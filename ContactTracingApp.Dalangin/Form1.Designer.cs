@@ -1,6 +1,6 @@
 ﻿namespace ContactTracingApp.Dalangin
 {
-    partial class Form1
+    partial class contacttracingForm
     {
         /// <summary>
         ///  Required designer variable.
@@ -76,6 +76,7 @@
             this.nameTextBox.Name = "nameTextBox";
             this.nameTextBox.Size = new System.Drawing.Size(275, 23);
             this.nameTextBox.TabIndex = 3;
+            this.nameTextBox.TextChanged += new System.EventHandler(this.nameTextBox_TextChanged);
             // 
             // addressLabel
             // 
@@ -92,6 +93,7 @@
             this.addressTextBox.Name = "addressTextBox";
             this.addressTextBox.Size = new System.Drawing.Size(275, 23);
             this.addressTextBox.TabIndex = 5;
+            this.addressTextBox.TextChanged += new System.EventHandler(this.addressTextBox_TextChanged);
             // 
             // contactnumberLabel
             // 
@@ -109,6 +111,7 @@
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(275, 23);
             this.textBox1.TabIndex = 7;
+            this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
             // dateandtimePicker
             // 
@@ -136,7 +139,7 @@
             this.healthdeclarationButton.UseVisualStyleBackColor = true;
             this.healthdeclarationButton.Click += new System.EventHandler(this.healthdeclarationButton_Click);
             // 
-            // Form1
+            // contacttracingForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -152,8 +155,10 @@
             this.Controls.Add(this.nameLabel);
             this.Controls.Add(this.descriptionLabel);
             this.Controls.Add(this.upperLabel);
-            this.Name = "Form1";
-            this.Text = "Form1";
+            this.MaximumSize = new System.Drawing.Size(315, 421);
+            this.MinimumSize = new System.Drawing.Size(315, 421);
+            this.Name = "contacttracingForm";
+            this.Text = "Contact Tracing Form";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
