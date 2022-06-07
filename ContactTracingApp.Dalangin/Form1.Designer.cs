@@ -36,6 +36,9 @@
             this.addressTextBox = new System.Windows.Forms.TextBox();
             this.contactnumberLabel = new System.Windows.Forms.Label();
             this.textBox1 = new System.Windows.Forms.TextBox();
+            this.dateandtimePicker = new System.Windows.Forms.DateTimePicker();
+            this.dateandtimeLabel = new System.Windows.Forms.Label();
+            this.healthdeclarationButton = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // upperLabel
@@ -61,7 +64,7 @@
             // nameLabel
             // 
             this.nameLabel.AutoSize = true;
-            this.nameLabel.Location = new System.Drawing.Point(12, 95);
+            this.nameLabel.Location = new System.Drawing.Point(12, 152);
             this.nameLabel.Name = "nameLabel";
             this.nameLabel.Size = new System.Drawing.Size(42, 15);
             this.nameLabel.TabIndex = 2;
@@ -69,7 +72,7 @@
             // 
             // nameTextBox
             // 
-            this.nameTextBox.Location = new System.Drawing.Point(12, 113);
+            this.nameTextBox.Location = new System.Drawing.Point(12, 170);
             this.nameTextBox.Name = "nameTextBox";
             this.nameTextBox.Size = new System.Drawing.Size(275, 23);
             this.nameTextBox.TabIndex = 3;
@@ -77,7 +80,7 @@
             // addressLabel
             // 
             this.addressLabel.AutoSize = true;
-            this.addressLabel.Location = new System.Drawing.Point(12, 154);
+            this.addressLabel.Location = new System.Drawing.Point(12, 211);
             this.addressLabel.Name = "addressLabel";
             this.addressLabel.Size = new System.Drawing.Size(52, 15);
             this.addressLabel.TabIndex = 4;
@@ -85,7 +88,7 @@
             // 
             // addressTextBox
             // 
-            this.addressTextBox.Location = new System.Drawing.Point(12, 172);
+            this.addressTextBox.Location = new System.Drawing.Point(12, 229);
             this.addressTextBox.Name = "addressTextBox";
             this.addressTextBox.Size = new System.Drawing.Size(275, 23);
             this.addressTextBox.TabIndex = 5;
@@ -93,7 +96,7 @@
             // contactnumberLabel
             // 
             this.contactnumberLabel.AutoSize = true;
-            this.contactnumberLabel.Location = new System.Drawing.Point(12, 214);
+            this.contactnumberLabel.Location = new System.Drawing.Point(12, 271);
             this.contactnumberLabel.Name = "contactnumberLabel";
             this.contactnumberLabel.Size = new System.Drawing.Size(99, 15);
             this.contactnumberLabel.TabIndex = 6;
@@ -102,16 +105,45 @@
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(12, 232);
+            this.textBox1.Location = new System.Drawing.Point(12, 289);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(275, 23);
             this.textBox1.TabIndex = 7;
+            // 
+            // dateandtimePicker
+            // 
+            this.dateandtimePicker.Location = new System.Drawing.Point(12, 113);
+            this.dateandtimePicker.Name = "dateandtimePicker";
+            this.dateandtimePicker.Size = new System.Drawing.Size(200, 23);
+            this.dateandtimePicker.TabIndex = 8;
+            // 
+            // dateandtimeLabel
+            // 
+            this.dateandtimeLabel.AutoSize = true;
+            this.dateandtimeLabel.Location = new System.Drawing.Point(12, 95);
+            this.dateandtimeLabel.Name = "dateandtimeLabel";
+            this.dateandtimeLabel.Size = new System.Drawing.Size(86, 15);
+            this.dateandtimeLabel.TabIndex = 9;
+            this.dateandtimeLabel.Text = "Date and Time:";
+            // 
+            // healthdeclarationButton
+            // 
+            this.healthdeclarationButton.Location = new System.Drawing.Point(71, 330);
+            this.healthdeclarationButton.Name = "healthdeclarationButton";
+            this.healthdeclarationButton.Size = new System.Drawing.Size(153, 40);
+            this.healthdeclarationButton.TabIndex = 10;
+            this.healthdeclarationButton.Text = "Health Declaration Form";
+            this.healthdeclarationButton.UseVisualStyleBackColor = true;
+            this.healthdeclarationButton.Click += new System.EventHandler(this.healthdeclarationButton_Click);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(299, 673);
+            this.ClientSize = new System.Drawing.Size(299, 382);
+            this.Controls.Add(this.healthdeclarationButton);
+            this.Controls.Add(this.dateandtimeLabel);
+            this.Controls.Add(this.dateandtimePicker);
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.contactnumberLabel);
             this.Controls.Add(this.addressTextBox);
@@ -122,6 +154,7 @@
             this.Controls.Add(this.upperLabel);
             this.Name = "Form1";
             this.Text = "Form1";
+            this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -137,5 +170,8 @@
         private TextBox addressTextBox;
         private Label contactnumberLabel;
         private TextBox textBox1;
+        private DateTimePicker dateandtimePicker;
+        private Label dateandtimeLabel;
+        private Button healthdeclarationButton;
     }
 }
