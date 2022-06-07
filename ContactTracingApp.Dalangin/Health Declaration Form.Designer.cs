@@ -40,6 +40,10 @@
             this.ageTextBox = new System.Windows.Forms.TextBox();
             this.contactaddressLabel = new System.Windows.Forms.Label();
             this.contactaddressTextBox = new System.Windows.Forms.TextBox();
+            this.mobileLabel = new System.Windows.Forms.Label();
+            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.emailaddressLabel = new System.Windows.Forms.Label();
+            this.emailaddressTextBox = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // reminderLabel
@@ -141,11 +145,47 @@
             this.contactaddressTextBox.Size = new System.Drawing.Size(423, 23);
             this.contactaddressTextBox.TabIndex = 11;
             // 
+            // mobileLabel
+            // 
+            this.mobileLabel.AutoSize = true;
+            this.mobileLabel.Location = new System.Drawing.Point(12, 290);
+            this.mobileLabel.Name = "mobileLabel";
+            this.mobileLabel.Size = new System.Drawing.Size(153, 15);
+            this.mobileLabel.TabIndex = 12;
+            this.mobileLabel.Text = "Mobile No./ Telephone No.:";
+            // 
+            // textBox1
+            // 
+            this.textBox1.Location = new System.Drawing.Point(12, 308);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(153, 23);
+            this.textBox1.TabIndex = 13;
+            // 
+            // emailaddressLabel
+            // 
+            this.emailaddressLabel.AutoSize = true;
+            this.emailaddressLabel.Location = new System.Drawing.Point(221, 290);
+            this.emailaddressLabel.Name = "emailaddressLabel";
+            this.emailaddressLabel.Size = new System.Drawing.Size(84, 15);
+            this.emailaddressLabel.TabIndex = 14;
+            this.emailaddressLabel.Text = "Email Address:";
+            // 
+            // emailaddressTextBox
+            // 
+            this.emailaddressTextBox.Location = new System.Drawing.Point(221, 308);
+            this.emailaddressTextBox.Name = "emailaddressTextBox";
+            this.emailaddressTextBox.Size = new System.Drawing.Size(214, 23);
+            this.emailaddressTextBox.TabIndex = 15;
+            // 
             // Health_Declaration_Form
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(450, 450);
+            this.Controls.Add(this.emailaddressTextBox);
+            this.Controls.Add(this.emailaddressLabel);
+            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.mobileLabel);
             this.Controls.Add(this.contactaddressTextBox);
             this.Controls.Add(this.contactaddressLabel);
             this.Controls.Add(this.ageTextBox);
@@ -177,5 +217,9 @@
         private TextBox ageTextBox;
         private Label contactaddressLabel;
         private TextBox contactaddressTextBox;
+        private Label mobileLabel;
+        private TextBox textBox1;
+        private Label emailaddressLabel;
+        private TextBox emailaddressTextBox;
     }
 }
