@@ -36,6 +36,10 @@
             this.sexLabel = new System.Windows.Forms.Label();
             this.femaleRadioButton = new System.Windows.Forms.RadioButton();
             this.maleRadioButton = new System.Windows.Forms.RadioButton();
+            this.ageLabel = new System.Windows.Forms.Label();
+            this.ageTextBox = new System.Windows.Forms.TextBox();
+            this.contactaddressLabel = new System.Windows.Forms.Label();
+            this.contactaddressTextBox = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // reminderLabel
@@ -64,6 +68,7 @@
             this.namelLabel2.Size = new System.Drawing.Size(42, 15);
             this.namelLabel2.TabIndex = 2;
             this.namelLabel2.Text = "Name:";
+            this.namelLabel2.Click += new System.EventHandler(this.namelLabel2_Click);
             // 
             // nameTextBox2
             // 
@@ -77,9 +82,9 @@
             this.sexLabel.AutoSize = true;
             this.sexLabel.Location = new System.Drawing.Point(12, 181);
             this.sexLabel.Name = "sexLabel";
-            this.sexLabel.Size = new System.Drawing.Size(25, 15);
+            this.sexLabel.Size = new System.Drawing.Size(28, 15);
             this.sexLabel.TabIndex = 4;
-            this.sexLabel.Text = "Sex";
+            this.sexLabel.Text = "Sex:";
             // 
             // femaleRadioButton
             // 
@@ -104,11 +109,47 @@
             this.maleRadioButton.Text = "Male";
             this.maleRadioButton.UseVisualStyleBackColor = true;
             // 
+            // ageLabel
+            // 
+            this.ageLabel.AutoSize = true;
+            this.ageLabel.Location = new System.Drawing.Point(221, 181);
+            this.ageLabel.Name = "ageLabel";
+            this.ageLabel.Size = new System.Drawing.Size(31, 15);
+            this.ageLabel.TabIndex = 8;
+            this.ageLabel.Text = "Age:";
+            // 
+            // ageTextBox
+            // 
+            this.ageTextBox.Location = new System.Drawing.Point(221, 198);
+            this.ageTextBox.Name = "ageTextBox";
+            this.ageTextBox.Size = new System.Drawing.Size(100, 23);
+            this.ageTextBox.TabIndex = 9;
+            // 
+            // contactaddressLabel
+            // 
+            this.contactaddressLabel.AutoSize = true;
+            this.contactaddressLabel.Location = new System.Drawing.Point(12, 236);
+            this.contactaddressLabel.Name = "contactaddressLabel";
+            this.contactaddressLabel.Size = new System.Drawing.Size(97, 15);
+            this.contactaddressLabel.TabIndex = 10;
+            this.contactaddressLabel.Text = "Contact Address:";
+            // 
+            // contactaddressTextBox
+            // 
+            this.contactaddressTextBox.Location = new System.Drawing.Point(12, 254);
+            this.contactaddressTextBox.Name = "contactaddressTextBox";
+            this.contactaddressTextBox.Size = new System.Drawing.Size(423, 23);
+            this.contactaddressTextBox.TabIndex = 11;
+            // 
             // Health_Declaration_Form
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(450, 450);
+            this.Controls.Add(this.contactaddressTextBox);
+            this.Controls.Add(this.contactaddressLabel);
+            this.Controls.Add(this.ageTextBox);
+            this.Controls.Add(this.ageLabel);
             this.Controls.Add(this.maleRadioButton);
             this.Controls.Add(this.femaleRadioButton);
             this.Controls.Add(this.sexLabel);
@@ -132,5 +173,9 @@
         private Label sexLabel;
         private RadioButton femaleRadioButton;
         private RadioButton maleRadioButton;
+        private Label ageLabel;
+        private TextBox ageTextBox;
+        private Label contactaddressLabel;
+        private TextBox contactaddressTextBox;
     }
 }

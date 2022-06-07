@@ -21,5 +21,10 @@ namespace ContactTracingApp.Dalangin
         {
 
         }
+
+        private void namelLabel2_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
