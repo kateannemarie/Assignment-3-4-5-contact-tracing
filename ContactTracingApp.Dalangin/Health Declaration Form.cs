@@ -71,6 +71,7 @@ namespace ContactTracingApp.Dalangin
             healthdeclarationformFile.WriteLine("Name: " + nameTextBox2.Text);
             healthdeclarationformFile.WriteLine("Sex: " + Gender);
             healthdeclarationformFile.WriteLine("Age: " + ageTextBox.Text + " years old");
+            healthdeclarationformFile.WriteLine("Contact Address: " + contactaddressTextBox.Text);
             healthdeclarationformFile.Close();
         }
 
