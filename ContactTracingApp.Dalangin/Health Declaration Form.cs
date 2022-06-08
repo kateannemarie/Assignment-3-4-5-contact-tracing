@@ -158,6 +158,16 @@ namespace ContactTracingApp.Dalangin
                 numberThree = " doesn't have anyone such as household member/s or close contact/s who are currently having fever, cough and/or respiratory problems.";
             }
 
+            string numberFour = "";
+            if(yesFour.Checked)
+            {
+                numberFour = " in the last 14 days, has been in close contact or exposed to any person suspected of COVID-19.";
+            }
+            if(noFour.Checked)
+            {
+                numberFour = " in the last 14 days, was not in close contact or exposed to any person suspected of COVID-19.";
+            }
+
             StreamWriter healthdeclarationformFile = new StreamWriter(@"C:\Users\kitka\Downloads\Health-Declaration-Form.txt");
             healthdeclarationformFile.WriteLine("Name: " + nameTextBox2.Text);
             healthdeclarationformFile.WriteLine("Sex: " + Sex);
@@ -169,6 +179,7 @@ namespace ContactTracingApp.Dalangin
             healthdeclarationformFile.WriteLine(nameTextBox2.Text + numberOne);
             healthdeclarationformFile.WriteLine(nameTextBox2.Text + numberTwo);
             healthdeclarationformFile.WriteLine(nameTextBox2.Text + numberThree);
+            healthdeclarationformFile.WriteLine(nameTextBox2.Text + "," + numberFour);
             healthdeclarationformFile.Close();
         }
 
