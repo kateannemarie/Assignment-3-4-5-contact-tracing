@@ -46,5 +46,10 @@ namespace ContactTracingApp.Dalangin
         {
 
         }
+
+        private void thirdQuestion_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
