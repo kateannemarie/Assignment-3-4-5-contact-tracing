@@ -65,12 +65,30 @@
             this.secondQuestion = new System.Windows.Forms.Label();
             this.yesTwo = new System.Windows.Forms.RadioButton();
             this.noTwo = new System.Windows.Forms.RadioButton();
-            this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.groupBox2 = new System.Windows.Forms.GroupBox();
-            this.groupBox3 = new System.Windows.Forms.GroupBox();
-            this.groupBox1.SuspendLayout();
-            this.groupBox2.SuspendLayout();
-            this.groupBox3.SuspendLayout();
+            this.sexGroupBox = new System.Windows.Forms.GroupBox();
+            this.yesornoGroupBox1 = new System.Windows.Forms.GroupBox();
+            this.yesornoGroupBox2 = new System.Windows.Forms.GroupBox();
+            this.thirdQuestion = new System.Windows.Forms.Label();
+            this.yesornoGroupBox3 = new System.Windows.Forms.GroupBox();
+            this.yesThree = new System.Windows.Forms.RadioButton();
+            this.noThree = new System.Windows.Forms.RadioButton();
+            this.label1 = new System.Windows.Forms.Label();
+            this.fourthQuestion = new System.Windows.Forms.Label();
+            this.yesLabel2 = new System.Windows.Forms.Label();
+            this.noLabel2 = new System.Windows.Forms.Label();
+            this.yesornoGroupBox4 = new System.Windows.Forms.GroupBox();
+            this.yesFour = new System.Windows.Forms.RadioButton();
+            this.noFour = new System.Windows.Forms.RadioButton();
+            this.fifthQuestion = new System.Windows.Forms.Label();
+            this.yesornoGroupBox5 = new System.Windows.Forms.GroupBox();
+            this.yesFive = new System.Windows.Forms.RadioButton();
+            this.noFive = new System.Windows.Forms.RadioButton();
+            this.sexGroupBox.SuspendLayout();
+            this.yesornoGroupBox1.SuspendLayout();
+            this.yesornoGroupBox2.SuspendLayout();
+            this.yesornoGroupBox3.SuspendLayout();
+            this.yesornoGroupBox4.SuspendLayout();
+            this.yesornoGroupBox5.SuspendLayout();
             this.SuspendLayout();
             // 
             // reminderLabel
@@ -337,7 +355,7 @@
             // firstQuestion
             // 
             this.firstQuestion.AutoSize = true;
-            this.firstQuestion.Location = new System.Drawing.Point(12, 560);
+            this.firstQuestion.Location = new System.Drawing.Point(12, 566);
             this.firstQuestion.Name = "firstQuestion";
             this.firstQuestion.Size = new System.Drawing.Size(265, 30);
             this.firstQuestion.TabIndex = 30;
@@ -385,7 +403,7 @@
             // secondQuestion
             // 
             this.secondQuestion.AutoSize = true;
-            this.secondQuestion.Location = new System.Drawing.Point(12, 601);
+            this.secondQuestion.Location = new System.Drawing.Point(12, 616);
             this.secondQuestion.Name = "secondQuestion";
             this.secondQuestion.Size = new System.Drawing.Size(257, 30);
             this.secondQuestion.TabIndex = 35;
@@ -394,7 +412,7 @@
             // yesTwo
             // 
             this.yesTwo.AutoSize = true;
-            this.yesTwo.Location = new System.Drawing.Point(23, 22);
+            this.yesTwo.Location = new System.Drawing.Point(6, 22);
             this.yesTwo.Name = "yesTwo";
             this.yesTwo.Size = new System.Drawing.Size(14, 13);
             this.yesTwo.TabIndex = 36;
@@ -405,54 +423,213 @@
             // noTwo
             // 
             this.noTwo.AutoSize = true;
-            this.noTwo.Location = new System.Drawing.Point(70, 25);
+            this.noTwo.Location = new System.Drawing.Point(69, 22);
             this.noTwo.Name = "noTwo";
             this.noTwo.Size = new System.Drawing.Size(14, 13);
             this.noTwo.TabIndex = 37;
             this.noTwo.TabStop = true;
             this.noTwo.UseVisualStyleBackColor = true;
             // 
-            // groupBox1
+            // sexGroupBox
             // 
-            this.groupBox1.Controls.Add(this.femaleRadioButton);
-            this.groupBox1.Controls.Add(this.maleRadioButton);
-            this.groupBox1.Location = new System.Drawing.Point(12, 174);
-            this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(136, 47);
-            this.groupBox1.TabIndex = 38;
-            this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "Sex:";
+            this.sexGroupBox.Controls.Add(this.femaleRadioButton);
+            this.sexGroupBox.Controls.Add(this.maleRadioButton);
+            this.sexGroupBox.Location = new System.Drawing.Point(12, 174);
+            this.sexGroupBox.Name = "sexGroupBox";
+            this.sexGroupBox.Size = new System.Drawing.Size(136, 47);
+            this.sexGroupBox.TabIndex = 38;
+            this.sexGroupBox.TabStop = false;
+            this.sexGroupBox.Text = "Sex:";
             // 
-            // groupBox2
+            // yesornoGroupBox1
             // 
-            this.groupBox2.Controls.Add(this.yesOne);
-            this.groupBox2.Controls.Add(this.noOne);
-            this.groupBox2.Location = new System.Drawing.Point(328, 552);
-            this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(90, 44);
-            this.groupBox2.TabIndex = 39;
-            this.groupBox2.TabStop = false;
+            this.yesornoGroupBox1.Controls.Add(this.yesOne);
+            this.yesornoGroupBox1.Controls.Add(this.noOne);
+            this.yesornoGroupBox1.Location = new System.Drawing.Point(328, 552);
+            this.yesornoGroupBox1.Name = "yesornoGroupBox1";
+            this.yesornoGroupBox1.Size = new System.Drawing.Size(90, 44);
+            this.yesornoGroupBox1.TabIndex = 39;
+            this.yesornoGroupBox1.TabStop = false;
             // 
-            // groupBox3
+            // yesornoGroupBox2
             // 
-            this.groupBox3.Controls.Add(this.yesTwo);
-            this.groupBox3.Controls.Add(this.noTwo);
-            this.groupBox3.Location = new System.Drawing.Point(328, 602);
-            this.groupBox3.Name = "groupBox3";
-            this.groupBox3.Size = new System.Drawing.Size(90, 44);
-            this.groupBox3.TabIndex = 40;
-            this.groupBox3.TabStop = false;
+            this.yesornoGroupBox2.Controls.Add(this.yesTwo);
+            this.yesornoGroupBox2.Controls.Add(this.noTwo);
+            this.yesornoGroupBox2.Location = new System.Drawing.Point(328, 602);
+            this.yesornoGroupBox2.Name = "yesornoGroupBox2";
+            this.yesornoGroupBox2.Size = new System.Drawing.Size(90, 44);
+            this.yesornoGroupBox2.TabIndex = 40;
+            this.yesornoGroupBox2.TabStop = false;
+            // 
+            // thirdQuestion
+            // 
+            this.thirdQuestion.AutoSize = true;
+            this.thirdQuestion.Location = new System.Drawing.Point(12, 663);
+            this.thirdQuestion.Name = "thirdQuestion";
+            this.thirdQuestion.Size = new System.Drawing.Size(290, 45);
+            this.thirdQuestion.TabIndex = 41;
+            this.thirdQuestion.Text = "Do you have anyone such as household member/s or\r\nclose contact/s who are current" +
+    "ly having fever, cough\r\nand/or respiratory problems?";
+            // 
+            // yesornoGroupBox3
+            // 
+            this.yesornoGroupBox3.Controls.Add(this.yesThree);
+            this.yesornoGroupBox3.Controls.Add(this.noThree);
+            this.yesornoGroupBox3.Location = new System.Drawing.Point(328, 652);
+            this.yesornoGroupBox3.Name = "yesornoGroupBox3";
+            this.yesornoGroupBox3.Size = new System.Drawing.Size(90, 44);
+            this.yesornoGroupBox3.TabIndex = 42;
+            this.yesornoGroupBox3.TabStop = false;
+            // 
+            // yesThree
+            // 
+            this.yesThree.AutoSize = true;
+            this.yesThree.Location = new System.Drawing.Point(6, 22);
+            this.yesThree.Name = "yesThree";
+            this.yesThree.Size = new System.Drawing.Size(14, 13);
+            this.yesThree.TabIndex = 36;
+            this.yesThree.TabStop = true;
+            this.yesThree.UseVisualStyleBackColor = true;
+            // 
+            // noThree
+            // 
+            this.noThree.AutoSize = true;
+            this.noThree.Location = new System.Drawing.Point(69, 22);
+            this.noThree.Name = "noThree";
+            this.noThree.Size = new System.Drawing.Size(14, 13);
+            this.noThree.TabIndex = 37;
+            this.noThree.TabStop = true;
+            this.noThree.UseVisualStyleBackColor = true;
+            // 
+            // label1
+            // 
+            this.label1.BackColor = System.Drawing.Color.Silver;
+            this.label1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.label1.Location = new System.Drawing.Point(476, 19);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(19, 680);
+            this.label1.TabIndex = 43;
+            // 
+            // fourthQuestion
+            // 
+            this.fourthQuestion.AutoSize = true;
+            this.fourthQuestion.Location = new System.Drawing.Point(511, 52);
+            this.fourthQuestion.Name = "fourthQuestion";
+            this.fourthQuestion.Size = new System.Drawing.Size(283, 30);
+            this.fourthQuestion.TabIndex = 44;
+            this.fourthQuestion.Text = "In the last 14 days, have you been in close contact or\r\nexposed to anyperson susp" +
+    "ected of COVID-19";
+            // 
+            // yesLabel2
+            // 
+            this.yesLabel2.AutoSize = true;
+            this.yesLabel2.Location = new System.Drawing.Point(867, 20);
+            this.yesLabel2.Name = "yesLabel2";
+            this.yesLabel2.Size = new System.Drawing.Size(26, 15);
+            this.yesLabel2.TabIndex = 45;
+            this.yesLabel2.Text = "YES";
+            // 
+            // noLabel2
+            // 
+            this.noLabel2.AutoSize = true;
+            this.noLabel2.Location = new System.Drawing.Point(932, 20);
+            this.noLabel2.Name = "noLabel2";
+            this.noLabel2.Size = new System.Drawing.Size(25, 15);
+            this.noLabel2.TabIndex = 46;
+            this.noLabel2.Text = "NO";
+            this.noLabel2.Click += new System.EventHandler(this.label4_Click);
+            // 
+            // yesornoGroupBox4
+            // 
+            this.yesornoGroupBox4.Controls.Add(this.yesFour);
+            this.yesornoGroupBox4.Controls.Add(this.noFour);
+            this.yesornoGroupBox4.Location = new System.Drawing.Point(867, 38);
+            this.yesornoGroupBox4.Name = "yesornoGroupBox4";
+            this.yesornoGroupBox4.Size = new System.Drawing.Size(90, 44);
+            this.yesornoGroupBox4.TabIndex = 47;
+            this.yesornoGroupBox4.TabStop = false;
+            // 
+            // yesFour
+            // 
+            this.yesFour.AutoSize = true;
+            this.yesFour.Location = new System.Drawing.Point(6, 22);
+            this.yesFour.Name = "yesFour";
+            this.yesFour.Size = new System.Drawing.Size(14, 13);
+            this.yesFour.TabIndex = 33;
+            this.yesFour.TabStop = true;
+            this.yesFour.UseVisualStyleBackColor = true;
+            // 
+            // noFour
+            // 
+            this.noFour.AutoSize = true;
+            this.noFour.Location = new System.Drawing.Point(69, 22);
+            this.noFour.Name = "noFour";
+            this.noFour.Size = new System.Drawing.Size(14, 13);
+            this.noFour.TabIndex = 34;
+            this.noFour.TabStop = true;
+            this.noFour.UseVisualStyleBackColor = true;
+            // 
+            // fifthQuestion
+            // 
+            this.fifthQuestion.AutoSize = true;
+            this.fifthQuestion.Location = new System.Drawing.Point(511, 92);
+            this.fifthQuestion.Name = "fifthQuestion";
+            this.fifthQuestion.Size = new System.Drawing.Size(266, 45);
+            this.fifthQuestion.TabIndex = 48;
+            this.fifthQuestion.Text = "Have you been in Face-to-face contact with a\r\nconfirmed case within 1 meter and f" +
+    "or more than\r\n15 minutes?";
+            this.fifthQuestion.Click += new System.EventHandler(this.label2_Click);
+            // 
+            // yesornoGroupBox5
+            // 
+            this.yesornoGroupBox5.Controls.Add(this.yesFive);
+            this.yesornoGroupBox5.Controls.Add(this.noFive);
+            this.yesornoGroupBox5.Location = new System.Drawing.Point(867, 88);
+            this.yesornoGroupBox5.Name = "yesornoGroupBox5";
+            this.yesornoGroupBox5.Size = new System.Drawing.Size(90, 44);
+            this.yesornoGroupBox5.TabIndex = 49;
+            this.yesornoGroupBox5.TabStop = false;
+            // 
+            // yesFive
+            // 
+            this.yesFive.AutoSize = true;
+            this.yesFive.Location = new System.Drawing.Point(6, 22);
+            this.yesFive.Name = "yesFive";
+            this.yesFive.Size = new System.Drawing.Size(14, 13);
+            this.yesFive.TabIndex = 33;
+            this.yesFive.TabStop = true;
+            this.yesFive.UseVisualStyleBackColor = true;
+            // 
+            // noFive
+            // 
+            this.noFive.AutoSize = true;
+            this.noFive.Location = new System.Drawing.Point(69, 22);
+            this.noFive.Name = "noFive";
+            this.noFive.Size = new System.Drawing.Size(14, 13);
+            this.noFive.TabIndex = 34;
+            this.noFive.TabStop = true;
+            this.noFive.UseVisualStyleBackColor = true;
             // 
             // Health_Declaration_Form
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(450, 749);
-            this.Controls.Add(this.groupBox3);
+            this.AutoScroll = true;
+            this.ClientSize = new System.Drawing.Size(986, 506);
+            this.Controls.Add(this.yesornoGroupBox5);
+            this.Controls.Add(this.fifthQuestion);
+            this.Controls.Add(this.yesornoGroupBox4);
+            this.Controls.Add(this.noLabel2);
+            this.Controls.Add(this.yesLabel2);
+            this.Controls.Add(this.fourthQuestion);
+            this.Controls.Add(this.label1);
+            this.Controls.Add(this.yesornoGroupBox3);
+            this.Controls.Add(this.thirdQuestion);
+            this.Controls.Add(this.yesornoGroupBox2);
             this.Controls.Add(this.noLabel);
             this.Controls.Add(this.yesLabel);
-            this.Controls.Add(this.groupBox2);
-            this.Controls.Add(this.groupBox1);
+            this.Controls.Add(this.yesornoGroupBox1);
+            this.Controls.Add(this.sexGroupBox);
             this.Controls.Add(this.secondQuestion);
             this.Controls.Add(this.firstQuestion);
             this.Controls.Add(this.reminderLabel3);
@@ -481,14 +658,22 @@
             this.Controls.Add(this.namelLabel2);
             this.Controls.Add(this.personaldataLabel);
             this.Controls.Add(this.reminderLabel);
+            this.MaximumSize = new System.Drawing.Size(1002, 545);
+            this.MinimumSize = new System.Drawing.Size(1002, 545);
             this.Name = "Health_Declaration_Form";
             this.Text = "Health Declaration Form";
-            this.groupBox1.ResumeLayout(false);
-            this.groupBox1.PerformLayout();
-            this.groupBox2.ResumeLayout(false);
-            this.groupBox2.PerformLayout();
-            this.groupBox3.ResumeLayout(false);
-            this.groupBox3.PerformLayout();
+            this.sexGroupBox.ResumeLayout(false);
+            this.sexGroupBox.PerformLayout();
+            this.yesornoGroupBox1.ResumeLayout(false);
+            this.yesornoGroupBox1.PerformLayout();
+            this.yesornoGroupBox2.ResumeLayout(false);
+            this.yesornoGroupBox2.PerformLayout();
+            this.yesornoGroupBox3.ResumeLayout(false);
+            this.yesornoGroupBox3.PerformLayout();
+            this.yesornoGroupBox4.ResumeLayout(false);
+            this.yesornoGroupBox4.PerformLayout();
+            this.yesornoGroupBox5.ResumeLayout(false);
+            this.yesornoGroupBox5.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -532,8 +717,23 @@
         private Label secondQuestion;
         private RadioButton yesTwo;
         private RadioButton noTwo;
-        private GroupBox groupBox1;
-        private GroupBox groupBox2;
-        private GroupBox groupBox3;
+        private GroupBox sexGroupBox;
+        private GroupBox yesornoGroupBox1;
+        private GroupBox yesornoGroupBox2;
+        private Label thirdQuestion;
+        private GroupBox yesornoGroupBox3;
+        private RadioButton yesThree;
+        private RadioButton noThree;
+        private Label label1;
+        private Label fourthQuestion;
+        private Label yesLabel2;
+        private Label noLabel2;
+        private GroupBox yesornoGroupBox4;
+        private RadioButton yesFour;
+        private RadioButton noFour;
+        private Label fifthQuestion;
+        private GroupBox yesornoGroupBox5;
+        private RadioButton yesFive;
+        private RadioButton noFive;
     }
 }

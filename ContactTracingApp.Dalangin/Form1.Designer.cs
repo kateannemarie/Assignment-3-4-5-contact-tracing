@@ -167,6 +167,7 @@
             this.Controls.Add(this.nameLabel);
             this.Controls.Add(this.descriptionLabel);
             this.Controls.Add(this.upperLabel);
+            this.MaximizeBox = false;
             this.MaximumSize = new System.Drawing.Size(315, 421);
             this.MinimumSize = new System.Drawing.Size(315, 421);
             this.Name = "contacttracingForm";
