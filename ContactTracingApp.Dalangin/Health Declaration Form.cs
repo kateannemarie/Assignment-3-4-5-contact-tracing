@@ -148,6 +148,16 @@ namespace ContactTracingApp.Dalangin
                 numberTwo = " was not confined in a hospital or clinic during the past 14 days.";
             }
 
+            string numberThree = "";
+            if(yesTwo.Checked)
+            {
+                numberThree = " have anyone such as household member/s or close contact/s who are currently having fever, cough and/or respiratory problems.";
+            }
+            if(noTwo.Checked)
+            {
+                numberThree = " doesn't have anyone such as household member/s or close contact/s who are currently having fever, cough and/or respiratory problems.";
+            }
+
             StreamWriter healthdeclarationformFile = new StreamWriter(@"C:\Users\kitka\Downloads\Health-Declaration-Form.txt");
             healthdeclarationformFile.WriteLine("Name: " + nameTextBox2.Text);
             healthdeclarationformFile.WriteLine("Sex: " + Sex);
@@ -158,6 +168,7 @@ namespace ContactTracingApp.Dalangin
             healthdeclarationformFile.WriteLine("Symptoms are: " + Symptoms);
             healthdeclarationformFile.WriteLine(nameTextBox2.Text + numberOne);
             healthdeclarationformFile.WriteLine(nameTextBox2.Text + numberTwo);
+            healthdeclarationformFile.WriteLine(nameTextBox2.Text + numberThree);
             healthdeclarationformFile.Close();
         }
 
