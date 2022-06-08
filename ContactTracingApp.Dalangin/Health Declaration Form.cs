@@ -66,6 +66,68 @@ namespace ContactTracingApp.Dalangin
                 Sex = maleRadioButton.Text;
             }
 
+            string Symptoms = "";
+
+            if(feverCheckBox.Checked)
+            {
+                Symptoms += "\"Fever\"";
+            }
+
+            if(headacheCheckBox.Checked)
+            {
+                Symptoms += "\"Headache\"";
+            }
+
+            if(sorethroatCheckBox.Checked)
+            {
+                Symptoms += "\"Sore Throat\"";
+            }
+
+            if(shortnessofbreathCheckBox.Checked)
+            {
+                Symptoms += "\"Difficulty or Shortness of Breath\"";
+            }
+
+            if(coughCheckBox.Checked)
+            {
+                Symptoms += "\"Cough\"";
+            }
+
+            if(fatigueCheckBox.Checked)
+            {
+                Symptoms += "\"Fatigue\"";
+            }
+
+            if(bodyachesCheckBox.Checked)
+            {
+                Symptoms += "\"Body Aches\"";
+            }
+
+            if (lossoftasteCheckBox.Checked)
+            {
+                Symptoms += "\"Loss of Taste/Smell\"";
+            }
+
+            if(diarrheaCheckBox.Checked)
+            {
+                Symptoms += "\"Diarrhea\"";
+            }
+
+            if(nauseaCheckBox.Checked)
+            {
+                Symptoms += "\"Nausea\"";
+            }
+
+            if(bodyweaknessCheckBox.Checked)
+            {
+                Symptoms += "\"Body Weakness\"";
+            }
+
+            if(runnynoseCheckBox.Checked)
+            {
+                Symptoms += "\"Runny Nose\"";
+            }
+
 
             StreamWriter healthdeclarationformFile = new StreamWriter(@"C:\Users\kitka\Downloads\Health-Declaration-Form.txt");
             healthdeclarationformFile.WriteLine("Name: " + nameTextBox2.Text);
@@ -74,6 +136,7 @@ namespace ContactTracingApp.Dalangin
             healthdeclarationformFile.WriteLine("Contact Address: " + contactaddressTextBox.Text);
             healthdeclarationformFile.WriteLine("Mobile No./Telephone No.: " + contactnumberTextBox2.Text);
             healthdeclarationformFile.WriteLine("Email Address: " + emailaddressTextBox.Text);
+            healthdeclarationformFile.WriteLine("Symptoms are: " + Symptoms);
             healthdeclarationformFile.Close();
         }
 
@@ -90,6 +153,11 @@ namespace ContactTracingApp.Dalangin
         private void maleRadioButton_CheckedChanged(object sender, EventArgs e)
         {
         
+        }
+
+        private void feverCheckBox_CheckedChanged(object sender, EventArgs e)
+        {
+           
         }
     }
 }

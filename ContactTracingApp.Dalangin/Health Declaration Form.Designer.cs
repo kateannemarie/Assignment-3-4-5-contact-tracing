@@ -237,6 +237,7 @@
             this.feverCheckBox.TabIndex = 17;
             this.feverCheckBox.Text = "Fever";
             this.feverCheckBox.UseVisualStyleBackColor = true;
+            this.feverCheckBox.CheckedChanged += new System.EventHandler(this.feverCheckBox_CheckedChanged);
             // 
             // headacheCheckBox
             // 
