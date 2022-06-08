@@ -128,6 +128,16 @@ namespace ContactTracingApp.Dalangin
                 Symptoms += "\"Runny Nose\"";
             }
 
+            string numberOne = "";
+            if(yesOne.Checked)
+            {
+                numberOne = " did visit any health worker, hospital, or clinicduring the past 14 days.";
+            }
+            if(noOne.Checked)
+            {
+                numberOne = " did not visit any health worker, hospital, or clinicduring the past 14 days.";
+            }
+
 
             StreamWriter healthdeclarationformFile = new StreamWriter(@"C:\Users\kitka\Downloads\Health-Declaration-Form.txt");
             healthdeclarationformFile.WriteLine("Name: " + nameTextBox2.Text);
@@ -137,6 +147,7 @@ namespace ContactTracingApp.Dalangin
             healthdeclarationformFile.WriteLine("Mobile No./Telephone No.: " + contactnumberTextBox2.Text);
             healthdeclarationformFile.WriteLine("Email Address: " + emailaddressTextBox.Text);
             healthdeclarationformFile.WriteLine("Symptoms are: " + Symptoms);
+            healthdeclarationformFile.WriteLine(nameTextBox2.Text + numberOne);
             healthdeclarationformFile.Close();
         }
 
@@ -158,6 +169,11 @@ namespace ContactTracingApp.Dalangin
         private void feverCheckBox_CheckedChanged(object sender, EventArgs e)
         {
            
+        }
+
+        private void yesornoGroupBox1_Enter(object sender, EventArgs e)
+        {
+
         }
     }
 }

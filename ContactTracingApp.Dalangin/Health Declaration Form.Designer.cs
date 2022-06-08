@@ -457,6 +457,7 @@
             this.yesornoGroupBox1.Size = new System.Drawing.Size(90, 44);
             this.yesornoGroupBox1.TabIndex = 39;
             this.yesornoGroupBox1.TabStop = false;
+            this.yesornoGroupBox1.Enter += new System.EventHandler(this.yesornoGroupBox1_Enter);
             // 
             // yesornoGroupBox2
             // 
