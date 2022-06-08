@@ -44,6 +44,19 @@
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.emailaddressLabel = new System.Windows.Forms.Label();
             this.emailaddressTextBox = new System.Windows.Forms.TextBox();
+            this.reminderLabel2 = new System.Windows.Forms.Label();
+            this.feverCheckBox = new System.Windows.Forms.CheckBox();
+            this.headacheCheckBox = new System.Windows.Forms.CheckBox();
+            this.sorethroatCheckBox = new System.Windows.Forms.CheckBox();
+            this.coughCheckBox = new System.Windows.Forms.CheckBox();
+            this.fatigueCheckBox = new System.Windows.Forms.CheckBox();
+            this.bodyachesCheckBox = new System.Windows.Forms.CheckBox();
+            this.diarrheaCheckBox = new System.Windows.Forms.CheckBox();
+            this.nauseaCheckBox = new System.Windows.Forms.CheckBox();
+            this.bodyweaknessCheckBox = new System.Windows.Forms.CheckBox();
+            this.shortnessofbreathCheckBox = new System.Windows.Forms.CheckBox();
+            this.lossoftasteCheckBox = new System.Windows.Forms.CheckBox();
+            this.runnynoseCheckBox = new System.Windows.Forms.CheckBox();
             this.SuspendLayout();
             // 
             // reminderLabel
@@ -177,11 +190,154 @@
             this.emailaddressTextBox.Size = new System.Drawing.Size(214, 23);
             this.emailaddressTextBox.TabIndex = 15;
             // 
+            // reminderLabel2
+            // 
+            this.reminderLabel2.AutoSize = true;
+            this.reminderLabel2.Location = new System.Drawing.Point(12, 347);
+            this.reminderLabel2.Name = "reminderLabel2";
+            this.reminderLabel2.Size = new System.Drawing.Size(399, 30);
+            this.reminderLabel2.TabIndex = 16;
+            this.reminderLabel2.Text = "Please check if you have any of the following at present or during the past \r\n14 " +
+    "days:";
+            // 
+            // feverCheckBox
+            // 
+            this.feverCheckBox.AutoSize = true;
+            this.feverCheckBox.Location = new System.Drawing.Point(8, 390);
+            this.feverCheckBox.Name = "feverCheckBox";
+            this.feverCheckBox.Size = new System.Drawing.Size(54, 19);
+            this.feverCheckBox.TabIndex = 17;
+            this.feverCheckBox.Text = "Fever";
+            this.feverCheckBox.UseVisualStyleBackColor = true;
+            // 
+            // headacheCheckBox
+            // 
+            this.headacheCheckBox.AutoSize = true;
+            this.headacheCheckBox.Location = new System.Drawing.Point(8, 415);
+            this.headacheCheckBox.Name = "headacheCheckBox";
+            this.headacheCheckBox.Size = new System.Drawing.Size(79, 19);
+            this.headacheCheckBox.TabIndex = 18;
+            this.headacheCheckBox.Text = "Headache";
+            this.headacheCheckBox.UseVisualStyleBackColor = true;
+            // 
+            // sorethroatCheckBox
+            // 
+            this.sorethroatCheckBox.AutoSize = true;
+            this.sorethroatCheckBox.Location = new System.Drawing.Point(8, 440);
+            this.sorethroatCheckBox.Name = "sorethroatCheckBox";
+            this.sorethroatCheckBox.Size = new System.Drawing.Size(86, 19);
+            this.sorethroatCheckBox.TabIndex = 19;
+            this.sorethroatCheckBox.Text = "Sore Throat";
+            this.sorethroatCheckBox.UseVisualStyleBackColor = true;
+            // 
+            // coughCheckBox
+            // 
+            this.coughCheckBox.AutoSize = true;
+            this.coughCheckBox.Location = new System.Drawing.Point(169, 390);
+            this.coughCheckBox.Name = "coughCheckBox";
+            this.coughCheckBox.Size = new System.Drawing.Size(62, 19);
+            this.coughCheckBox.TabIndex = 20;
+            this.coughCheckBox.Text = "Cough";
+            this.coughCheckBox.UseVisualStyleBackColor = true;
+            // 
+            // fatigueCheckBox
+            // 
+            this.fatigueCheckBox.AutoSize = true;
+            this.fatigueCheckBox.Location = new System.Drawing.Point(169, 415);
+            this.fatigueCheckBox.Name = "fatigueCheckBox";
+            this.fatigueCheckBox.Size = new System.Drawing.Size(65, 19);
+            this.fatigueCheckBox.TabIndex = 21;
+            this.fatigueCheckBox.Text = "Fatigue";
+            this.fatigueCheckBox.UseVisualStyleBackColor = true;
+            // 
+            // bodyachesCheckBox
+            // 
+            this.bodyachesCheckBox.AutoSize = true;
+            this.bodyachesCheckBox.Location = new System.Drawing.Point(169, 440);
+            this.bodyachesCheckBox.Name = "bodyachesCheckBox";
+            this.bodyachesCheckBox.Size = new System.Drawing.Size(88, 19);
+            this.bodyachesCheckBox.TabIndex = 22;
+            this.bodyachesCheckBox.Text = "Body Aches";
+            this.bodyachesCheckBox.UseVisualStyleBackColor = true;
+            // 
+            // diarrheaCheckBox
+            // 
+            this.diarrheaCheckBox.AutoSize = true;
+            this.diarrheaCheckBox.Location = new System.Drawing.Point(328, 390);
+            this.diarrheaCheckBox.Name = "diarrheaCheckBox";
+            this.diarrheaCheckBox.Size = new System.Drawing.Size(70, 19);
+            this.diarrheaCheckBox.TabIndex = 23;
+            this.diarrheaCheckBox.Text = "Diarrhea";
+            this.diarrheaCheckBox.UseVisualStyleBackColor = true;
+            // 
+            // nauseaCheckBox
+            // 
+            this.nauseaCheckBox.AutoSize = true;
+            this.nauseaCheckBox.Location = new System.Drawing.Point(328, 415);
+            this.nauseaCheckBox.Name = "nauseaCheckBox";
+            this.nauseaCheckBox.Size = new System.Drawing.Size(118, 19);
+            this.nauseaCheckBox.TabIndex = 24;
+            this.nauseaCheckBox.Text = "Nausea/Vomiting";
+            this.nauseaCheckBox.UseVisualStyleBackColor = true;
+            // 
+            // bodyweaknessCheckBox
+            // 
+            this.bodyweaknessCheckBox.AutoSize = true;
+            this.bodyweaknessCheckBox.Location = new System.Drawing.Point(328, 440);
+            this.bodyweaknessCheckBox.Name = "bodyweaknessCheckBox";
+            this.bodyweaknessCheckBox.Size = new System.Drawing.Size(108, 19);
+            this.bodyweaknessCheckBox.TabIndex = 25;
+            this.bodyweaknessCheckBox.Text = "Body Weakness";
+            this.bodyweaknessCheckBox.UseVisualStyleBackColor = true;
+            // 
+            // shortnessofbreathCheckBox
+            // 
+            this.shortnessofbreathCheckBox.AutoSize = true;
+            this.shortnessofbreathCheckBox.Location = new System.Drawing.Point(8, 465);
+            this.shortnessofbreathCheckBox.Name = "shortnessofbreathCheckBox";
+            this.shortnessofbreathCheckBox.Size = new System.Drawing.Size(142, 34);
+            this.shortnessofbreathCheckBox.TabIndex = 26;
+            this.shortnessofbreathCheckBox.Text = "Difficulty or Shortness\r\nof Breath";
+            this.shortnessofbreathCheckBox.UseVisualStyleBackColor = true;
+            // 
+            // lossoftasteCheckBox
+            // 
+            this.lossoftasteCheckBox.AutoSize = true;
+            this.lossoftasteCheckBox.Location = new System.Drawing.Point(169, 465);
+            this.lossoftasteCheckBox.Name = "lossoftasteCheckBox";
+            this.lossoftasteCheckBox.Size = new System.Drawing.Size(126, 19);
+            this.lossoftasteCheckBox.TabIndex = 27;
+            this.lossoftasteCheckBox.Text = "Loss of Taste/Smell";
+            this.lossoftasteCheckBox.UseVisualStyleBackColor = true;
+            // 
+            // runnynoseCheckBox
+            // 
+            this.runnynoseCheckBox.AutoSize = true;
+            this.runnynoseCheckBox.Location = new System.Drawing.Point(328, 465);
+            this.runnynoseCheckBox.Name = "runnynoseCheckBox";
+            this.runnynoseCheckBox.Size = new System.Drawing.Size(90, 19);
+            this.runnynoseCheckBox.TabIndex = 28;
+            this.runnynoseCheckBox.Text = "Runny Nose";
+            this.runnynoseCheckBox.UseVisualStyleBackColor = true;
+            // 
             // Health_Declaration_Form
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(450, 450);
+            this.ClientSize = new System.Drawing.Size(450, 595);
+            this.Controls.Add(this.runnynoseCheckBox);
+            this.Controls.Add(this.lossoftasteCheckBox);
+            this.Controls.Add(this.shortnessofbreathCheckBox);
+            this.Controls.Add(this.bodyweaknessCheckBox);
+            this.Controls.Add(this.nauseaCheckBox);
+            this.Controls.Add(this.diarrheaCheckBox);
+            this.Controls.Add(this.bodyachesCheckBox);
+            this.Controls.Add(this.fatigueCheckBox);
+            this.Controls.Add(this.coughCheckBox);
+            this.Controls.Add(this.sorethroatCheckBox);
+            this.Controls.Add(this.headacheCheckBox);
+            this.Controls.Add(this.feverCheckBox);
+            this.Controls.Add(this.reminderLabel2);
             this.Controls.Add(this.emailaddressTextBox);
             this.Controls.Add(this.emailaddressLabel);
             this.Controls.Add(this.textBox1);
@@ -221,5 +377,18 @@
         private TextBox textBox1;
         private Label emailaddressLabel;
         private TextBox emailaddressTextBox;
+        private Label reminderLabel2;
+        private CheckBox feverCheckBox;
+        private CheckBox headacheCheckBox;
+        private CheckBox sorethroatCheckBox;
+        private CheckBox coughCheckBox;
+        private CheckBox fatigueCheckBox;
+        private CheckBox bodyachesCheckBox;
+        private CheckBox diarrheaCheckBox;
+        private CheckBox nauseaCheckBox;
+        private CheckBox bodyweaknessCheckBox;
+        private CheckBox shortnessofbreathCheckBox;
+        private CheckBox lossoftasteCheckBox;
+        private CheckBox runnynoseCheckBox;
     }
 }
