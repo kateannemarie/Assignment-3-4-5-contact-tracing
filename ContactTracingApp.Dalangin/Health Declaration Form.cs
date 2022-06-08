@@ -168,6 +168,16 @@ namespace ContactTracingApp.Dalangin
                 numberFour = " in the last 14 days, was not in close contact or exposed to any person suspected of COVID-19.";
             }
 
+            string numberFive = "";
+            if(yesFive.Checked)
+            {
+                numberFive = " has been in Face-to-face contact with a confirmed case within 1 meter and for more than 15 minutes.";
+            }
+            if(noFive.Checked)
+            {
+                numberFive = " has not been in Face-to-face contact with a confirmed case within 1 meter and for more than 15 minutes.";
+            }
+
             StreamWriter healthdeclarationformFile = new StreamWriter(@"C:\Users\kitka\Downloads\Health-Declaration-Form.txt");
             healthdeclarationformFile.WriteLine("Name: " + nameTextBox2.Text);
             healthdeclarationformFile.WriteLine("Sex: " + Sex);
@@ -180,6 +190,7 @@ namespace ContactTracingApp.Dalangin
             healthdeclarationformFile.WriteLine(nameTextBox2.Text + numberTwo);
             healthdeclarationformFile.WriteLine(nameTextBox2.Text + numberThree);
             healthdeclarationformFile.WriteLine(nameTextBox2.Text + "," + numberFour);
+            healthdeclarationformFile.WriteLine(nameTextBox2.Text + numberFive);
             healthdeclarationformFile.Close();
         }
 
