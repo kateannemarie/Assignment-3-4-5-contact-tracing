@@ -35,10 +35,11 @@
             this.addressLabel = new System.Windows.Forms.Label();
             this.addressTextBox = new System.Windows.Forms.TextBox();
             this.contactnumberLabel = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.contactnumberTextBox = new System.Windows.Forms.TextBox();
             this.dateandtimePicker = new System.Windows.Forms.DateTimePicker();
             this.dateandtimeLabel = new System.Windows.Forms.Label();
             this.healthdeclarationButton = new System.Windows.Forms.Button();
+            this.savedataButton = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // upperLabel
@@ -105,13 +106,13 @@
             this.contactnumberLabel.Text = "Contact Number:";
             this.contactnumberLabel.Click += new System.EventHandler(this.contactnumberLabel_Click);
             // 
-            // textBox1
+            // contactnumberTextBox
             // 
-            this.textBox1.Location = new System.Drawing.Point(12, 289);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(275, 23);
-            this.textBox1.TabIndex = 7;
-            this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
+            this.contactnumberTextBox.Location = new System.Drawing.Point(12, 289);
+            this.contactnumberTextBox.Name = "contactnumberTextBox";
+            this.contactnumberTextBox.Size = new System.Drawing.Size(275, 23);
+            this.contactnumberTextBox.TabIndex = 7;
+            this.contactnumberTextBox.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
             // dateandtimePicker
             // 
@@ -131,23 +132,34 @@
             // 
             // healthdeclarationButton
             // 
-            this.healthdeclarationButton.Location = new System.Drawing.Point(71, 330);
+            this.healthdeclarationButton.Location = new System.Drawing.Point(155, 330);
             this.healthdeclarationButton.Name = "healthdeclarationButton";
-            this.healthdeclarationButton.Size = new System.Drawing.Size(153, 40);
+            this.healthdeclarationButton.Size = new System.Drawing.Size(132, 40);
             this.healthdeclarationButton.TabIndex = 10;
             this.healthdeclarationButton.Text = "Health Declaration Form";
             this.healthdeclarationButton.UseVisualStyleBackColor = true;
             this.healthdeclarationButton.Click += new System.EventHandler(this.healthdeclarationButton_Click);
+            // 
+            // savedataButton
+            // 
+            this.savedataButton.Location = new System.Drawing.Point(12, 330);
+            this.savedataButton.Name = "savedataButton";
+            this.savedataButton.Size = new System.Drawing.Size(132, 40);
+            this.savedataButton.TabIndex = 11;
+            this.savedataButton.Text = "Save Data";
+            this.savedataButton.UseVisualStyleBackColor = true;
+            this.savedataButton.Click += new System.EventHandler(this.savedataButton_Click);
             // 
             // contacttracingForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(299, 382);
+            this.Controls.Add(this.savedataButton);
             this.Controls.Add(this.healthdeclarationButton);
             this.Controls.Add(this.dateandtimeLabel);
             this.Controls.Add(this.dateandtimePicker);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.contactnumberTextBox);
             this.Controls.Add(this.contactnumberLabel);
             this.Controls.Add(this.addressTextBox);
             this.Controls.Add(this.addressLabel);
@@ -174,9 +186,10 @@
         private Label addressLabel;
         private TextBox addressTextBox;
         private Label contactnumberLabel;
-        private TextBox textBox1;
+        private TextBox contactnumberTextBox;
         private DateTimePicker dateandtimePicker;
         private Label dateandtimeLabel;
         private Button healthdeclarationButton;
+        private Button savedataButton;
     }
 }
