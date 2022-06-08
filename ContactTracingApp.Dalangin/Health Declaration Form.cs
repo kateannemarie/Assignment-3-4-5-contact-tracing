@@ -70,6 +70,7 @@ namespace ContactTracingApp.Dalangin
             StreamWriter healthdeclarationformFile = new StreamWriter(@"C:\Users\kitka\Downloads\Health-Declaration-Form.txt");
             healthdeclarationformFile.WriteLine("Name: " + nameTextBox2.Text);
             healthdeclarationformFile.WriteLine("Sex: " + Gender);
+            healthdeclarationformFile.WriteLine("Age: " + ageTextBox.Text + " years old");
             healthdeclarationformFile.Close();
         }
 
