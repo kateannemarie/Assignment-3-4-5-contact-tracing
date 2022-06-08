@@ -644,6 +644,7 @@
             this.savedataButton2.TabIndex = 52;
             this.savedataButton2.Text = "Save Data";
             this.savedataButton2.UseVisualStyleBackColor = true;
+            this.savedataButton2.Click += new System.EventHandler(this.savedataButton2_Click);
             // 
             // Health_Declaration_Form
             // 

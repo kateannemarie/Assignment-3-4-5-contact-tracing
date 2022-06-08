@@ -51,5 +51,12 @@ namespace ContactTracingApp.Dalangin
         {
 
         }
+
+        private void savedataButton2_Click(object sender, EventArgs e)
+        {
+            StreamWriter healthdeclarationformFile = new StreamWriter(@"C:\Users\kitka\Downloads\Health-Declaration-Form.txt");
+            healthdeclarationformFile.WriteLine("Name: " + nameTextBox2.Text);
+            healthdeclarationformFile.Close();
+        }
     }
 }
