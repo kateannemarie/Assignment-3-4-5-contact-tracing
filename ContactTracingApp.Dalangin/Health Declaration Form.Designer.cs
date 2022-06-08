@@ -33,7 +33,6 @@
             this.personaldataLabel = new System.Windows.Forms.Label();
             this.namelLabel2 = new System.Windows.Forms.Label();
             this.nameTextBox2 = new System.Windows.Forms.TextBox();
-            this.sexLabel = new System.Windows.Forms.Label();
             this.femaleRadioButton = new System.Windows.Forms.RadioButton();
             this.maleRadioButton = new System.Windows.Forms.RadioButton();
             this.ageLabel = new System.Windows.Forms.Label();
@@ -57,6 +56,21 @@
             this.shortnessofbreathCheckBox = new System.Windows.Forms.CheckBox();
             this.lossoftasteCheckBox = new System.Windows.Forms.CheckBox();
             this.runnynoseCheckBox = new System.Windows.Forms.CheckBox();
+            this.reminderLabel3 = new System.Windows.Forms.Label();
+            this.firstQuestion = new System.Windows.Forms.Label();
+            this.yesLabel = new System.Windows.Forms.Label();
+            this.noLabel = new System.Windows.Forms.Label();
+            this.yesOne = new System.Windows.Forms.RadioButton();
+            this.noOne = new System.Windows.Forms.RadioButton();
+            this.secondQuestion = new System.Windows.Forms.Label();
+            this.yesTwo = new System.Windows.Forms.RadioButton();
+            this.noTwo = new System.Windows.Forms.RadioButton();
+            this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.groupBox3 = new System.Windows.Forms.GroupBox();
+            this.groupBox1.SuspendLayout();
+            this.groupBox2.SuspendLayout();
+            this.groupBox3.SuspendLayout();
             this.SuspendLayout();
             // 
             // reminderLabel
@@ -94,19 +108,10 @@
             this.nameTextBox2.Size = new System.Drawing.Size(423, 23);
             this.nameTextBox2.TabIndex = 3;
             // 
-            // sexLabel
-            // 
-            this.sexLabel.AutoSize = true;
-            this.sexLabel.Location = new System.Drawing.Point(12, 181);
-            this.sexLabel.Name = "sexLabel";
-            this.sexLabel.Size = new System.Drawing.Size(28, 15);
-            this.sexLabel.TabIndex = 4;
-            this.sexLabel.Text = "Sex:";
-            // 
             // femaleRadioButton
             // 
             this.femaleRadioButton.AutoSize = true;
-            this.femaleRadioButton.Location = new System.Drawing.Point(12, 199);
+            this.femaleRadioButton.Location = new System.Drawing.Point(6, 22);
             this.femaleRadioButton.Name = "femaleRadioButton";
             this.femaleRadioButton.Size = new System.Drawing.Size(63, 19);
             this.femaleRadioButton.TabIndex = 6;
@@ -118,7 +123,7 @@
             // maleRadioButton
             // 
             this.maleRadioButton.AutoSize = true;
-            this.maleRadioButton.Location = new System.Drawing.Point(81, 199);
+            this.maleRadioButton.Location = new System.Drawing.Point(85, 22);
             this.maleRadioButton.Name = "maleRadioButton";
             this.maleRadioButton.Size = new System.Drawing.Size(51, 19);
             this.maleRadioButton.TabIndex = 7;
@@ -320,11 +325,137 @@
             this.runnynoseCheckBox.Text = "Runny Nose";
             this.runnynoseCheckBox.UseVisualStyleBackColor = true;
             // 
+            // reminderLabel3
+            // 
+            this.reminderLabel3.AutoSize = true;
+            this.reminderLabel3.Location = new System.Drawing.Point(12, 519);
+            this.reminderLabel3.Name = "reminderLabel3";
+            this.reminderLabel3.Size = new System.Drawing.Size(184, 15);
+            this.reminderLabel3.TabIndex = 29;
+            this.reminderLabel3.Text = "Please check the appropriate box:";
+            // 
+            // firstQuestion
+            // 
+            this.firstQuestion.AutoSize = true;
+            this.firstQuestion.Location = new System.Drawing.Point(12, 560);
+            this.firstQuestion.Name = "firstQuestion";
+            this.firstQuestion.Size = new System.Drawing.Size(265, 30);
+            this.firstQuestion.TabIndex = 30;
+            this.firstQuestion.Text = "Did you visit any health worker, hospital, or clinic\r\nduring the past 14 days?";
+            // 
+            // yesLabel
+            // 
+            this.yesLabel.AutoSize = true;
+            this.yesLabel.Location = new System.Drawing.Point(328, 537);
+            this.yesLabel.Name = "yesLabel";
+            this.yesLabel.Size = new System.Drawing.Size(26, 15);
+            this.yesLabel.TabIndex = 31;
+            this.yesLabel.Text = "YES";
+            // 
+            // noLabel
+            // 
+            this.noLabel.AutoSize = true;
+            this.noLabel.Location = new System.Drawing.Point(393, 537);
+            this.noLabel.Name = "noLabel";
+            this.noLabel.Size = new System.Drawing.Size(25, 15);
+            this.noLabel.TabIndex = 32;
+            this.noLabel.Text = "NO";
+            // 
+            // yesOne
+            // 
+            this.yesOne.AutoSize = true;
+            this.yesOne.Location = new System.Drawing.Point(6, 22);
+            this.yesOne.Name = "yesOne";
+            this.yesOne.Size = new System.Drawing.Size(14, 13);
+            this.yesOne.TabIndex = 33;
+            this.yesOne.TabStop = true;
+            this.yesOne.UseVisualStyleBackColor = true;
+            this.yesOne.CheckedChanged += new System.EventHandler(this.yesOne_CheckedChanged);
+            // 
+            // noOne
+            // 
+            this.noOne.AutoSize = true;
+            this.noOne.Location = new System.Drawing.Point(69, 22);
+            this.noOne.Name = "noOne";
+            this.noOne.Size = new System.Drawing.Size(14, 13);
+            this.noOne.TabIndex = 34;
+            this.noOne.TabStop = true;
+            this.noOne.UseVisualStyleBackColor = true;
+            // 
+            // secondQuestion
+            // 
+            this.secondQuestion.AutoSize = true;
+            this.secondQuestion.Location = new System.Drawing.Point(12, 601);
+            this.secondQuestion.Name = "secondQuestion";
+            this.secondQuestion.Size = new System.Drawing.Size(257, 30);
+            this.secondQuestion.TabIndex = 35;
+            this.secondQuestion.Text = "Were you confined in a hospital or clinic during\r\nthe past 14 days?";
+            // 
+            // yesTwo
+            // 
+            this.yesTwo.AutoSize = true;
+            this.yesTwo.Location = new System.Drawing.Point(23, 22);
+            this.yesTwo.Name = "yesTwo";
+            this.yesTwo.Size = new System.Drawing.Size(14, 13);
+            this.yesTwo.TabIndex = 36;
+            this.yesTwo.TabStop = true;
+            this.yesTwo.UseVisualStyleBackColor = true;
+            this.yesTwo.CheckedChanged += new System.EventHandler(this.yesTwo_CheckedChanged);
+            // 
+            // noTwo
+            // 
+            this.noTwo.AutoSize = true;
+            this.noTwo.Location = new System.Drawing.Point(70, 25);
+            this.noTwo.Name = "noTwo";
+            this.noTwo.Size = new System.Drawing.Size(14, 13);
+            this.noTwo.TabIndex = 37;
+            this.noTwo.TabStop = true;
+            this.noTwo.UseVisualStyleBackColor = true;
+            // 
+            // groupBox1
+            // 
+            this.groupBox1.Controls.Add(this.femaleRadioButton);
+            this.groupBox1.Controls.Add(this.maleRadioButton);
+            this.groupBox1.Location = new System.Drawing.Point(12, 174);
+            this.groupBox1.Name = "groupBox1";
+            this.groupBox1.Size = new System.Drawing.Size(136, 47);
+            this.groupBox1.TabIndex = 38;
+            this.groupBox1.TabStop = false;
+            this.groupBox1.Text = "Sex:";
+            // 
+            // groupBox2
+            // 
+            this.groupBox2.Controls.Add(this.yesOne);
+            this.groupBox2.Controls.Add(this.noOne);
+            this.groupBox2.Location = new System.Drawing.Point(328, 552);
+            this.groupBox2.Name = "groupBox2";
+            this.groupBox2.Size = new System.Drawing.Size(90, 44);
+            this.groupBox2.TabIndex = 39;
+            this.groupBox2.TabStop = false;
+            // 
+            // groupBox3
+            // 
+            this.groupBox3.Controls.Add(this.yesTwo);
+            this.groupBox3.Controls.Add(this.noTwo);
+            this.groupBox3.Location = new System.Drawing.Point(328, 602);
+            this.groupBox3.Name = "groupBox3";
+            this.groupBox3.Size = new System.Drawing.Size(90, 44);
+            this.groupBox3.TabIndex = 40;
+            this.groupBox3.TabStop = false;
+            // 
             // Health_Declaration_Form
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(450, 595);
+            this.ClientSize = new System.Drawing.Size(450, 749);
+            this.Controls.Add(this.groupBox3);
+            this.Controls.Add(this.noLabel);
+            this.Controls.Add(this.yesLabel);
+            this.Controls.Add(this.groupBox2);
+            this.Controls.Add(this.groupBox1);
+            this.Controls.Add(this.secondQuestion);
+            this.Controls.Add(this.firstQuestion);
+            this.Controls.Add(this.reminderLabel3);
             this.Controls.Add(this.runnynoseCheckBox);
             this.Controls.Add(this.lossoftasteCheckBox);
             this.Controls.Add(this.shortnessofbreathCheckBox);
@@ -346,15 +477,18 @@
             this.Controls.Add(this.contactaddressLabel);
             this.Controls.Add(this.ageTextBox);
             this.Controls.Add(this.ageLabel);
-            this.Controls.Add(this.maleRadioButton);
-            this.Controls.Add(this.femaleRadioButton);
-            this.Controls.Add(this.sexLabel);
             this.Controls.Add(this.nameTextBox2);
             this.Controls.Add(this.namelLabel2);
             this.Controls.Add(this.personaldataLabel);
             this.Controls.Add(this.reminderLabel);
             this.Name = "Health_Declaration_Form";
             this.Text = "Health Declaration Form";
+            this.groupBox1.ResumeLayout(false);
+            this.groupBox1.PerformLayout();
+            this.groupBox2.ResumeLayout(false);
+            this.groupBox2.PerformLayout();
+            this.groupBox3.ResumeLayout(false);
+            this.groupBox3.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -366,7 +500,6 @@
         private Label personaldataLabel;
         private Label namelLabel2;
         private TextBox nameTextBox2;
-        private Label sexLabel;
         private RadioButton femaleRadioButton;
         private RadioButton maleRadioButton;
         private Label ageLabel;
@@ -390,5 +523,17 @@
         private CheckBox shortnessofbreathCheckBox;
         private CheckBox lossoftasteCheckBox;
         private CheckBox runnynoseCheckBox;
+        private Label reminderLabel3;
+        private Label firstQuestion;
+        private Label yesLabel;
+        private Label noLabel;
+        private RadioButton yesOne;
+        private RadioButton noOne;
+        private Label secondQuestion;
+        private RadioButton yesTwo;
+        private RadioButton noTwo;
+        private GroupBox groupBox1;
+        private GroupBox groupBox2;
+        private GroupBox groupBox3;
     }
 }

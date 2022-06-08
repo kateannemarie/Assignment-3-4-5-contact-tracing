@@ -26,5 +26,15 @@ namespace ContactTracingApp.Dalangin
         {
 
         }
+
+        private void yesTwo_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void yesOne_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
