@@ -131,11 +131,11 @@ namespace ContactTracingApp.Dalangin
             string numberOne = "";
             if(yesOne.Checked)
             {
-                numberOne = " did visit any health worker, hospital, or clinicduring the past 14 days.";
+                numberOne = " did visit any health worker, hospital, or clinic during the past 14 days.";
             }
             if(noOne.Checked)
             {
-                numberOne = " did not visit any health worker, hospital, or clinicduring the past 14 days.";
+                numberOne = " did not visit any health worker, hospital, or clinic during the past 14 days.";
             }
 
             string numberTwo = "";
@@ -178,6 +178,16 @@ namespace ContactTracingApp.Dalangin
                 numberFive = " has not been in Face-to-face contact with a confirmed case within 1 meter and for more than 15 minutes.";
             }
 
+            string numberSix = "";
+            if(yesSix.Checked)
+            {
+                numberSix = " in the last 14 days, has been in contact with a person confirmed with COVID-19.";
+            }
+            if(noSix.Checked)
+            {
+                numberSix = " in the last 14 days, was not in contact with a person confirmed with COVID-19.";
+            }
+
             StreamWriter healthdeclarationformFile = new StreamWriter(@"C:\Users\kitka\Downloads\Health-Declaration-Form.txt");
             healthdeclarationformFile.WriteLine("Name: " + nameTextBox2.Text);
             healthdeclarationformFile.WriteLine("Sex: " + Sex);
@@ -191,6 +201,7 @@ namespace ContactTracingApp.Dalangin
             healthdeclarationformFile.WriteLine(nameTextBox2.Text + numberThree);
             healthdeclarationformFile.WriteLine(nameTextBox2.Text + "," + numberFour);
             healthdeclarationformFile.WriteLine(nameTextBox2.Text + numberFive);
+            healthdeclarationformFile.WriteLine(nameTextBox2.Text + "," + numberSix);
             healthdeclarationformFile.Close();
         }
 
@@ -215,6 +226,11 @@ namespace ContactTracingApp.Dalangin
         }
 
         private void yesornoGroupBox1_Enter(object sender, EventArgs e)
+        {
+
+        }
+
+        private void yesSix_CheckedChanged(object sender, EventArgs e)
         {
 
         }

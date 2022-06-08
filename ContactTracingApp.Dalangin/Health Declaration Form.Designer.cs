@@ -629,6 +629,7 @@
             this.yesSix.TabIndex = 33;
             this.yesSix.TabStop = true;
             this.yesSix.UseVisualStyleBackColor = true;
+            this.yesSix.CheckedChanged += new System.EventHandler(this.yesSix_CheckedChanged);
             // 
             // noSix
             // 
