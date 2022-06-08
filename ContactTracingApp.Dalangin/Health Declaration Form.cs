@@ -54,24 +54,25 @@ namespace ContactTracingApp.Dalangin
 
         private void savedataButton2_Click(object sender, EventArgs e)
         {
-            string Gender = "";
+            string Sex = "";
 
             if(femaleRadioButton.Checked)
             {
-                Gender = femaleRadioButton.Text;
+                Sex = femaleRadioButton.Text;
             }
 
             if(maleRadioButton.Checked)
             {
-                Gender = maleRadioButton.Text;
+                Sex = maleRadioButton.Text;
             }
 
 
             StreamWriter healthdeclarationformFile = new StreamWriter(@"C:\Users\kitka\Downloads\Health-Declaration-Form.txt");
             healthdeclarationformFile.WriteLine("Name: " + nameTextBox2.Text);
-            healthdeclarationformFile.WriteLine("Sex: " + Gender);
+            healthdeclarationformFile.WriteLine("Sex: " + Sex);
             healthdeclarationformFile.WriteLine("Age: " + ageTextBox.Text + " years old");
             healthdeclarationformFile.WriteLine("Contact Address: " + contactaddressTextBox.Text);
+            healthdeclarationformFile.WriteLine("Mobile No./Telephone No.: " + contactnumberTextBox2.Text);
             healthdeclarationformFile.Close();
         }
 

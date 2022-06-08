@@ -40,7 +40,7 @@
             this.contactaddressLabel = new System.Windows.Forms.Label();
             this.contactaddressTextBox = new System.Windows.Forms.TextBox();
             this.mobileLabel = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.contactnumberTextBox2 = new System.Windows.Forms.TextBox();
             this.emailaddressLabel = new System.Windows.Forms.Label();
             this.emailaddressTextBox = new System.Windows.Forms.TextBox();
             this.reminderLabel2 = new System.Windows.Forms.Label();
@@ -195,12 +195,12 @@
             this.mobileLabel.TabIndex = 12;
             this.mobileLabel.Text = "Mobile No./ Telephone No.:";
             // 
-            // textBox1
+            // contactnumberTextBox2
             // 
-            this.textBox1.Location = new System.Drawing.Point(12, 308);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(153, 23);
-            this.textBox1.TabIndex = 13;
+            this.contactnumberTextBox2.Location = new System.Drawing.Point(12, 308);
+            this.contactnumberTextBox2.Name = "contactnumberTextBox2";
+            this.contactnumberTextBox2.Size = new System.Drawing.Size(153, 23);
+            this.contactnumberTextBox2.TabIndex = 13;
             // 
             // emailaddressLabel
             // 
@@ -687,7 +687,7 @@
             this.Controls.Add(this.reminderLabel2);
             this.Controls.Add(this.emailaddressTextBox);
             this.Controls.Add(this.emailaddressLabel);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.contactnumberTextBox2);
             this.Controls.Add(this.mobileLabel);
             this.Controls.Add(this.contactaddressTextBox);
             this.Controls.Add(this.contactaddressLabel);
@@ -734,7 +734,7 @@
         private Label contactaddressLabel;
         private TextBox contactaddressTextBox;
         private Label mobileLabel;
-        private TextBox textBox1;
+        private TextBox contactnumberTextBox2;
         private Label emailaddressLabel;
         private TextBox emailaddressTextBox;
         private Label reminderLabel2;
