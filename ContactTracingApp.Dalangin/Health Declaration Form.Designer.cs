@@ -152,6 +152,7 @@
             this.maleRadioButton.TabStop = true;
             this.maleRadioButton.Text = "Male";
             this.maleRadioButton.UseVisualStyleBackColor = true;
+            this.maleRadioButton.CheckedChanged += new System.EventHandler(this.maleRadioButton_CheckedChanged);
             // 
             // ageLabel
             // 
@@ -444,6 +445,7 @@
             this.sexGroupBox.TabIndex = 38;
             this.sexGroupBox.TabStop = false;
             this.sexGroupBox.Text = "Sex:";
+            this.sexGroupBox.Enter += new System.EventHandler(this.sexGroupBox_Enter);
             // 
             // yesornoGroupBox1
             // 
@@ -699,6 +701,7 @@
             this.MinimumSize = new System.Drawing.Size(969, 557);
             this.Name = "Health_Declaration_Form";
             this.Text = "Health Declaration Form";
+            this.Load += new System.EventHandler(this.Health_Declaration_Form_Load);
             this.sexGroupBox.ResumeLayout(false);
             this.sexGroupBox.PerformLayout();
             this.yesornoGroupBox1.ResumeLayout(false);

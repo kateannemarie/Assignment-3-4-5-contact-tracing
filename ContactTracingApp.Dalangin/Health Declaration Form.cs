@@ -19,12 +19,12 @@ namespace ContactTracingApp.Dalangin
 
         private void radioButton1_CheckedChanged(object sender, EventArgs e)
         {
-
+          
         }
 
         private void namelLabel2_Click(object sender, EventArgs e)
         {
-
+         
         }
 
         private void yesTwo_CheckedChanged(object sender, EventArgs e)
@@ -54,9 +54,38 @@ namespace ContactTracingApp.Dalangin
 
         private void savedataButton2_Click(object sender, EventArgs e)
         {
+            string Gender = "";
+
+            if(femaleRadioButton.Checked)
+            {
+                Gender = femaleRadioButton.Text;
+            }
+
+            if(maleRadioButton.Checked)
+            {
+                Gender = maleRadioButton.Text;
+            }
+
+
             StreamWriter healthdeclarationformFile = new StreamWriter(@"C:\Users\kitka\Downloads\Health-Declaration-Form.txt");
             healthdeclarationformFile.WriteLine("Name: " + nameTextBox2.Text);
+            healthdeclarationformFile.WriteLine("Sex: " + Gender);
             healthdeclarationformFile.Close();
+        }
+
+        private void sexGroupBox_Enter(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Health_Declaration_Form_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void maleRadioButton_CheckedChanged(object sender, EventArgs e)
+        {
+        
         }
     }
 }
