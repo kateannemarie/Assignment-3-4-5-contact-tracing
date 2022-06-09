@@ -1,6 +1,6 @@
 ﻿namespace ContactTracingApp.Dalangin
 {
-    partial class contacttracingForm
+    partial class logbookForm
     {
         /// <summary>
         ///  Required designer variable.
@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(logbookForm));
             this.upperLabel = new System.Windows.Forms.Label();
             this.descriptionLabel = new System.Windows.Forms.Label();
             this.nameLabel = new System.Windows.Forms.Label();
@@ -45,20 +46,22 @@
             // upperLabel
             // 
             this.upperLabel.AutoSize = true;
-            this.upperLabel.BackColor = System.Drawing.Color.Silver;
+            this.upperLabel.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
             this.upperLabel.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.upperLabel.Location = new System.Drawing.Point(12, 9);
             this.upperLabel.Name = "upperLabel";
-            this.upperLabel.Size = new System.Drawing.Size(259, 32);
+            this.upperLabel.Size = new System.Drawing.Size(121, 32);
             this.upperLabel.TabIndex = 0;
-            this.upperLabel.Text = "Contact Tracing Form";
+            this.upperLabel.Text = "Log Book";
             // 
             // descriptionLabel
             // 
             this.descriptionLabel.AutoSize = true;
+            this.descriptionLabel.BackColor = System.Drawing.Color.White;
+            this.descriptionLabel.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.descriptionLabel.Location = new System.Drawing.Point(12, 53);
             this.descriptionLabel.Name = "descriptionLabel";
-            this.descriptionLabel.Size = new System.Drawing.Size(212, 15);
+            this.descriptionLabel.Size = new System.Drawing.Size(252, 17);
             this.descriptionLabel.TabIndex = 1;
             this.descriptionLabel.Text = "Please fill out honestly the form below.";
             // 
@@ -120,6 +123,7 @@
             this.datePicker.Name = "datePicker";
             this.datePicker.Size = new System.Drawing.Size(200, 23);
             this.datePicker.TabIndex = 8;
+            this.datePicker.Value = new System.DateTime(2022, 6, 9, 22, 55, 53, 0);
             // 
             // dateLabel
             // 
@@ -132,6 +136,7 @@
             // 
             // healthdeclarationButton
             // 
+            this.healthdeclarationButton.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.healthdeclarationButton.Location = new System.Drawing.Point(155, 330);
             this.healthdeclarationButton.Name = "healthdeclarationButton";
             this.healthdeclarationButton.Size = new System.Drawing.Size(132, 40);
@@ -142,18 +147,20 @@
             // 
             // savedataButton
             // 
+            this.savedataButton.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.savedataButton.Location = new System.Drawing.Point(12, 330);
             this.savedataButton.Name = "savedataButton";
             this.savedataButton.Size = new System.Drawing.Size(132, 40);
             this.savedataButton.TabIndex = 11;
-            this.savedataButton.Text = "Save Data";
+            this.savedataButton.Text = "Submit";
             this.savedataButton.UseVisualStyleBackColor = true;
             this.savedataButton.Click += new System.EventHandler(this.savedataButton_Click);
             // 
-            // contacttracingForm
+            // logbookForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.SystemColors.InactiveCaption;
             this.ClientSize = new System.Drawing.Size(299, 382);
             this.Controls.Add(this.savedataButton);
             this.Controls.Add(this.healthdeclarationButton);
@@ -167,11 +174,14 @@
             this.Controls.Add(this.nameLabel);
             this.Controls.Add(this.descriptionLabel);
             this.Controls.Add(this.upperLabel);
+            this.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;
             this.MaximumSize = new System.Drawing.Size(315, 421);
+            this.MinimizeBox = false;
             this.MinimumSize = new System.Drawing.Size(315, 421);
-            this.Name = "contacttracingForm";
-            this.Text = "Contact Tracing Form";
+            this.Name = "logbookForm";
+            this.Text = "Log Book Application";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
             this.PerformLayout();

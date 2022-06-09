@@ -15,4 +15,5 @@ C:\Users\kitka\source\repos\ContactTracingApp.Dalangin\ContactTracingApp.Dalangi
 C:\Users\kitka\source\repos\ContactTracingApp.Dalangin\ContactTracingApp.Dalangin\obj\Debug\net6.0-windows\ContactTracingApp.Dalangin.genruntimeconfig.cache
 C:\Users\kitka\source\repos\ContactTracingApp.Dalangin\ContactTracingApp.Dalangin\obj\Debug\net6.0-windows\ref\ContactTracingApp.Dalangin.dll
 C:\Users\kitka\source\repos\ContactTracingApp.Dalangin\ContactTracingApp.Dalangin\obj\Debug\net6.0-windows\ContactTracingApp.Dalangin.Health_Declaration_Form.resources
-C:\Users\kitka\source\repos\ContactTracingApp.Dalangin\ContactTracingApp.Dalangin\obj\Debug\net6.0-windows\ContactTracingApp.Dalangin.contacttracingForm.resources
+C:\Users\kitka\source\repos\ContactTracingApp.Dalangin\ContactTracingApp.Dalangin\obj\Debug\net6.0-windows\ContactTracingApp.Dalangin.Properties.Resources.resources
+C:\Users\kitka\source\repos\ContactTracingApp.Dalangin\ContactTracingApp.Dalangin\obj\Debug\net6.0-windows\ContactTracingApp.Dalangin.logbookForm.resources

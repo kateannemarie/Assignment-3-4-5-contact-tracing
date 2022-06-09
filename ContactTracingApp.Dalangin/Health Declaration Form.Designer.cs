@@ -86,6 +86,7 @@
             this.yesSix = new System.Windows.Forms.RadioButton();
             this.noSix = new System.Windows.Forms.RadioButton();
             this.savedataButton2 = new System.Windows.Forms.Button();
+            this.reminder3 = new System.Windows.Forms.Label();
             this.sexGroupBox.SuspendLayout();
             this.yesornoGroupBox1.SuspendLayout();
             this.yesornoGroupBox2.SuspendLayout();
@@ -98,18 +99,21 @@
             // reminderLabel
             // 
             this.reminderLabel.AutoSize = true;
+            this.reminderLabel.BackColor = System.Drawing.Color.White;
+            this.reminderLabel.Font = new System.Drawing.Font("Arial Narrow", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.reminderLabel.Location = new System.Drawing.Point(12, 19);
             this.reminderLabel.Name = "reminderLabel";
-            this.reminderLabel.Size = new System.Drawing.Size(423, 45);
+            this.reminderLabel.Size = new System.Drawing.Size(422, 48);
             this.reminderLabel.TabIndex = 0;
             this.reminderLabel.Text = resources.GetString("reminderLabel.Text");
             // 
             // personaldataLabel
             // 
             this.personaldataLabel.AutoSize = true;
+            this.personaldataLabel.Font = new System.Drawing.Font("Segoe UI", 9F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point);
             this.personaldataLabel.Location = new System.Drawing.Point(12, 91);
             this.personaldataLabel.Name = "personaldataLabel";
-            this.personaldataLabel.Size = new System.Drawing.Size(82, 15);
+            this.personaldataLabel.Size = new System.Drawing.Size(90, 15);
             this.personaldataLabel.TabIndex = 1;
             this.personaldataLabel.Text = "Personal Data:";
             // 
@@ -221,9 +225,10 @@
             // reminderLabel2
             // 
             this.reminderLabel2.AutoSize = true;
+            this.reminderLabel2.Font = new System.Drawing.Font("Segoe UI", 9F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point);
             this.reminderLabel2.Location = new System.Drawing.Point(12, 347);
             this.reminderLabel2.Name = "reminderLabel2";
-            this.reminderLabel2.Size = new System.Drawing.Size(399, 30);
+            this.reminderLabel2.Size = new System.Drawing.Size(424, 30);
             this.reminderLabel2.TabIndex = 16;
             this.reminderLabel2.Text = "Please check if you have any of the following at present or during the past \r\n14 " +
     "days:";
@@ -352,9 +357,10 @@
             // reminderLabel3
             // 
             this.reminderLabel3.AutoSize = true;
+            this.reminderLabel3.Font = new System.Drawing.Font("Segoe UI", 9F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point);
             this.reminderLabel3.Location = new System.Drawing.Point(512, 49);
             this.reminderLabel3.Name = "reminderLabel3";
-            this.reminderLabel3.Size = new System.Drawing.Size(184, 15);
+            this.reminderLabel3.Size = new System.Drawing.Size(196, 15);
             this.reminderLabel3.TabIndex = 29;
             this.reminderLabel3.Text = "Please check the appropriate box:";
             // 
@@ -643,20 +649,34 @@
             // 
             // savedataButton2
             // 
-            this.savedataButton2.Location = new System.Drawing.Point(773, 440);
+            this.savedataButton2.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.savedataButton2.Location = new System.Drawing.Point(512, 440);
             this.savedataButton2.Name = "savedataButton2";
-            this.savedataButton2.Size = new System.Drawing.Size(156, 59);
+            this.savedataButton2.Size = new System.Drawing.Size(417, 59);
             this.savedataButton2.TabIndex = 52;
-            this.savedataButton2.Text = "Save Data";
+            this.savedataButton2.Text = "SUBMIT FORM";
             this.savedataButton2.UseVisualStyleBackColor = true;
             this.savedataButton2.Click += new System.EventHandler(this.savedataButton2_Click);
+            // 
+            // reminder3
+            // 
+            this.reminder3.AutoSize = true;
+            this.reminder3.BackColor = System.Drawing.Color.LightCoral;
+            this.reminder3.Font = new System.Drawing.Font("Times New Roman", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.reminder3.Location = new System.Drawing.Point(554, 422);
+            this.reminder3.Name = "reminder3";
+            this.reminder3.Size = new System.Drawing.Size(337, 15);
+            this.reminder3.TabIndex = 53;
+            this.reminder3.Text = "Please double check your answers before submitting the form.\r\n";
             // 
             // Health_Declaration_Form
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoScroll = true;
+            this.BackColor = System.Drawing.Color.DarkSeaGreen;
             this.ClientSize = new System.Drawing.Size(953, 518);
+            this.Controls.Add(this.reminder3);
             this.Controls.Add(this.savedataButton2);
             this.Controls.Add(this.yesornoGroupBox6);
             this.Controls.Add(this.sixthQuestion);
@@ -700,7 +720,10 @@
             this.Controls.Add(this.namelLabel2);
             this.Controls.Add(this.personaldataLabel);
             this.Controls.Add(this.reminderLabel);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.MaximizeBox = false;
             this.MaximumSize = new System.Drawing.Size(969, 557);
+            this.MinimizeBox = false;
             this.MinimumSize = new System.Drawing.Size(969, 557);
             this.Name = "Health_Declaration_Form";
             this.Text = "Health Declaration Form";
@@ -783,5 +806,6 @@
         private RadioButton yesSix;
         private RadioButton noSix;
         private Button savedataButton2;
+        private Label reminder3;
     }
 }

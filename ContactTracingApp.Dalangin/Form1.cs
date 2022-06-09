@@ -1,8 +1,8 @@
 namespace ContactTracingApp.Dalangin
 {
-    public partial class contacttracingForm : Form
+    public partial class logbookForm : Form
     {
-        public contacttracingForm()
+        public logbookForm()
         {
             InitializeComponent();
         }
@@ -21,6 +21,7 @@ namespace ContactTracingApp.Dalangin
         {
             Health_Declaration_Form hdf = new Health_Declaration_Form();
             hdf.Show();
+            this.Hide();
         }
 
         private void nameTextBox_TextChanged(object sender, EventArgs e)
@@ -47,6 +48,7 @@ namespace ContactTracingApp.Dalangin
             firstFormFile.WriteLine("Contact Number: " + contactnumberTextBox.Text);
             firstFormFile.WriteLine("");
             firstFormFile.Close();
+
         }
     }
 }

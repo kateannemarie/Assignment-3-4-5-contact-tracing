@@ -188,6 +188,7 @@ namespace ContactTracingApp.Dalangin
                 numberSix = " in the last 14 days, was not in contact with a person confirmed with COVID-19.";
             }
 
+
             StreamWriter healthdeclarationformFile = File.AppendText(@"C:\Users\kitka\Downloads\Health-Declaration-Form.txt");
             healthdeclarationformFile.WriteLine("Name: " + nameTextBox2.Text);
             healthdeclarationformFile.WriteLine("Sex: " + Sex);
@@ -204,6 +205,9 @@ namespace ContactTracingApp.Dalangin
             healthdeclarationformFile.WriteLine(nameTextBox2.Text + "," + numberSix);
             healthdeclarationformFile.WriteLine("");
             healthdeclarationformFile.Close();
+            this.Close();
+
+
         }
 
         private void sexGroupBox_Enter(object sender, EventArgs e)
