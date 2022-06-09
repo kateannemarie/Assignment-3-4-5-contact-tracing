@@ -188,7 +188,7 @@ namespace ContactTracingApp.Dalangin
                 numberSix = " in the last 14 days, was not in contact with a person confirmed with COVID-19.";
             }
 
-            StreamWriter healthdeclarationformFile = new StreamWriter(@"C:\Users\kitka\Downloads\Health-Declaration-Form.txt");
+            StreamWriter healthdeclarationformFile = File.AppendText(@"C:\Users\kitka\Downloads\Health-Declaration-Form.txt");
             healthdeclarationformFile.WriteLine("Name: " + nameTextBox2.Text);
             healthdeclarationformFile.WriteLine("Sex: " + Sex);
             healthdeclarationformFile.WriteLine("Age: " + ageTextBox.Text + " years old");
@@ -202,6 +202,7 @@ namespace ContactTracingApp.Dalangin
             healthdeclarationformFile.WriteLine(nameTextBox2.Text + "," + numberFour);
             healthdeclarationformFile.WriteLine(nameTextBox2.Text + numberFive);
             healthdeclarationformFile.WriteLine(nameTextBox2.Text + "," + numberSix);
+            healthdeclarationformFile.WriteLine("");
             healthdeclarationformFile.Close();
         }
 
