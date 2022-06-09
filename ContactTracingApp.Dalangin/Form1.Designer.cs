@@ -36,8 +36,8 @@
             this.addressTextBox = new System.Windows.Forms.TextBox();
             this.contactnumberLabel = new System.Windows.Forms.Label();
             this.contactnumberTextBox = new System.Windows.Forms.TextBox();
-            this.dateandtimePicker = new System.Windows.Forms.DateTimePicker();
-            this.dateandtimeLabel = new System.Windows.Forms.Label();
+            this.datePicker = new System.Windows.Forms.DateTimePicker();
+            this.dateLabel = new System.Windows.Forms.Label();
             this.healthdeclarationButton = new System.Windows.Forms.Button();
             this.savedataButton = new System.Windows.Forms.Button();
             this.SuspendLayout();
@@ -114,21 +114,21 @@
             this.contactnumberTextBox.TabIndex = 7;
             this.contactnumberTextBox.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
-            // dateandtimePicker
+            // datePicker
             // 
-            this.dateandtimePicker.Location = new System.Drawing.Point(12, 113);
-            this.dateandtimePicker.Name = "dateandtimePicker";
-            this.dateandtimePicker.Size = new System.Drawing.Size(200, 23);
-            this.dateandtimePicker.TabIndex = 8;
+            this.datePicker.Location = new System.Drawing.Point(12, 113);
+            this.datePicker.Name = "datePicker";
+            this.datePicker.Size = new System.Drawing.Size(200, 23);
+            this.datePicker.TabIndex = 8;
             // 
-            // dateandtimeLabel
+            // dateLabel
             // 
-            this.dateandtimeLabel.AutoSize = true;
-            this.dateandtimeLabel.Location = new System.Drawing.Point(12, 95);
-            this.dateandtimeLabel.Name = "dateandtimeLabel";
-            this.dateandtimeLabel.Size = new System.Drawing.Size(86, 15);
-            this.dateandtimeLabel.TabIndex = 9;
-            this.dateandtimeLabel.Text = "Date and Time:";
+            this.dateLabel.AutoSize = true;
+            this.dateLabel.Location = new System.Drawing.Point(12, 95);
+            this.dateLabel.Name = "dateLabel";
+            this.dateLabel.Size = new System.Drawing.Size(34, 15);
+            this.dateLabel.TabIndex = 9;
+            this.dateLabel.Text = "Date:";
             // 
             // healthdeclarationButton
             // 
@@ -157,8 +157,8 @@
             this.ClientSize = new System.Drawing.Size(299, 382);
             this.Controls.Add(this.savedataButton);
             this.Controls.Add(this.healthdeclarationButton);
-            this.Controls.Add(this.dateandtimeLabel);
-            this.Controls.Add(this.dateandtimePicker);
+            this.Controls.Add(this.dateLabel);
+            this.Controls.Add(this.datePicker);
             this.Controls.Add(this.contactnumberTextBox);
             this.Controls.Add(this.contactnumberLabel);
             this.Controls.Add(this.addressTextBox);
@@ -188,8 +188,8 @@
         private TextBox addressTextBox;
         private Label contactnumberLabel;
         private TextBox contactnumberTextBox;
-        private DateTimePicker dateandtimePicker;
-        private Label dateandtimeLabel;
+        private DateTimePicker datePicker;
+        private Label dateLabel;
         private Button healthdeclarationButton;
         private Button savedataButton;
     }

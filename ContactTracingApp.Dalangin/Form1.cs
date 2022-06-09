@@ -41,7 +41,7 @@ namespace ContactTracingApp.Dalangin
         private void savedataButton_Click(object sender, EventArgs e)
         {
             StreamWriter firstFormFile = File.AppendText(@"C:\Users\kitka\Downloads\First-Form.txt");
-            firstFormFile.WriteLine("Date : " + dateandtimePicker.Text);
+            firstFormFile.WriteLine("Date : " + datePicker.Text);
             firstFormFile.WriteLine("Name : " + nameTextBox.Text);
             firstFormFile.WriteLine("Address: " + addressTextBox.Text);
             firstFormFile.WriteLine("Contact Number: " + contactnumberTextBox.Text);
