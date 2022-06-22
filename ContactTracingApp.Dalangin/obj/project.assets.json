@@ -8,19 +8,24 @@
     "net6.0-windows7.0": []
   },
   "packageFolders": {
-    "C:\\Users\\kitka\\.nuget\\packages\\": {}
+    "C:\\Users\\kitka\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\kitka\\source\\repos\\ContactTracingApp.Dalangin\\ContactTracingApp.Dalangin\\ContactTracingApp.Dalangin.csproj",
+      "projectUniqueName": "C:\\Users\\kitka\\source\\repos\\Assignment-3-contact-tracing\\ContactTracingApp.Dalangin\\ContactTracingApp.Dalangin.csproj",
       "projectName": "ContactTracingApp.Dalangin",
-      "projectPath": "C:\\Users\\kitka\\source\\repos\\ContactTracingApp.Dalangin\\ContactTracingApp.Dalangin\\ContactTracingApp.Dalangin.csproj",
+      "projectPath": "C:\\Users\\kitka\\source\\repos\\Assignment-3-contact-tracing\\ContactTracingApp.Dalangin\\ContactTracingApp.Dalangin.csproj",
       "packagesPath": "C:\\Users\\kitka\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\kitka\\source\\repos\\ContactTracingApp.Dalangin\\ContactTracingApp.Dalangin\\obj\\",
+      "outputPath": "C:\\Users\\kitka\\source\\repos\\Assignment-3-contact-tracing\\ContactTracingApp.Dalangin\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
         "C:\\Users\\kitka\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -63,7 +68,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
       }
     }
   }
