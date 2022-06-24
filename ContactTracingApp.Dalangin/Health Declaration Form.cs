@@ -189,7 +189,7 @@ namespace ContactTracingApp.Dalangin
             }
 
             //for da try ang ferson
-            string[] data = { datePicker.Text, "Name: " + nameTextBox2.Text, "Sex: " + Sex, "Age: " + ageTextBox.Text + " years old", "Contact Address: " + contactaddressTextBox.Text, "Mobile No./Telephone No.: " + contactnumberTextBox2.Text, "Email Address: " + emailaddressTextBox.Text, "Symptoms are: " + Symptoms, nameTextBox2.Text + numberOne, nameTextBox2.Text + numberTwo, nameTextBox2.Text + numberThree, nameTextBox2.Text + "," + numberFour, nameTextBox2.Text + numberFive, nameTextBox2.Text + "," + numberSix };
+            string[] data = { "Date: " + datePicker.Text, "Name: " + nameTextBox2.Text, "Sex: " + Sex, "Age: " + ageTextBox.Text + " years old", "Contact Address: " + contactaddressTextBox.Text, "Mobile No./Telephone No.: " + contactnumberTextBox2.Text, "Email Address: " + emailaddressTextBox.Text, "Symptoms are: " + Symptoms, nameTextBox2.Text + numberOne, nameTextBox2.Text + numberTwo, nameTextBox2.Text + numberThree, nameTextBox2.Text + "," + numberFour, nameTextBox2.Text + numberFive, nameTextBox2.Text + "," + numberSix };
 
             StreamWriter healthdeclarationformFile;
             healthdeclarationformFile = File.CreateText("Health-Declaration-Data.txt");

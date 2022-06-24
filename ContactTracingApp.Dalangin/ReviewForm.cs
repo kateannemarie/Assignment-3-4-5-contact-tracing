@@ -34,5 +34,12 @@ namespace ContactTracingApp.Dalangin
             }
             File.WriteAllLines(healthDataFile, healthList.ToArray());
         }
+
+        private void editButton_Click(object sender, EventArgs e)
+        {
+            this.Close();
+            Health_Declaration_Form goBack = new Health_Declaration_Form();
+            goBack.Show();
+        }
     }
 }
