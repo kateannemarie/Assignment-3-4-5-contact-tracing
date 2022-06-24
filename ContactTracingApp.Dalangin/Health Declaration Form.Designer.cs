@@ -113,7 +113,7 @@
             // 
             this.personaldataLabel.AutoSize = true;
             this.personaldataLabel.Font = new System.Drawing.Font("Segoe UI", 9F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point);
-            this.personaldataLabel.Location = new System.Drawing.Point(12, 91);
+            this.personaldataLabel.Location = new System.Drawing.Point(17, 136);
             this.personaldataLabel.Name = "personaldataLabel";
             this.personaldataLabel.Size = new System.Drawing.Size(90, 15);
             this.personaldataLabel.TabIndex = 1;
@@ -122,7 +122,7 @@
             // namelLabel2
             // 
             this.namelLabel2.AutoSize = true;
-            this.namelLabel2.Location = new System.Drawing.Point(12, 122);
+            this.namelLabel2.Location = new System.Drawing.Point(17, 167);
             this.namelLabel2.Name = "namelLabel2";
             this.namelLabel2.Size = new System.Drawing.Size(42, 15);
             this.namelLabel2.TabIndex = 2;
@@ -131,7 +131,7 @@
             // 
             // nameTextBox2
             // 
-            this.nameTextBox2.Location = new System.Drawing.Point(12, 140);
+            this.nameTextBox2.Location = new System.Drawing.Point(17, 185);
             this.nameTextBox2.Name = "nameTextBox2";
             this.nameTextBox2.Size = new System.Drawing.Size(423, 23);
             this.nameTextBox2.TabIndex = 3;
@@ -163,7 +163,7 @@
             // ageLabel
             // 
             this.ageLabel.AutoSize = true;
-            this.ageLabel.Location = new System.Drawing.Point(221, 181);
+            this.ageLabel.Location = new System.Drawing.Point(226, 226);
             this.ageLabel.Name = "ageLabel";
             this.ageLabel.Size = new System.Drawing.Size(31, 15);
             this.ageLabel.TabIndex = 8;
@@ -171,7 +171,7 @@
             // 
             // ageTextBox
             // 
-            this.ageTextBox.Location = new System.Drawing.Point(221, 198);
+            this.ageTextBox.Location = new System.Drawing.Point(226, 243);
             this.ageTextBox.Name = "ageTextBox";
             this.ageTextBox.Size = new System.Drawing.Size(100, 23);
             this.ageTextBox.TabIndex = 9;
@@ -179,7 +179,7 @@
             // contactaddressLabel
             // 
             this.contactaddressLabel.AutoSize = true;
-            this.contactaddressLabel.Location = new System.Drawing.Point(12, 236);
+            this.contactaddressLabel.Location = new System.Drawing.Point(17, 281);
             this.contactaddressLabel.Name = "contactaddressLabel";
             this.contactaddressLabel.Size = new System.Drawing.Size(97, 15);
             this.contactaddressLabel.TabIndex = 10;
@@ -187,7 +187,7 @@
             // 
             // contactaddressTextBox
             // 
-            this.contactaddressTextBox.Location = new System.Drawing.Point(12, 254);
+            this.contactaddressTextBox.Location = new System.Drawing.Point(17, 299);
             this.contactaddressTextBox.Name = "contactaddressTextBox";
             this.contactaddressTextBox.Size = new System.Drawing.Size(423, 23);
             this.contactaddressTextBox.TabIndex = 11;
@@ -195,7 +195,7 @@
             // mobileLabel
             // 
             this.mobileLabel.AutoSize = true;
-            this.mobileLabel.Location = new System.Drawing.Point(12, 290);
+            this.mobileLabel.Location = new System.Drawing.Point(17, 335);
             this.mobileLabel.Name = "mobileLabel";
             this.mobileLabel.Size = new System.Drawing.Size(153, 15);
             this.mobileLabel.TabIndex = 12;
@@ -203,7 +203,7 @@
             // 
             // contactnumberTextBox2
             // 
-            this.contactnumberTextBox2.Location = new System.Drawing.Point(12, 308);
+            this.contactnumberTextBox2.Location = new System.Drawing.Point(17, 353);
             this.contactnumberTextBox2.Name = "contactnumberTextBox2";
             this.contactnumberTextBox2.Size = new System.Drawing.Size(153, 23);
             this.contactnumberTextBox2.TabIndex = 13;
@@ -211,7 +211,7 @@
             // emailaddressLabel
             // 
             this.emailaddressLabel.AutoSize = true;
-            this.emailaddressLabel.Location = new System.Drawing.Point(221, 290);
+            this.emailaddressLabel.Location = new System.Drawing.Point(226, 335);
             this.emailaddressLabel.Name = "emailaddressLabel";
             this.emailaddressLabel.Size = new System.Drawing.Size(84, 15);
             this.emailaddressLabel.TabIndex = 14;
@@ -219,7 +219,7 @@
             // 
             // emailaddressTextBox
             // 
-            this.emailaddressTextBox.Location = new System.Drawing.Point(221, 308);
+            this.emailaddressTextBox.Location = new System.Drawing.Point(226, 353);
             this.emailaddressTextBox.Name = "emailaddressTextBox";
             this.emailaddressTextBox.Size = new System.Drawing.Size(214, 23);
             this.emailaddressTextBox.TabIndex = 15;
@@ -228,7 +228,7 @@
             // 
             this.reminderLabel2.AutoSize = true;
             this.reminderLabel2.Font = new System.Drawing.Font("Segoe UI", 9F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point);
-            this.reminderLabel2.Location = new System.Drawing.Point(12, 347);
+            this.reminderLabel2.Location = new System.Drawing.Point(14, 422);
             this.reminderLabel2.Name = "reminderLabel2";
             this.reminderLabel2.Size = new System.Drawing.Size(424, 30);
             this.reminderLabel2.TabIndex = 16;
@@ -238,7 +238,7 @@
             // feverCheckBox
             // 
             this.feverCheckBox.AutoSize = true;
-            this.feverCheckBox.Location = new System.Drawing.Point(8, 390);
+            this.feverCheckBox.Location = new System.Drawing.Point(10, 465);
             this.feverCheckBox.Name = "feverCheckBox";
             this.feverCheckBox.Size = new System.Drawing.Size(54, 19);
             this.feverCheckBox.TabIndex = 17;
@@ -249,7 +249,7 @@
             // headacheCheckBox
             // 
             this.headacheCheckBox.AutoSize = true;
-            this.headacheCheckBox.Location = new System.Drawing.Point(8, 415);
+            this.headacheCheckBox.Location = new System.Drawing.Point(10, 490);
             this.headacheCheckBox.Name = "headacheCheckBox";
             this.headacheCheckBox.Size = new System.Drawing.Size(79, 19);
             this.headacheCheckBox.TabIndex = 18;
@@ -259,7 +259,7 @@
             // sorethroatCheckBox
             // 
             this.sorethroatCheckBox.AutoSize = true;
-            this.sorethroatCheckBox.Location = new System.Drawing.Point(8, 440);
+            this.sorethroatCheckBox.Location = new System.Drawing.Point(10, 515);
             this.sorethroatCheckBox.Name = "sorethroatCheckBox";
             this.sorethroatCheckBox.Size = new System.Drawing.Size(86, 19);
             this.sorethroatCheckBox.TabIndex = 19;
@@ -269,7 +269,7 @@
             // coughCheckBox
             // 
             this.coughCheckBox.AutoSize = true;
-            this.coughCheckBox.Location = new System.Drawing.Point(169, 390);
+            this.coughCheckBox.Location = new System.Drawing.Point(171, 465);
             this.coughCheckBox.Name = "coughCheckBox";
             this.coughCheckBox.Size = new System.Drawing.Size(62, 19);
             this.coughCheckBox.TabIndex = 20;
@@ -279,7 +279,7 @@
             // fatigueCheckBox
             // 
             this.fatigueCheckBox.AutoSize = true;
-            this.fatigueCheckBox.Location = new System.Drawing.Point(169, 415);
+            this.fatigueCheckBox.Location = new System.Drawing.Point(171, 490);
             this.fatigueCheckBox.Name = "fatigueCheckBox";
             this.fatigueCheckBox.Size = new System.Drawing.Size(65, 19);
             this.fatigueCheckBox.TabIndex = 21;
@@ -289,7 +289,7 @@
             // bodyachesCheckBox
             // 
             this.bodyachesCheckBox.AutoSize = true;
-            this.bodyachesCheckBox.Location = new System.Drawing.Point(169, 440);
+            this.bodyachesCheckBox.Location = new System.Drawing.Point(171, 515);
             this.bodyachesCheckBox.Name = "bodyachesCheckBox";
             this.bodyachesCheckBox.Size = new System.Drawing.Size(88, 19);
             this.bodyachesCheckBox.TabIndex = 22;
@@ -299,7 +299,7 @@
             // diarrheaCheckBox
             // 
             this.diarrheaCheckBox.AutoSize = true;
-            this.diarrheaCheckBox.Location = new System.Drawing.Point(328, 390);
+            this.diarrheaCheckBox.Location = new System.Drawing.Point(330, 465);
             this.diarrheaCheckBox.Name = "diarrheaCheckBox";
             this.diarrheaCheckBox.Size = new System.Drawing.Size(70, 19);
             this.diarrheaCheckBox.TabIndex = 23;
@@ -309,7 +309,7 @@
             // nauseaCheckBox
             // 
             this.nauseaCheckBox.AutoSize = true;
-            this.nauseaCheckBox.Location = new System.Drawing.Point(328, 415);
+            this.nauseaCheckBox.Location = new System.Drawing.Point(330, 490);
             this.nauseaCheckBox.Name = "nauseaCheckBox";
             this.nauseaCheckBox.Size = new System.Drawing.Size(118, 19);
             this.nauseaCheckBox.TabIndex = 24;
@@ -319,7 +319,7 @@
             // bodyweaknessCheckBox
             // 
             this.bodyweaknessCheckBox.AutoSize = true;
-            this.bodyweaknessCheckBox.Location = new System.Drawing.Point(328, 440);
+            this.bodyweaknessCheckBox.Location = new System.Drawing.Point(330, 515);
             this.bodyweaknessCheckBox.Name = "bodyweaknessCheckBox";
             this.bodyweaknessCheckBox.Size = new System.Drawing.Size(108, 19);
             this.bodyweaknessCheckBox.TabIndex = 25;
@@ -329,7 +329,7 @@
             // shortnessofbreathCheckBox
             // 
             this.shortnessofbreathCheckBox.AutoSize = true;
-            this.shortnessofbreathCheckBox.Location = new System.Drawing.Point(8, 465);
+            this.shortnessofbreathCheckBox.Location = new System.Drawing.Point(10, 540);
             this.shortnessofbreathCheckBox.Name = "shortnessofbreathCheckBox";
             this.shortnessofbreathCheckBox.Size = new System.Drawing.Size(142, 34);
             this.shortnessofbreathCheckBox.TabIndex = 26;
@@ -339,7 +339,7 @@
             // lossoftasteCheckBox
             // 
             this.lossoftasteCheckBox.AutoSize = true;
-            this.lossoftasteCheckBox.Location = new System.Drawing.Point(169, 465);
+            this.lossoftasteCheckBox.Location = new System.Drawing.Point(171, 540);
             this.lossoftasteCheckBox.Name = "lossoftasteCheckBox";
             this.lossoftasteCheckBox.Size = new System.Drawing.Size(126, 19);
             this.lossoftasteCheckBox.TabIndex = 27;
@@ -349,7 +349,7 @@
             // runnynoseCheckBox
             // 
             this.runnynoseCheckBox.AutoSize = true;
-            this.runnynoseCheckBox.Location = new System.Drawing.Point(328, 465);
+            this.runnynoseCheckBox.Location = new System.Drawing.Point(330, 540);
             this.runnynoseCheckBox.Name = "runnynoseCheckBox";
             this.runnynoseCheckBox.Size = new System.Drawing.Size(90, 19);
             this.runnynoseCheckBox.TabIndex = 28;
@@ -448,7 +448,7 @@
             // 
             this.sexGroupBox.Controls.Add(this.femaleRadioButton);
             this.sexGroupBox.Controls.Add(this.maleRadioButton);
-            this.sexGroupBox.Location = new System.Drawing.Point(12, 174);
+            this.sexGroupBox.Location = new System.Drawing.Point(17, 219);
             this.sexGroupBox.Name = "sexGroupBox";
             this.sexGroupBox.Size = new System.Drawing.Size(136, 47);
             this.sexGroupBox.TabIndex = 38;
@@ -524,7 +524,7 @@
             this.label1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.label1.Location = new System.Drawing.Point(476, 9);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(19, 500);
+            this.label1.Size = new System.Drawing.Size(19, 575);
             this.label1.TabIndex = 43;
             // 
             // fourthQuestion
@@ -652,7 +652,7 @@
             // savedataButton2
             // 
             this.savedataButton2.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.savedataButton2.Location = new System.Drawing.Point(512, 440);
+            this.savedataButton2.Location = new System.Drawing.Point(512, 515);
             this.savedataButton2.Name = "savedataButton2";
             this.savedataButton2.Size = new System.Drawing.Size(417, 59);
             this.savedataButton2.TabIndex = 52;
@@ -665,7 +665,7 @@
             this.reminder3.AutoSize = true;
             this.reminder3.BackColor = System.Drawing.Color.LightCoral;
             this.reminder3.Font = new System.Drawing.Font("Times New Roman", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.reminder3.Location = new System.Drawing.Point(554, 422);
+            this.reminder3.Location = new System.Drawing.Point(554, 497);
             this.reminder3.Name = "reminder3";
             this.reminder3.Size = new System.Drawing.Size(337, 15);
             this.reminder3.TabIndex = 53;
@@ -682,7 +682,7 @@
             // dateLabel
             // 
             this.dateLabel.AutoSize = true;
-            this.dateLabel.Location = new System.Drawing.Point(302, 73);
+            this.dateLabel.Location = new System.Drawing.Point(262, 91);
             this.dateLabel.Name = "dateLabel";
             this.dateLabel.Size = new System.Drawing.Size(34, 15);
             this.dateLabel.TabIndex = 55;
@@ -743,7 +743,9 @@
             this.Controls.Add(this.reminderLabel);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;
+            this.MaximumSize = new System.Drawing.Size(969, 632);
             this.MinimizeBox = false;
+            this.MinimumSize = new System.Drawing.Size(969, 632);
             this.Name = "Health_Declaration_Form";
             this.Text = "Health Declaration Form";
             this.Load += new System.EventHandler(this.Health_Declaration_Form_Load);

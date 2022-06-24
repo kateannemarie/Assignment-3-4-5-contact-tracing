@@ -207,6 +207,10 @@ namespace ContactTracingApp.Dalangin
             healthdeclarationformFile.Close();
             this.Close();
 
+            ReviewForm reviewForm = new ReviewForm();
+            reviewForm.Show();
+            this.Hide();
+
 
         }
 
