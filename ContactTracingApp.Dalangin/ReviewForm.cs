@@ -37,9 +37,24 @@ namespace ContactTracingApp.Dalangin
 
         private void editButton_Click(object sender, EventArgs e)
         {
+            
+        }
+
+        private void exitButton_Click(object sender, EventArgs e)
+        {
+            Filter_Data filterData = new Filter_Data();
+            filterData.Show();
+            this.Hide();
+        }
+
+        private void descriptionLabel_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void saveData_Click(object sender, EventArgs e)
+        {
             this.Close();
-            Health_Declaration_Form goBack = new Health_Declaration_Form();
-            goBack.Show();
         }
     }
 }
