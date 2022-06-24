@@ -87,6 +87,8 @@
             this.noSix = new System.Windows.Forms.RadioButton();
             this.savedataButton2 = new System.Windows.Forms.Button();
             this.reminder3 = new System.Windows.Forms.Label();
+            this.datePicker = new System.Windows.Forms.DateTimePicker();
+            this.dateLabel = new System.Windows.Forms.Label();
             this.sexGroupBox.SuspendLayout();
             this.yesornoGroupBox1.SuspendLayout();
             this.yesornoGroupBox2.SuspendLayout();
@@ -669,6 +671,23 @@
             this.reminder3.TabIndex = 53;
             this.reminder3.Text = "Please double check your answers before submitting the form.\r\n";
             // 
+            // datePicker
+            // 
+            this.datePicker.Location = new System.Drawing.Point(302, 91);
+            this.datePicker.Name = "datePicker";
+            this.datePicker.Size = new System.Drawing.Size(132, 23);
+            this.datePicker.TabIndex = 54;
+            this.datePicker.Value = new System.DateTime(2022, 6, 9, 22, 55, 53, 0);
+            // 
+            // dateLabel
+            // 
+            this.dateLabel.AutoSize = true;
+            this.dateLabel.Location = new System.Drawing.Point(302, 73);
+            this.dateLabel.Name = "dateLabel";
+            this.dateLabel.Size = new System.Drawing.Size(34, 15);
+            this.dateLabel.TabIndex = 55;
+            this.dateLabel.Text = "Date:";
+            // 
             // Health_Declaration_Form
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
@@ -676,6 +695,8 @@
             this.AutoScroll = true;
             this.BackColor = System.Drawing.Color.DarkSeaGreen;
             this.ClientSize = new System.Drawing.Size(953, 518);
+            this.Controls.Add(this.dateLabel);
+            this.Controls.Add(this.datePicker);
             this.Controls.Add(this.reminder3);
             this.Controls.Add(this.savedataButton2);
             this.Controls.Add(this.yesornoGroupBox6);
@@ -807,5 +828,7 @@
         private RadioButton noSix;
         private Button savedataButton2;
         private Label reminder3;
+        private DateTimePicker datePicker;
+        private Label dateLabel;
     }
 }

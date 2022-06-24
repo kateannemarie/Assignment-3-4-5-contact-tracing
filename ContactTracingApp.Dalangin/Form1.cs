@@ -19,6 +19,12 @@ namespace ContactTracingApp.Dalangin
 
         private void healthdeclarationButton_Click(object sender, EventArgs e)
         {
+            StreamWriter firstFormFile = File.CreateText("User's-Credentials.txt");
+            firstFormFile.WriteLine("Username : " + usernameTextBox.Text);
+            firstFormFile.WriteLine("Password: " + passwordTextBox.Text);
+            firstFormFile.WriteLine("");
+            firstFormFile.Close();
+
             Health_Declaration_Form hdf = new Health_Declaration_Form();
             hdf.Show();
             this.Hide();
@@ -41,13 +47,7 @@ namespace ContactTracingApp.Dalangin
 
         private void savedataButton_Click(object sender, EventArgs e)
         {
-            StreamWriter firstFormFile = File.AppendText(@"C:\Users\kitka\Downloads\First-Form.txt");
-            firstFormFile.WriteLine("Date : " + datePicker.Text);
-            firstFormFile.WriteLine("Name : " + nameTextBox.Text);
-            firstFormFile.WriteLine("Address: " + addressTextBox.Text);
-            firstFormFile.WriteLine("Contact Number: " + contactnumberTextBox.Text);
-            firstFormFile.WriteLine("");
-            firstFormFile.Close();
+
 
         }
     }
