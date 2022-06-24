@@ -16,5 +16,10 @@ namespace ContactTracingApp.Dalangin
         {
             InitializeComponent();
         }
+
+        private void reviewListBox_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
