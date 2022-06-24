@@ -36,7 +36,7 @@
             this.passwordLabel = new System.Windows.Forms.Label();
             this.passwordTextBox = new System.Windows.Forms.TextBox();
             this.enterButton = new System.Windows.Forms.Button();
-            this.savedataButton = new System.Windows.Forms.Button();
+            this.aboutButton = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // upperLabel
@@ -106,16 +106,16 @@
             this.enterButton.UseVisualStyleBackColor = true;
             this.enterButton.Click += new System.EventHandler(this.healthdeclarationButton_Click);
             // 
-            // savedataButton
+            // aboutButton
             // 
-            this.savedataButton.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.savedataButton.Location = new System.Drawing.Point(12, 330);
-            this.savedataButton.Name = "savedataButton";
-            this.savedataButton.Size = new System.Drawing.Size(132, 40);
-            this.savedataButton.TabIndex = 11;
-            this.savedataButton.Text = "About";
-            this.savedataButton.UseVisualStyleBackColor = true;
-            this.savedataButton.Click += new System.EventHandler(this.savedataButton_Click);
+            this.aboutButton.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.aboutButton.Location = new System.Drawing.Point(12, 330);
+            this.aboutButton.Name = "aboutButton";
+            this.aboutButton.Size = new System.Drawing.Size(132, 40);
+            this.aboutButton.TabIndex = 11;
+            this.aboutButton.Text = "About";
+            this.aboutButton.UseVisualStyleBackColor = true;
+            this.aboutButton.Click += new System.EventHandler(this.savedataButton_Click);
             // 
             // logbookForm
             // 
@@ -123,7 +123,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.InactiveCaption;
             this.ClientSize = new System.Drawing.Size(299, 382);
-            this.Controls.Add(this.savedataButton);
+            this.Controls.Add(this.aboutButton);
             this.Controls.Add(this.enterButton);
             this.Controls.Add(this.passwordTextBox);
             this.Controls.Add(this.passwordLabel);
@@ -154,6 +154,6 @@
         private Label passwordLabel;
         private TextBox passwordTextBox;
         private Button enterButton;
-        private Button savedataButton;
+        private Button aboutButton;
     }
 }

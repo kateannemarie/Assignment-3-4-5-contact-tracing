@@ -694,7 +694,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoScroll = true;
             this.BackColor = System.Drawing.Color.DarkSeaGreen;
-            this.ClientSize = new System.Drawing.Size(953, 518);
+            this.ClientSize = new System.Drawing.Size(953, 593);
             this.Controls.Add(this.dateLabel);
             this.Controls.Add(this.datePicker);
             this.Controls.Add(this.reminder3);
@@ -743,9 +743,7 @@
             this.Controls.Add(this.reminderLabel);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;
-            this.MaximumSize = new System.Drawing.Size(969, 557);
             this.MinimizeBox = false;
-            this.MinimumSize = new System.Drawing.Size(969, 557);
             this.Name = "Health_Declaration_Form";
             this.Text = "Health Declaration Form";
             this.Load += new System.EventHandler(this.Health_Declaration_Form_Load);
