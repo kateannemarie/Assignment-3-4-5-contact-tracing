@@ -188,22 +188,15 @@ namespace ContactTracingApp.Dalangin
                 numberSix = " in the last 14 days, was not in contact with a person confirmed with COVID-19.";
             }
 
+            //for da try ang ferson
+            string[] data = { datePicker.Text, "Name: " + nameTextBox2.Text, "Sex: " + Sex, "Age: " + ageTextBox.Text + " years old", "Contact Address: " + contactaddressTextBox.Text, "Mobile No./Telephone No.: " + contactnumberTextBox2.Text, "Email Address: " + emailaddressTextBox.Text, "Symptoms are: " + Symptoms, nameTextBox2.Text + numberOne, nameTextBox2.Text + numberTwo, nameTextBox2.Text + numberThree, nameTextBox2.Text + "," + numberFour, nameTextBox2.Text + numberFive, nameTextBox2.Text + "," + numberSix };
 
-            StreamWriter healthdeclarationformFile = File.AppendText(@"C:\Users\kitka\Downloads\Health-Declaration-Form.txt");
-            healthdeclarationformFile.WriteLine("Name: " + nameTextBox2.Text);
-            healthdeclarationformFile.WriteLine("Sex: " + Sex);
-            healthdeclarationformFile.WriteLine("Age: " + ageTextBox.Text + " years old");
-            healthdeclarationformFile.WriteLine("Contact Address: " + contactaddressTextBox.Text);
-            healthdeclarationformFile.WriteLine("Mobile No./Telephone No.: " + contactnumberTextBox2.Text);
-            healthdeclarationformFile.WriteLine("Email Address: " + emailaddressTextBox.Text);
-            healthdeclarationformFile.WriteLine("Symptoms are: " + Symptoms);
-            healthdeclarationformFile.WriteLine(nameTextBox2.Text + numberOne);
-            healthdeclarationformFile.WriteLine(nameTextBox2.Text + numberTwo);
-            healthdeclarationformFile.WriteLine(nameTextBox2.Text + numberThree);
-            healthdeclarationformFile.WriteLine(nameTextBox2.Text + "," + numberFour);
-            healthdeclarationformFile.WriteLine(nameTextBox2.Text + numberFive);
-            healthdeclarationformFile.WriteLine(nameTextBox2.Text + "," + numberSix);
-            healthdeclarationformFile.WriteLine("");
+            StreamWriter healthdeclarationformFile;
+            healthdeclarationformFile = File.CreateText("Health-Declaration-Data.txt");
+            foreach (string str in data)
+            {
+                healthdeclarationformFile.WriteLine(str);
+            }
             healthdeclarationformFile.Close();
             this.Close();
 

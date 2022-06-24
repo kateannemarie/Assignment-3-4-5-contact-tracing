@@ -30,6 +30,10 @@
         {
             this.descriptionLabel = new System.Windows.Forms.Label();
             this.reviewListBox = new System.Windows.Forms.ListBox();
+            this.showButton = new System.Windows.Forms.Button();
+            this.editButton = new System.Windows.Forms.Button();
+            this.saveData = new System.Windows.Forms.Button();
+            this.exitButton = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // descriptionLabel
@@ -47,15 +51,56 @@
             this.reviewListBox.ItemHeight = 15;
             this.reviewListBox.Location = new System.Drawing.Point(38, 48);
             this.reviewListBox.Name = "reviewListBox";
-            this.reviewListBox.Size = new System.Drawing.Size(496, 349);
+            this.reviewListBox.Size = new System.Drawing.Size(486, 349);
             this.reviewListBox.TabIndex = 1;
             this.reviewListBox.SelectedIndexChanged += new System.EventHandler(this.reviewListBox_SelectedIndexChanged);
+            // 
+            // showButton
+            // 
+            this.showButton.Location = new System.Drawing.Point(38, 412);
+            this.showButton.Name = "showButton";
+            this.showButton.Size = new System.Drawing.Size(117, 26);
+            this.showButton.TabIndex = 2;
+            this.showButton.Text = "Show data";
+            this.showButton.UseVisualStyleBackColor = true;
+            this.showButton.Click += new System.EventHandler(this.showButton_Click);
+            // 
+            // editButton
+            // 
+            this.editButton.Location = new System.Drawing.Point(161, 412);
+            this.editButton.Name = "editButton";
+            this.editButton.Size = new System.Drawing.Size(117, 26);
+            this.editButton.TabIndex = 3;
+            this.editButton.Text = "Edit data";
+            this.editButton.UseVisualStyleBackColor = true;
+            // 
+            // saveData
+            // 
+            this.saveData.Location = new System.Drawing.Point(284, 412);
+            this.saveData.Name = "saveData";
+            this.saveData.Size = new System.Drawing.Size(117, 26);
+            this.saveData.TabIndex = 4;
+            this.saveData.Text = "Save and Submit";
+            this.saveData.UseVisualStyleBackColor = true;
+            // 
+            // exitButton
+            // 
+            this.exitButton.Location = new System.Drawing.Point(407, 412);
+            this.exitButton.Name = "exitButton";
+            this.exitButton.Size = new System.Drawing.Size(117, 26);
+            this.exitButton.TabIndex = 5;
+            this.exitButton.Text = "Exit";
+            this.exitButton.UseVisualStyleBackColor = true;
             // 
             // ReviewForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(561, 450);
+            this.Controls.Add(this.exitButton);
+            this.Controls.Add(this.saveData);
+            this.Controls.Add(this.editButton);
+            this.Controls.Add(this.showButton);
             this.Controls.Add(this.reviewListBox);
             this.Controls.Add(this.descriptionLabel);
             this.Name = "ReviewForm";
@@ -69,5 +114,9 @@
 
         private Label descriptionLabel;
         private ListBox reviewListBox;
+        private Button showButton;
+        private Button editButton;
+        private Button saveData;
+        private Button exitButton;
     }
 }

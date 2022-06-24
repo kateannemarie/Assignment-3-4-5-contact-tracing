@@ -21,5 +21,18 @@ namespace ContactTracingApp.Dalangin
         {
 
         }
+
+        private void showButton_Click(object sender, EventArgs e)
+        {
+            string healthDataFile = "Health-Declaration-Data.txt";
+            List<string> healthList = new List<string>();
+            healthList = File.ReadAllLines(healthDataFile).ToList();
+
+            foreach (string line in healthList)
+            {
+                reviewListBox.Items.Add(line);
+            }
+            File.WriteAllLines(healthDataFile, healthList.ToArray());
+        }
     }
 }
