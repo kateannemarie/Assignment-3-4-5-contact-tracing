@@ -38,22 +38,26 @@
             // descriptionLabel
             // 
             this.descriptionLabel.AutoSize = true;
+            this.descriptionLabel.BackColor = System.Drawing.Color.White;
+            this.descriptionLabel.Font = new System.Drawing.Font("Arial Rounded MT Bold", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.descriptionLabel.Location = new System.Drawing.Point(12, 22);
             this.descriptionLabel.Name = "descriptionLabel";
-            this.descriptionLabel.Size = new System.Drawing.Size(357, 15);
+            this.descriptionLabel.Size = new System.Drawing.Size(432, 15);
             this.descriptionLabel.TabIndex = 0;
-            this.descriptionLabel.Text = "Please click show data to check if the information below is correct.\r\n";
+            this.descriptionLabel.Text = "Please click show data to check if your information is listed below.\r\n";
             this.descriptionLabel.Click += new System.EventHandler(this.descriptionLabel_Click);
             // 
             // reviewListBox
             // 
+            this.reviewListBox.BackColor = System.Drawing.Color.LightGoldenrodYellow;
+            this.reviewListBox.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.reviewListBox.FormattingEnabled = true;
             this.reviewListBox.HorizontalScrollbar = true;
-            this.reviewListBox.ItemHeight = 15;
+            this.reviewListBox.ItemHeight = 16;
             this.reviewListBox.Location = new System.Drawing.Point(38, 40);
             this.reviewListBox.Name = "reviewListBox";
             this.reviewListBox.ScrollAlwaysVisible = true;
-            this.reviewListBox.Size = new System.Drawing.Size(651, 349);
+            this.reviewListBox.Size = new System.Drawing.Size(651, 340);
             this.reviewListBox.TabIndex = 1;
             this.reviewListBox.SelectedIndexChanged += new System.EventHandler(this.reviewListBox_SelectedIndexChanged);
             // 

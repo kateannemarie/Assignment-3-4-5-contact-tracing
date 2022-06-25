@@ -106,6 +106,11 @@ namespace ContactTracingApp.Dalangin
             }
             File.WriteAllLines(healthDataFile, healthList.ToArray());
         }
+
+        private void exitButton_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }
 

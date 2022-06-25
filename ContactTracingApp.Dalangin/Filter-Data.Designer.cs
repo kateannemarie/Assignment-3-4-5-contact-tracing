@@ -35,6 +35,7 @@
             this.twentyButton = new System.Windows.Forms.Button();
             this.twentyoneButton = new System.Windows.Forms.Button();
             this.twentytwoButton = new System.Windows.Forms.Button();
+            this.exitButton = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // fullData
@@ -57,19 +58,24 @@
             // 
             // datalistBox
             // 
+            this.datalistBox.BackColor = System.Drawing.Color.LightGoldenrodYellow;
+            this.datalistBox.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.datalistBox.FormattingEnabled = true;
-            this.datalistBox.ItemHeight = 15;
+            this.datalistBox.HorizontalScrollbar = true;
+            this.datalistBox.ItemHeight = 16;
             this.datalistBox.Location = new System.Drawing.Point(21, 67);
             this.datalistBox.Name = "datalistBox";
-            this.datalistBox.Size = new System.Drawing.Size(372, 319);
+            this.datalistBox.Size = new System.Drawing.Size(372, 308);
             this.datalistBox.TabIndex = 6;
             // 
             // filterLabel
             // 
             this.filterLabel.AutoSize = true;
-            this.filterLabel.Location = new System.Drawing.Point(27, 40);
+            this.filterLabel.BackColor = System.Drawing.Color.White;
+            this.filterLabel.Font = new System.Drawing.Font("Rockwell", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.filterLabel.Location = new System.Drawing.Point(21, 40);
             this.filterLabel.Name = "filterLabel";
-            this.filterLabel.Size = new System.Drawing.Size(103, 15);
+            this.filterLabel.Size = new System.Drawing.Size(119, 14);
             this.filterLabel.TabIndex = 7;
             this.filterLabel.Text = "Filter data by year:";
             this.filterLabel.Click += new System.EventHandler(this.filterLabel_Click);
@@ -104,11 +110,24 @@
             this.twentytwoButton.UseVisualStyleBackColor = true;
             this.twentytwoButton.Click += new System.EventHandler(this.twentytwoButton_Click);
             // 
+            // exitButton
+            // 
+            this.exitButton.Location = new System.Drawing.Point(324, 406);
+            this.exitButton.Name = "exitButton";
+            this.exitButton.Size = new System.Drawing.Size(88, 32);
+            this.exitButton.TabIndex = 11;
+            this.exitButton.Text = "Exit";
+            this.exitButton.UseVisualStyleBackColor = true;
+            this.exitButton.Click += new System.EventHandler(this.exitButton_Click);
+            // 
             // Filter_Data
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.DarkSeaGreen;
             this.ClientSize = new System.Drawing.Size(424, 450);
+            this.ControlBox = false;
+            this.Controls.Add(this.exitButton);
             this.Controls.Add(this.twentytwoButton);
             this.Controls.Add(this.twentyoneButton);
             this.Controls.Add(this.twentyButton);
@@ -116,6 +135,8 @@
             this.Controls.Add(this.datalistBox);
             this.Controls.Add(this.backButton);
             this.Controls.Add(this.fullData);
+            this.MaximumSize = new System.Drawing.Size(440, 489);
+            this.MinimumSize = new System.Drawing.Size(440, 489);
             this.Name = "Filter_Data";
             this.Text = "Filter Data";
             this.Load += new System.EventHandler(this.Filter_Data_Load_1);
@@ -132,5 +153,6 @@
         private Button twentyButton;
         private Button twentyoneButton;
         private Button twentytwoButton;
+        private Button exitButton;
     }
 }
