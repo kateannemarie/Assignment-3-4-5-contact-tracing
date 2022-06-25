@@ -93,11 +93,14 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.DarkSeaGreen;
             this.ClientSize = new System.Drawing.Size(701, 450);
+            this.ControlBox = false;
             this.Controls.Add(this.searchdataButton);
             this.Controls.Add(this.saveData);
             this.Controls.Add(this.showButton);
             this.Controls.Add(this.reviewListBox);
             this.Controls.Add(this.descriptionLabel);
+            this.MaximumSize = new System.Drawing.Size(717, 489);
+            this.MinimumSize = new System.Drawing.Size(717, 489);
             this.Name = "ReviewForm";
             this.Text = "Review Form";
             this.ResumeLayout(false);

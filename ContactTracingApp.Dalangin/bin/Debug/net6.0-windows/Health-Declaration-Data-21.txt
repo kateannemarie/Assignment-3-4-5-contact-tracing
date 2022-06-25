@@ -1,94 +1,4 @@
-Date: Thursday, 9 June 2020
-Name: Maria Josefa Lara
-Sex: Female
-Age: 33 years old
-Contact Address: San Vicente, Laguna
-Mobile No./Telephone No.: 09216498812
-Email Address: mariajosefa12@gmail.com
-Symptoms are: "Cough""Diarrhea""Body Weakness"
-Maria Josefa Lara did not visit any health worker, hospital, or clinic during the past 14 days.
-Maria Josefa Lara was not confined in a hospital or clinic during the past 14 days.
-Maria Josefa Lara doesn't have anyone such as household member/s or close contact/s who are currently having fever, cough and/or respiratory problems.
-Maria Josefa Lara, in the last 14 days, was not in close contact or exposed to any person suspected of COVID-19.
-Maria Josefa Lara has not been in Face-to-face contact with a confirmed case within 1 meter and for more than 15 minutes.
-Maria Josefa Lara, in the last 14 days, was not in contact with a person confirmed with COVID-19.
- 
-Date: Thursday, 9 June 2020
-Name: Luigi Santos
-Sex: Male
-Age: 19 years old
-Contact Address: General Trias, Cavite
-Mobile No./Telephone No.: 0930601024
-Email Address: luigisantos@gmail.com
-Symptoms are: "Headache""Fatigue""Runny Nose"
-Luigi Santos did not visit any health worker, hospital, or clinic during the past 14 days.
-Luigi Santos was not confined in a hospital or clinic during the past 14 days.
-Luigi Santos doesn't have anyone such as household member/s or close contact/s who are currently having fever, cough and/or respiratory problems.
-Luigi Santos, in the last 14 days, was not in close contact or exposed to any person suspected of COVID-19.
-Luigi Santos has not been in Face-to-face contact with a confirmed case within 1 meter and for more than 15 minutes.
-Luigi Santos, in the last 14 days, was not in contact with a person confirmed with COVID-19.
- 
-Date: Wednesday, 8 June 2020
-Name: Uriel Ryan Reyles
-Sex: Male
-Age: 19 years old
-Contact Address: Caloocan, Manila
-Mobile No./Telephone No.: 09216490012
-Email Address: urielryan@gmail.com
-Symptoms are: 
-Uriel Ryan Reyles did not visit any health worker, hospital, or clinic during the past 14 days.
-Uriel Ryan Reyles was not confined in a hospital or clinic during the past 14 days.
-Uriel Ryan Reyles doesn't have anyone such as household member/s or close contact/s who are currently having fever, cough and/or respiratory problems.
-Uriel Ryan Reyles, in the last 14 days, was not in close contact or exposed to any person suspected of COVID-19.
-Uriel Ryan Reyles has not been in Face-to-face contact with a confirmed case within 1 meter and for more than 15 minutes.
-Uriel Ryan Reyles, in the last 14 days, was not in contact with a person confirmed with COVID-19.
- 
-Date: Thursday, 9 June 2020
-Name: Kathleen Angelica Funtanilla
-Sex: Female
-Age: 18 years old
-Contact Address: Brgy. San Roque, San Pablo City, Laguna
-Mobile No./Telephone No.: 0909433091
-Email Address: kathleenangelica@gmail.com
-Symptoms are: "Sore Throat""Cough"
-Kathleen Angelica Funtanilla did visit any health worker, hospital, or clinic during the past 14 days.
-Kathleen Angelica Funtanilla was not confined in a hospital or clinic during the past 14 days.
-Kathleen Angelica Funtanilla doesn't have anyone such as household member/s or close contact/s who are currently having fever, cough and/or respiratory problems.
-Kathleen Angelica Funtanilla, in the last 14 days, was not in close contact or exposed to any person suspected of COVID-19.
-Kathleen Angelica Funtanilla has not been in Face-to-face contact with a confirmed case within 1 meter and for more than 15 minutes.
-Kathleen Angelica Funtanilla, in the last 14 days, was not in contact with a person confirmed with COVID-19.
- 
-Date: Wednesday, 8 June 2020
-Name: Keanu Marasigan
-Sex: Male
-Age: 25 years old
-Contact Address: San Pedro, Laguna
-Mobile No./Telephone No.: 09682730299
-Email Address: keanumarasigan@gmail.com
-Symptoms are: 
-Keanu Marasigan did not visit any health worker, hospital, or clinic during the past 14 days.
-Keanu Marasigan was not confined in a hospital or clinic during the past 14 days.
-Keanu Marasigan doesn't have anyone such as household member/s or close contact/s who are currently having fever, cough and/or respiratory problems.
-Keanu Marasigan, in the last 14 days, was not in close contact or exposed to any person suspected of COVID-19.
-Keanu Marasigan has not been in Face-to-face contact with a confirmed case within 1 meter and for more than 15 minutes.
-Keanu Marasigan, in the last 14 days, was not in contact with a person confirmed with COVID-19.
- 
-Date: Thursday, 9 June 2020
-Name: Loex Tristan Ticzon
-Sex: Male
-Age: 19 years old
-Contact Address: Sto. Anghel, San Pablo City, Laguna
-Mobile No./Telephone No.: 0992349986
-Email Address: loextristan@gmail.com
-Symptoms are: "Difficulty or Shortness of Breath""Body Aches""Nausea""Runny Nose"
-Loex Tristan Ticzon did visit any health worker, hospital, or clinic during the past 14 days.
-Loex Tristan Ticzon was confined in a hospital or clinic during the past 14 days.
-Loex Tristan Ticzon have anyone such as household member/s or close contact/s who are currently having fever, cough and/or respiratory problems.
-Loex Tristan Ticzon, in the last 14 days, was not in close contact or exposed to any person suspected of COVID-19.
-Loex Tristan Ticzon has not been in Face-to-face contact with a confirmed case within 1 meter and for more than 15 minutes.
-Loex Tristan Ticzon, in the last 14 days, was not in contact with a person confirmed with COVID-19.
- 
-Date: Thursday, 9 June 2020
+Date: Thursday, 9 June 2021
 Name: Elle Anastacia
 Sex: Female
 Age: 28 years old
@@ -103,7 +13,7 @@ Elle Anastacia, in the last 14 days, has been in close contact or exposed to any
 Elle Anastacia has been in Face-to-face contact with a confirmed case within 1 meter and for more than 15 minutes.
 Elle Anastacia, in the last 14 days, has been in contact with a person confirmed with COVID-19.
  
-Date: Tuesday, 7 June 2020
+Date: Tuesday, 7 June 2021
 Name: Jennilyn Marilas
 Sex: Female
 Age: 34 years old
@@ -118,7 +28,7 @@ Jennilyn Marilas, in the last 14 days, was not in close contact or exposed to an
 Jennilyn Marilas has not been in Face-to-face contact with a confirmed case within 1 meter and for more than 15 minutes.
 Jennilyn Marilas, in the last 14 days, was not in contact with a person confirmed with COVID-19.
  
-Date: Thursday, 9 June 2020
+Date: Thursday, 9 June 2021
 Name: Joanna Marie Gonzales
 Sex: Female
 Age: 21 years old
@@ -133,7 +43,7 @@ Joanna Marie Gonzales, in the last 14 days, was not in close contact or exposed 
 Joanna Marie Gonzales has not been in Face-to-face contact with a confirmed case within 1 meter and for more than 15 minutes.
 Joanna Marie Gonzales, in the last 14 days, was not in contact with a person confirmed with COVID-19.
  
-Date: Tuesday, 7 June 2020
+Date: Tuesday, 7 June 2021
 Name: Ethan Lee Batumbakal
 Sex: Male
 Age: 20 years old
@@ -148,7 +58,7 @@ Ethan Lee Batumbakal, in the last 14 days, was not in close contact or exposed t
 Ethan Lee Batumbakal has not been in Face-to-face contact with a confirmed case within 1 meter and for more than 15 minutes.
 Ethan Lee Batumbakal, in the last 14 days, was not in contact with a person confirmed with COVID-19.
  
-Date: Tuesday, 7 June 2020
+Date: Tuesday, 7 June 2021
 Name: Angelika Reyes
 Sex: Female
 Age: 18 years old
@@ -163,7 +73,7 @@ Angelika Reyes, in the last 14 days, was not in close contact or exposed to any 
 Angelika Reyes has not been in Face-to-face contact with a confirmed case within 1 meter and for more than 15 minutes.
 Angelika Reyes, in the last 14 days, was not in contact with a person confirmed with COVID-19.
  
-Date: Tuesday, 7 June 2020
+Date: Tuesday, 7 June 2021
 Name: Samara Lopez
 Sex: Female
 Age: 22 years old
@@ -178,7 +88,7 @@ Samara Lopez, in the last 14 days, was not in close contact or exposed to any pe
 Samara Lopez has not been in Face-to-face contact with a confirmed case within 1 meter and for more than 15 minutes.
 Samara Lopez, in the last 14 days, was not in contact with a person confirmed with COVID-19.
  
-Date: Wednesday, 8 June 2020
+Date: Wednesday, 8 June 2021
 Name: John Marque Lozada
 Sex: Male
 Age: 19 years old
@@ -193,7 +103,7 @@ John Marque Lozada, in the last 14 days, has been in close contact or exposed to
 John Marque Lozada has not been in Face-to-face contact with a confirmed case within 1 meter and for more than 15 minutes.
 John Marque Lozada, in the last 14 days, was not in contact with a person confirmed with COVID-19.
  
-Date: Tuesday, 7 June 2020
+Date: Tuesday, 7 June 2021
 Name: Ethan Lee Batumbakal
 Sex: Male
 Age: 19 years old
@@ -208,7 +118,7 @@ Ethan Lee Batumbakal, in the last 14 days, has been in close contact or exposed 
 Ethan Lee Batumbakal has been in Face-to-face contact with a confirmed case within 1 meter and for more than 15 minutes.
 Ethan Lee Batumbakal, in the last 14 days, was not in contact with a person confirmed with COVID-19.
  
-Date: Tuesday, 7 June 2020
+Date: Tuesday, 7 June 2021
 Name: Aira Mae Hernandez
 Sex: Female
 Age: 20 years old
@@ -223,18 +133,3 @@ Aira Mae Hernandez, in the last 14 days, has been in close contact or exposed to
 Aira Mae Hernandez has not been in Face-to-face contact with a confirmed case within 1 meter and for more than 15 minutes.
 Aira Mae Hernandez, in the last 14 days, was not in contact with a person confirmed with COVID-19.
 
-Date: Thursday, 9 June 2020
-Name: Erika Ingrid Funtanilla
-Sex: Female
-Age: 26 years old
-Contact Address: Tiaong, Quezon
-Mobile No./Telephone No.: 09128894509
-Email Address: erickaingrid@gmail.com
-Symptoms are: "Cough""Body Aches"
-Erika Ingrid Funtanilla did not visit any health worker, hospital, or clinic during the past 14 days.
-Erika Ingrid Funtanilla was not confined in a hospital or clinic during the past 14 days.
-Erika Ingrid Funtanilla doesn't have anyone such as household member/s or close contact/s who are currently having fever, cough and/or respiratory problems.
-Erika Ingrid Funtanilla, in the last 14 days, was not in close contact or exposed to any person suspected of COVID-19.
-Erika Ingrid Funtanilla has not been in Face-to-face contact with a confirmed case within 1 meter and for more than 15 minutes.
-Erika Ingrid Funtanilla, in the last 14 days, was not in contact with a person confirmed with COVID-19.
- 

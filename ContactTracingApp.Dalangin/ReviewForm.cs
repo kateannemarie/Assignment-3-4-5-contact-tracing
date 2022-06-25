@@ -24,7 +24,7 @@ namespace ContactTracingApp.Dalangin
 
         private void showButton_Click(object sender, EventArgs e)
         {
-            string healthDataFile = "Health-Declaration-Data.txt";
+            string healthDataFile = "Health-Declaration-Data-22.txt";
             List<string> healthList = new List<string>();
             healthList = File.ReadAllLines(healthDataFile).ToList();
 
@@ -33,6 +33,11 @@ namespace ContactTracingApp.Dalangin
                 reviewListBox.Items.Add(line);
             }
             File.WriteAllLines(healthDataFile, healthList.ToArray());
+
+            if (showButton.Enabled == true)
+            {
+                showButton.Enabled = false;
+            }
         }
 
         private void editButton_Click(object sender, EventArgs e)

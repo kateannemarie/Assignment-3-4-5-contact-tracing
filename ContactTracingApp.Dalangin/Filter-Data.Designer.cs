@@ -28,42 +28,14 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.showfilteredListView = new System.Windows.Forms.ListView();
-            this.datefilterPicker = new System.Windows.Forms.DateTimePicker();
-            this.filterButton = new System.Windows.Forms.Button();
             this.fullData = new System.Windows.Forms.Label();
-            this.datecolumnHead = new System.Windows.Forms.ColumnHeader();
-            this.namecolumnHead = new System.Windows.Forms.ColumnHeader();
+            this.backButton = new System.Windows.Forms.Button();
+            this.datalistBox = new System.Windows.Forms.ListBox();
+            this.filterLabel = new System.Windows.Forms.Label();
+            this.twentyButton = new System.Windows.Forms.Button();
+            this.twentyoneButton = new System.Windows.Forms.Button();
+            this.twentytwoButton = new System.Windows.Forms.Button();
             this.SuspendLayout();
-            // 
-            // showfilteredListView
-            // 
-            this.showfilteredListView.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
-            this.datecolumnHead,
-            this.namecolumnHead});
-            this.showfilteredListView.Location = new System.Drawing.Point(289, 40);
-            this.showfilteredListView.Name = "showfilteredListView";
-            this.showfilteredListView.Size = new System.Drawing.Size(240, 290);
-            this.showfilteredListView.TabIndex = 0;
-            this.showfilteredListView.UseCompatibleStateImageBehavior = false;
-            this.showfilteredListView.SelectedIndexChanged += new System.EventHandler(this.showfilteredListView_SelectedIndexChanged);
-            // 
-            // datefilterPicker
-            // 
-            this.datefilterPicker.Location = new System.Drawing.Point(21, 278);
-            this.datefilterPicker.Name = "datefilterPicker";
-            this.datefilterPicker.Size = new System.Drawing.Size(204, 23);
-            this.datefilterPicker.TabIndex = 1;
-            // 
-            // filterButton
-            // 
-            this.filterButton.Location = new System.Drawing.Point(21, 307);
-            this.filterButton.Name = "filterButton";
-            this.filterButton.Size = new System.Drawing.Size(88, 32);
-            this.filterButton.TabIndex = 2;
-            this.filterButton.Text = "Filter data";
-            this.filterButton.UseVisualStyleBackColor = true;
-            this.filterButton.Click += new System.EventHandler(this.filterButton_Click);
             // 
             // fullData
             // 
@@ -73,38 +45,92 @@
             this.fullData.Size = new System.Drawing.Size(0, 15);
             this.fullData.TabIndex = 3;
             // 
-            // datecolumnHead
+            // backButton
             // 
-            this.datecolumnHead.Text = "Date";
+            this.backButton.Location = new System.Drawing.Point(12, 406);
+            this.backButton.Name = "backButton";
+            this.backButton.Size = new System.Drawing.Size(88, 32);
+            this.backButton.TabIndex = 5;
+            this.backButton.Text = "Back";
+            this.backButton.UseVisualStyleBackColor = true;
+            this.backButton.Click += new System.EventHandler(this.backButton_Click);
             // 
-            // namecolumnHead
+            // datalistBox
             // 
-            this.namecolumnHead.Text = "Name";
+            this.datalistBox.FormattingEnabled = true;
+            this.datalistBox.ItemHeight = 15;
+            this.datalistBox.Location = new System.Drawing.Point(21, 67);
+            this.datalistBox.Name = "datalistBox";
+            this.datalistBox.Size = new System.Drawing.Size(372, 319);
+            this.datalistBox.TabIndex = 6;
+            // 
+            // filterLabel
+            // 
+            this.filterLabel.AutoSize = true;
+            this.filterLabel.Location = new System.Drawing.Point(27, 40);
+            this.filterLabel.Name = "filterLabel";
+            this.filterLabel.Size = new System.Drawing.Size(103, 15);
+            this.filterLabel.TabIndex = 7;
+            this.filterLabel.Text = "Filter data by year:";
+            this.filterLabel.Click += new System.EventHandler(this.filterLabel_Click);
+            // 
+            // twentyButton
+            // 
+            this.twentyButton.Location = new System.Drawing.Point(144, 36);
+            this.twentyButton.Name = "twentyButton";
+            this.twentyButton.Size = new System.Drawing.Size(75, 23);
+            this.twentyButton.TabIndex = 8;
+            this.twentyButton.Text = "2020";
+            this.twentyButton.UseVisualStyleBackColor = true;
+            this.twentyButton.Click += new System.EventHandler(this.twentyButton_Click);
+            // 
+            // twentyoneButton
+            // 
+            this.twentyoneButton.Location = new System.Drawing.Point(225, 36);
+            this.twentyoneButton.Name = "twentyoneButton";
+            this.twentyoneButton.Size = new System.Drawing.Size(75, 23);
+            this.twentyoneButton.TabIndex = 9;
+            this.twentyoneButton.Text = "2021";
+            this.twentyoneButton.UseVisualStyleBackColor = true;
+            this.twentyoneButton.Click += new System.EventHandler(this.twentyoneButton_Click);
+            // 
+            // twentytwoButton
+            // 
+            this.twentytwoButton.Location = new System.Drawing.Point(306, 36);
+            this.twentytwoButton.Name = "twentytwoButton";
+            this.twentytwoButton.Size = new System.Drawing.Size(75, 23);
+            this.twentytwoButton.TabIndex = 10;
+            this.twentytwoButton.Text = "2022";
+            this.twentytwoButton.UseVisualStyleBackColor = true;
+            this.twentytwoButton.Click += new System.EventHandler(this.twentytwoButton_Click);
             // 
             // Filter_Data
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(548, 450);
+            this.ClientSize = new System.Drawing.Size(424, 450);
+            this.Controls.Add(this.twentytwoButton);
+            this.Controls.Add(this.twentyoneButton);
+            this.Controls.Add(this.twentyButton);
+            this.Controls.Add(this.filterLabel);
+            this.Controls.Add(this.datalistBox);
+            this.Controls.Add(this.backButton);
             this.Controls.Add(this.fullData);
-            this.Controls.Add(this.filterButton);
-            this.Controls.Add(this.datefilterPicker);
-            this.Controls.Add(this.showfilteredListView);
             this.Name = "Filter_Data";
             this.Text = "Filter Data";
-            this.Load += new System.EventHandler(this.Filter_Data_Load);
+            this.Load += new System.EventHandler(this.Filter_Data_Load_1);
             this.ResumeLayout(false);
             this.PerformLayout();
 
         }
 
         #endregion
-
-        private ListView showfilteredListView;
-        private DateTimePicker datefilterPicker;
-        private Button filterButton;
         private Label fullData;
-        private ColumnHeader datecolumnHead;
-        private ColumnHeader namecolumnHead;
+        private Button backButton;
+        private ListBox datalistBox;
+        private Label filterLabel;
+        private Button twentyButton;
+        private Button twentyoneButton;
+        private Button twentytwoButton;
     }
 }

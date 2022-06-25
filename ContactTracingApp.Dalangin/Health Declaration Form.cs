@@ -53,6 +53,7 @@ namespace ContactTracingApp.Dalangin
 
         }
 
+
         private void savedataButton2_Click(object sender, EventArgs e)
         {
             string Sex = "";
@@ -66,7 +67,7 @@ namespace ContactTracingApp.Dalangin
             {
                 Sex = maleRadioButton.Text;
             }
-
+ 
             string Symptoms = "";
 
             if(feverCheckBox.Checked)
@@ -190,20 +191,20 @@ namespace ContactTracingApp.Dalangin
             }
 
 
-            string[] data = { "Date: " + datePicker.Text, "Name: " + nameTextBox2.Text, "Sex: " + Sex, "Age: " + ageTextBox.Text + " years old", "Contact Address: " + contactaddressTextBox.Text, "Mobile No./Telephone No.: " + contactnumberTextBox2.Text, "Email Address: " + emailaddressTextBox.Text, "Symptoms are: " + Symptoms, nameTextBox2.Text + numberOne, nameTextBox2.Text + numberTwo, nameTextBox2.Text + numberThree, nameTextBox2.Text + "," + numberFour, nameTextBox2.Text + numberFive, nameTextBox2.Text + "," + numberSix, " " };
+            string[] data = { "Date: " + datePicker.Text , "Name: " + nameTextBox2.Text, "Sex: " + Sex, "Age: " + ageTextBox.Text + " years old", "Contact Address: " + contactaddressTextBox.Text, "Mobile No./Telephone No.: " + contactnumberTextBox2.Text, "Email Address: " + emailaddressTextBox.Text, "Symptoms are: " + Symptoms, nameTextBox2.Text + numberOne, nameTextBox2.Text + numberTwo, nameTextBox2.Text + numberThree, nameTextBox2.Text + "," + numberFour, nameTextBox2.Text + numberFive, nameTextBox2.Text + "," + numberSix, " " };
 
             StreamWriter healthdeclarationformFile;
-            healthdeclarationformFile = File.AppendText("Health-Declaration-Data.txt");
+            healthdeclarationformFile = File.AppendText("Health-Declaration-Data-22.txt");
             foreach (string str in data)
             {
                 healthdeclarationformFile.WriteLine(str);
             }
             healthdeclarationformFile.Close();
 
+
             ReviewForm reviewForm = new ReviewForm();
             reviewForm.Show();
             this.Hide();
-
 
         }
 
@@ -278,6 +279,12 @@ namespace ContactTracingApp.Dalangin
             noFive.Checked = false;
             yesSix.Checked = false;
             noSix.Checked = false;
+        }
+
+
+        private void datePicker_ValueChanged(object sender, EventArgs e)
+        {
+           
         }
     }
 }

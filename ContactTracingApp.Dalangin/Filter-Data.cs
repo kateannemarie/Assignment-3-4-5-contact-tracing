@@ -12,13 +12,13 @@ namespace ContactTracingApp.Dalangin
 {
     public partial class Filter_Data : Form
     {
-        List<DateOnly> dateofForm = new List<DateOnly>();
-        List<ListViewItem> items = new List<ListViewItem>();
+
 
         public Filter_Data()
         {
             InitializeComponent();
         }
+
 
         private void Filter_Data_Load(object sender, EventArgs e)
         {
@@ -27,30 +27,84 @@ namespace ContactTracingApp.Dalangin
 
         private void filterButton_Click(object sender, EventArgs e)
         {
-            DateOnly chooseDate = DateOnly.FromDateTime(datefilterPicker.Value);
-            showfilteredListView.Items.Clear();
-            for (int i = 0; i < dateofForm.Count; i++)
-            {
-                if (chooseDate.CompareTo(dateofForm[i]) == 0)
-                {
-                    showfilteredListView.Items.Add(items[i]);
-                }
-            }
-
-            //string healthDataFile = "Health-Declaration-Data.txt";
-            //List<string> healthList = new List<string>();
-            //healthList = File.ReadAllLines(healthDataFile).ToList();
-
-            //foreach (string line in healthList)
-            //{
-            //    showfilteredListView.Items.Add(line);
-            //}
-            //File.WriteAllLines(healthDataFile, healthList.ToArray());
+            
         }
 
         private void showfilteredListView_SelectedIndexChanged(object sender, EventArgs e)
         {
+           
+        }
 
+        private void datefilterPicker_ValueChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void dataTextLabel_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void backButton_Click(object sender, EventArgs e)
+        {
+            ReviewForm reviewForm = new ReviewForm();
+            reviewForm.Show();
+            this.Hide();
+        }
+
+        private void Filter_Data_Load_1(object sender, EventArgs e)
+        {
+
+        }
+
+        private void filterLabel_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void twentyButton_Click(object sender, EventArgs e)
+        {
+            datalistBox.Items.Clear();
+
+            string healthDataFile = "Health-Declaration-Data.txt";
+            List<string> healthList = new List<string>();
+            healthList = File.ReadAllLines(healthDataFile).ToList();
+
+            foreach (string line in healthList)
+            {
+                datalistBox.Items.Add(line);
+            }
+            File.WriteAllLines(healthDataFile, healthList.ToArray());
+        }
+
+        private void twentyoneButton_Click(object sender, EventArgs e)
+        {
+            datalistBox.Items.Clear();
+
+            string healthDataFile = "Health-Declaration-Data-21.txt";
+            List<string> healthList = new List<string>();
+            healthList = File.ReadAllLines(healthDataFile).ToList();
+
+            foreach (string line in healthList)
+            {
+                datalistBox.Items.Add(line);
+            }
+            File.WriteAllLines(healthDataFile, healthList.ToArray());
+        }
+
+        private void twentytwoButton_Click(object sender, EventArgs e)
+        {
+            datalistBox.Items.Clear();
+
+            string healthDataFile = "Health-Declaration-Data-22.txt";
+            List<string> healthList = new List<string>();
+            healthList = File.ReadAllLines(healthDataFile).ToList();
+
+            foreach (string line in healthList)
+            {
+                datalistBox.Items.Add(line);
+            }
+            File.WriteAllLines(healthDataFile, healthList.ToArray());
         }
     }
 }

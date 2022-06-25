@@ -90,6 +90,7 @@
             this.datePicker = new System.Windows.Forms.DateTimePicker();
             this.dateLabel = new System.Windows.Forms.Label();
             this.resetButton = new System.Windows.Forms.Button();
+            this.symptomsGroupBox = new System.Windows.Forms.GroupBox();
             this.sexGroupBox.SuspendLayout();
             this.yesornoGroupBox1.SuspendLayout();
             this.yesornoGroupBox2.SuspendLayout();
@@ -97,6 +98,7 @@
             this.yesornoGroupBox4.SuspendLayout();
             this.yesornoGroupBox5.SuspendLayout();
             this.yesornoGroupBox6.SuspendLayout();
+            this.symptomsGroupBox.SuspendLayout();
             this.SuspendLayout();
             // 
             // reminderLabel
@@ -239,7 +241,7 @@
             // feverCheckBox
             // 
             this.feverCheckBox.AutoSize = true;
-            this.feverCheckBox.Location = new System.Drawing.Point(10, 465);
+            this.feverCheckBox.Location = new System.Drawing.Point(12, 28);
             this.feverCheckBox.Name = "feverCheckBox";
             this.feverCheckBox.Size = new System.Drawing.Size(54, 19);
             this.feverCheckBox.TabIndex = 17;
@@ -250,7 +252,7 @@
             // headacheCheckBox
             // 
             this.headacheCheckBox.AutoSize = true;
-            this.headacheCheckBox.Location = new System.Drawing.Point(10, 490);
+            this.headacheCheckBox.Location = new System.Drawing.Point(12, 53);
             this.headacheCheckBox.Name = "headacheCheckBox";
             this.headacheCheckBox.Size = new System.Drawing.Size(79, 19);
             this.headacheCheckBox.TabIndex = 18;
@@ -260,7 +262,7 @@
             // sorethroatCheckBox
             // 
             this.sorethroatCheckBox.AutoSize = true;
-            this.sorethroatCheckBox.Location = new System.Drawing.Point(10, 515);
+            this.sorethroatCheckBox.Location = new System.Drawing.Point(12, 78);
             this.sorethroatCheckBox.Name = "sorethroatCheckBox";
             this.sorethroatCheckBox.Size = new System.Drawing.Size(86, 19);
             this.sorethroatCheckBox.TabIndex = 19;
@@ -270,7 +272,7 @@
             // coughCheckBox
             // 
             this.coughCheckBox.AutoSize = true;
-            this.coughCheckBox.Location = new System.Drawing.Point(171, 465);
+            this.coughCheckBox.Location = new System.Drawing.Point(173, 28);
             this.coughCheckBox.Name = "coughCheckBox";
             this.coughCheckBox.Size = new System.Drawing.Size(62, 19);
             this.coughCheckBox.TabIndex = 20;
@@ -280,7 +282,7 @@
             // fatigueCheckBox
             // 
             this.fatigueCheckBox.AutoSize = true;
-            this.fatigueCheckBox.Location = new System.Drawing.Point(171, 490);
+            this.fatigueCheckBox.Location = new System.Drawing.Point(173, 53);
             this.fatigueCheckBox.Name = "fatigueCheckBox";
             this.fatigueCheckBox.Size = new System.Drawing.Size(65, 19);
             this.fatigueCheckBox.TabIndex = 21;
@@ -290,7 +292,7 @@
             // bodyachesCheckBox
             // 
             this.bodyachesCheckBox.AutoSize = true;
-            this.bodyachesCheckBox.Location = new System.Drawing.Point(171, 515);
+            this.bodyachesCheckBox.Location = new System.Drawing.Point(173, 78);
             this.bodyachesCheckBox.Name = "bodyachesCheckBox";
             this.bodyachesCheckBox.Size = new System.Drawing.Size(88, 19);
             this.bodyachesCheckBox.TabIndex = 22;
@@ -300,7 +302,7 @@
             // diarrheaCheckBox
             // 
             this.diarrheaCheckBox.AutoSize = true;
-            this.diarrheaCheckBox.Location = new System.Drawing.Point(330, 465);
+            this.diarrheaCheckBox.Location = new System.Drawing.Point(332, 28);
             this.diarrheaCheckBox.Name = "diarrheaCheckBox";
             this.diarrheaCheckBox.Size = new System.Drawing.Size(70, 19);
             this.diarrheaCheckBox.TabIndex = 23;
@@ -310,7 +312,7 @@
             // nauseaCheckBox
             // 
             this.nauseaCheckBox.AutoSize = true;
-            this.nauseaCheckBox.Location = new System.Drawing.Point(330, 490);
+            this.nauseaCheckBox.Location = new System.Drawing.Point(332, 53);
             this.nauseaCheckBox.Name = "nauseaCheckBox";
             this.nauseaCheckBox.Size = new System.Drawing.Size(118, 19);
             this.nauseaCheckBox.TabIndex = 24;
@@ -320,7 +322,7 @@
             // bodyweaknessCheckBox
             // 
             this.bodyweaknessCheckBox.AutoSize = true;
-            this.bodyweaknessCheckBox.Location = new System.Drawing.Point(330, 515);
+            this.bodyweaknessCheckBox.Location = new System.Drawing.Point(332, 78);
             this.bodyweaknessCheckBox.Name = "bodyweaknessCheckBox";
             this.bodyweaknessCheckBox.Size = new System.Drawing.Size(108, 19);
             this.bodyweaknessCheckBox.TabIndex = 25;
@@ -330,7 +332,7 @@
             // shortnessofbreathCheckBox
             // 
             this.shortnessofbreathCheckBox.AutoSize = true;
-            this.shortnessofbreathCheckBox.Location = new System.Drawing.Point(10, 540);
+            this.shortnessofbreathCheckBox.Location = new System.Drawing.Point(12, 103);
             this.shortnessofbreathCheckBox.Name = "shortnessofbreathCheckBox";
             this.shortnessofbreathCheckBox.Size = new System.Drawing.Size(142, 34);
             this.shortnessofbreathCheckBox.TabIndex = 26;
@@ -340,7 +342,7 @@
             // lossoftasteCheckBox
             // 
             this.lossoftasteCheckBox.AutoSize = true;
-            this.lossoftasteCheckBox.Location = new System.Drawing.Point(171, 540);
+            this.lossoftasteCheckBox.Location = new System.Drawing.Point(173, 103);
             this.lossoftasteCheckBox.Name = "lossoftasteCheckBox";
             this.lossoftasteCheckBox.Size = new System.Drawing.Size(126, 19);
             this.lossoftasteCheckBox.TabIndex = 27;
@@ -350,7 +352,7 @@
             // runnynoseCheckBox
             // 
             this.runnynoseCheckBox.AutoSize = true;
-            this.runnynoseCheckBox.Location = new System.Drawing.Point(330, 540);
+            this.runnynoseCheckBox.Location = new System.Drawing.Point(332, 103);
             this.runnynoseCheckBox.Name = "runnynoseCheckBox";
             this.runnynoseCheckBox.Size = new System.Drawing.Size(90, 19);
             this.runnynoseCheckBox.TabIndex = 28;
@@ -679,6 +681,7 @@
             this.datePicker.Size = new System.Drawing.Size(132, 23);
             this.datePicker.TabIndex = 54;
             this.datePicker.Value = new System.DateTime(2022, 6, 9, 22, 55, 53, 0);
+            this.datePicker.ValueChanged += new System.EventHandler(this.datePicker_ValueChanged);
             // 
             // dateLabel
             // 
@@ -700,6 +703,26 @@
             this.resetButton.UseVisualStyleBackColor = true;
             this.resetButton.Click += new System.EventHandler(this.button1_Click);
             // 
+            // symptomsGroupBox
+            // 
+            this.symptomsGroupBox.Controls.Add(this.bodyweaknessCheckBox);
+            this.symptomsGroupBox.Controls.Add(this.headacheCheckBox);
+            this.symptomsGroupBox.Controls.Add(this.sorethroatCheckBox);
+            this.symptomsGroupBox.Controls.Add(this.coughCheckBox);
+            this.symptomsGroupBox.Controls.Add(this.fatigueCheckBox);
+            this.symptomsGroupBox.Controls.Add(this.bodyachesCheckBox);
+            this.symptomsGroupBox.Controls.Add(this.diarrheaCheckBox);
+            this.symptomsGroupBox.Controls.Add(this.nauseaCheckBox);
+            this.symptomsGroupBox.Controls.Add(this.shortnessofbreathCheckBox);
+            this.symptomsGroupBox.Controls.Add(this.lossoftasteCheckBox);
+            this.symptomsGroupBox.Controls.Add(this.runnynoseCheckBox);
+            this.symptomsGroupBox.Controls.Add(this.feverCheckBox);
+            this.symptomsGroupBox.Location = new System.Drawing.Point(10, 439);
+            this.symptomsGroupBox.Name = "symptomsGroupBox";
+            this.symptomsGroupBox.Size = new System.Drawing.Size(460, 148);
+            this.symptomsGroupBox.TabIndex = 57;
+            this.symptomsGroupBox.TabStop = false;
+            // 
             // Health_Declaration_Form
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
@@ -707,6 +730,7 @@
             this.AutoScroll = true;
             this.BackColor = System.Drawing.Color.DarkSeaGreen;
             this.ClientSize = new System.Drawing.Size(953, 593);
+            this.Controls.Add(this.symptomsGroupBox);
             this.Controls.Add(this.resetButton);
             this.Controls.Add(this.dateLabel);
             this.Controls.Add(this.datePicker);
@@ -729,18 +753,6 @@
             this.Controls.Add(this.secondQuestion);
             this.Controls.Add(this.firstQuestion);
             this.Controls.Add(this.reminderLabel3);
-            this.Controls.Add(this.runnynoseCheckBox);
-            this.Controls.Add(this.lossoftasteCheckBox);
-            this.Controls.Add(this.shortnessofbreathCheckBox);
-            this.Controls.Add(this.bodyweaknessCheckBox);
-            this.Controls.Add(this.nauseaCheckBox);
-            this.Controls.Add(this.diarrheaCheckBox);
-            this.Controls.Add(this.bodyachesCheckBox);
-            this.Controls.Add(this.fatigueCheckBox);
-            this.Controls.Add(this.coughCheckBox);
-            this.Controls.Add(this.sorethroatCheckBox);
-            this.Controls.Add(this.headacheCheckBox);
-            this.Controls.Add(this.feverCheckBox);
             this.Controls.Add(this.reminderLabel2);
             this.Controls.Add(this.emailaddressTextBox);
             this.Controls.Add(this.emailaddressLabel);
@@ -776,6 +788,8 @@
             this.yesornoGroupBox5.PerformLayout();
             this.yesornoGroupBox6.ResumeLayout(false);
             this.yesornoGroupBox6.PerformLayout();
+            this.symptomsGroupBox.ResumeLayout(false);
+            this.symptomsGroupBox.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -844,5 +858,6 @@
         private DateTimePicker datePicker;
         private Label dateLabel;
         private Button resetButton;
+        private GroupBox symptomsGroupBox;
     }
 }
