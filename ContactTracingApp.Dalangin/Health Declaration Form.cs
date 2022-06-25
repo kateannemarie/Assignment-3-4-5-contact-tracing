@@ -17,9 +17,10 @@ namespace ContactTracingApp.Dalangin
             InitializeComponent();
         }
 
+
         private void radioButton1_CheckedChanged(object sender, EventArgs e)
         {
-          
+
         }
 
         private void namelLabel2_Click(object sender, EventArgs e)
@@ -234,6 +235,49 @@ namespace ContactTracingApp.Dalangin
         private void yesSix_CheckedChanged(object sender, EventArgs e)
         {
 
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            reset();
+            MessageBox.Show("All fields cleared");
+        }
+
+        public void reset()
+        {
+            datePicker.Text = "";
+            nameTextBox2.Text = "";
+            femaleRadioButton.Checked = false;
+            maleRadioButton.Checked = false;
+            ageTextBox.Text = "";
+            contactaddressTextBox.Text = "";
+            contactnumberTextBox2.Text = "";
+            emailaddressTextBox.Text = "";
+            feverCheckBox.Checked = false;
+            headacheCheckBox.Checked = false;
+            sorethroatCheckBox.Checked = false;
+            shortnessofbreathCheckBox.Checked = false;
+            coughCheckBox.Checked = false;
+            fatigueCheckBox.Checked = false;
+            bodyachesCheckBox.Checked = false;
+            lossoftasteCheckBox.Checked = false;
+            diarrheaCheckBox.Checked = false;
+            nauseaCheckBox.Checked = false;
+            bodyachesCheckBox.Checked = false;
+            bodyweaknessCheckBox.Checked = false;
+            runnynoseCheckBox.Checked = false;
+            yesOne.Checked = false;
+            noOne.Checked = false;
+            yesTwo.Checked = false;
+            noTwo.Checked = false;
+            yesThree.Checked = false;
+            yesFour.Checked = false;
+            noThree.Checked = false;
+            noFour.Checked = false;
+            yesFive.Checked = false;
+            noFive.Checked = false;
+            yesSix.Checked = false;
+            noSix.Checked = false;
         }
     }
 }

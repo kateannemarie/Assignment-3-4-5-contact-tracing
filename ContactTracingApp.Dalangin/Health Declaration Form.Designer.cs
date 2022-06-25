@@ -89,6 +89,7 @@
             this.reminder3 = new System.Windows.Forms.Label();
             this.datePicker = new System.Windows.Forms.DateTimePicker();
             this.dateLabel = new System.Windows.Forms.Label();
+            this.resetButton = new System.Windows.Forms.Button();
             this.sexGroupBox.SuspendLayout();
             this.yesornoGroupBox1.SuspendLayout();
             this.yesornoGroupBox2.SuspendLayout();
@@ -652,7 +653,7 @@
             // savedataButton2
             // 
             this.savedataButton2.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.savedataButton2.Location = new System.Drawing.Point(512, 515);
+            this.savedataButton2.Location = new System.Drawing.Point(512, 457);
             this.savedataButton2.Name = "savedataButton2";
             this.savedataButton2.Size = new System.Drawing.Size(417, 59);
             this.savedataButton2.TabIndex = 52;
@@ -665,7 +666,7 @@
             this.reminder3.AutoSize = true;
             this.reminder3.BackColor = System.Drawing.Color.LightCoral;
             this.reminder3.Font = new System.Drawing.Font("Times New Roman", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.reminder3.Location = new System.Drawing.Point(554, 497);
+            this.reminder3.Location = new System.Drawing.Point(554, 439);
             this.reminder3.Name = "reminder3";
             this.reminder3.Size = new System.Drawing.Size(337, 15);
             this.reminder3.TabIndex = 53;
@@ -688,6 +689,17 @@
             this.dateLabel.TabIndex = 55;
             this.dateLabel.Text = "Date:";
             // 
+            // resetButton
+            // 
+            this.resetButton.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.resetButton.Location = new System.Drawing.Point(512, 522);
+            this.resetButton.Name = "resetButton";
+            this.resetButton.Size = new System.Drawing.Size(417, 59);
+            this.resetButton.TabIndex = 56;
+            this.resetButton.Text = "RESET FORM";
+            this.resetButton.UseVisualStyleBackColor = true;
+            this.resetButton.Click += new System.EventHandler(this.button1_Click);
+            // 
             // Health_Declaration_Form
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
@@ -695,6 +707,7 @@
             this.AutoScroll = true;
             this.BackColor = System.Drawing.Color.DarkSeaGreen;
             this.ClientSize = new System.Drawing.Size(953, 593);
+            this.Controls.Add(this.resetButton);
             this.Controls.Add(this.dateLabel);
             this.Controls.Add(this.datePicker);
             this.Controls.Add(this.reminder3);
@@ -830,5 +843,6 @@
         private Label reminder3;
         private DateTimePicker datePicker;
         private Label dateLabel;
+        private Button resetButton;
     }
 }
