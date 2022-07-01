@@ -91,6 +91,7 @@
             this.dateLabel = new System.Windows.Forms.Label();
             this.resetButton = new System.Windows.Forms.Button();
             this.symptomsGroupBox = new System.Windows.Forms.GroupBox();
+            this.qrcodeButton = new System.Windows.Forms.Button();
             this.sexGroupBox.SuspendLayout();
             this.yesornoGroupBox1.SuspendLayout();
             this.yesornoGroupBox2.SuspendLayout();
@@ -655,9 +656,9 @@
             // savedataButton2
             // 
             this.savedataButton2.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.savedataButton2.Location = new System.Drawing.Point(512, 457);
+            this.savedataButton2.Location = new System.Drawing.Point(512, 410);
             this.savedataButton2.Name = "savedataButton2";
-            this.savedataButton2.Size = new System.Drawing.Size(417, 59);
+            this.savedataButton2.Size = new System.Drawing.Size(429, 54);
             this.savedataButton2.TabIndex = 52;
             this.savedataButton2.Text = "SUBMIT FORM";
             this.savedataButton2.UseVisualStyleBackColor = true;
@@ -668,7 +669,7 @@
             this.reminder3.AutoSize = true;
             this.reminder3.BackColor = System.Drawing.Color.LightCoral;
             this.reminder3.Font = new System.Drawing.Font("Times New Roman", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.reminder3.Location = new System.Drawing.Point(554, 439);
+            this.reminder3.Location = new System.Drawing.Point(554, 392);
             this.reminder3.Name = "reminder3";
             this.reminder3.Size = new System.Drawing.Size(337, 15);
             this.reminder3.TabIndex = 53;
@@ -695,9 +696,9 @@
             // resetButton
             // 
             this.resetButton.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.resetButton.Location = new System.Drawing.Point(512, 522);
+            this.resetButton.Location = new System.Drawing.Point(512, 470);
             this.resetButton.Name = "resetButton";
-            this.resetButton.Size = new System.Drawing.Size(417, 59);
+            this.resetButton.Size = new System.Drawing.Size(429, 54);
             this.resetButton.TabIndex = 56;
             this.resetButton.Text = "RESET FORM";
             this.resetButton.UseVisualStyleBackColor = true;
@@ -723,6 +724,17 @@
             this.symptomsGroupBox.TabIndex = 57;
             this.symptomsGroupBox.TabStop = false;
             // 
+            // qrcodeButton
+            // 
+            this.qrcodeButton.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.qrcodeButton.Location = new System.Drawing.Point(512, 530);
+            this.qrcodeButton.Name = "qrcodeButton";
+            this.qrcodeButton.Size = new System.Drawing.Size(429, 54);
+            this.qrcodeButton.TabIndex = 58;
+            this.qrcodeButton.Text = "SCAN QR CODE";
+            this.qrcodeButton.UseVisualStyleBackColor = true;
+            this.qrcodeButton.Click += new System.EventHandler(this.qrcodeButton_Click);
+            // 
             // Health_Declaration_Form
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
@@ -730,6 +742,7 @@
             this.AutoScroll = true;
             this.BackColor = System.Drawing.Color.DarkSeaGreen;
             this.ClientSize = new System.Drawing.Size(953, 593);
+            this.Controls.Add(this.qrcodeButton);
             this.Controls.Add(this.symptomsGroupBox);
             this.Controls.Add(this.resetButton);
             this.Controls.Add(this.dateLabel);
@@ -859,5 +872,6 @@
         private Label dateLabel;
         private Button resetButton;
         private GroupBox symptomsGroupBox;
+        private Button qrcodeButton;
     }
 }

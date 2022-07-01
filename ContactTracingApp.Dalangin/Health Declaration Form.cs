@@ -286,5 +286,12 @@ namespace ContactTracingApp.Dalangin
         {
            
         }
+
+        private void qrcodeButton_Click(object sender, EventArgs e)
+        {
+            Scanner_Form scannerForm = new Scanner_Form();
+            scannerForm.Show();
+            this.Hide();
+        }
     }
 }
