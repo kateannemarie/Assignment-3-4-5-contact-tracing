@@ -28,9 +28,11 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             this.cameraLabel = new System.Windows.Forms.Label();
             this.cameradeviceComboBox = new System.Windows.Forms.ComboBox();
             this.outputPictureBox = new System.Windows.Forms.PictureBox();
+            this.scannerTimer = new System.Windows.Forms.Timer(this.components);
             ((System.ComponentModel.ISupportInitialize)(this.outputPictureBox)).BeginInit();
             this.SuspendLayout();
             // 
@@ -50,27 +52,40 @@
             this.cameradeviceComboBox.Name = "cameradeviceComboBox";
             this.cameradeviceComboBox.Size = new System.Drawing.Size(220, 23);
             this.cameradeviceComboBox.TabIndex = 1;
+            this.cameradeviceComboBox.SelectedIndexChanged += new System.EventHandler(this.cameradeviceComboBox_SelectedIndexChanged);
             // 
             // outputPictureBox
             // 
+            this.outputPictureBox.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.outputPictureBox.Location = new System.Drawing.Point(32, 103);
             this.outputPictureBox.Name = "outputPictureBox";
             this.outputPictureBox.Size = new System.Drawing.Size(305, 269);
             this.outputPictureBox.TabIndex = 2;
             this.outputPictureBox.TabStop = false;
+            this.outputPictureBox.Click += new System.EventHandler(this.outputPictureBox_Click);
+            // 
+            // scannerTimer
+            // 
+            this.scannerTimer.Tick += new System.EventHandler(this.scannerTimer_Tick);
             // 
             // Scanner_Form
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(371, 393);
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.ClientSize = new System.Drawing.Size(367, 389);
             this.Controls.Add(this.outputPictureBox);
             this.Controls.Add(this.cameradeviceComboBox);
             this.Controls.Add(this.cameraLabel);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
             this.MaximumSize = new System.Drawing.Size(387, 432);
             this.MinimumSize = new System.Drawing.Size(387, 432);
             this.Name = "Scanner_Form";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "QR Code Scanner";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.Scanner_Form_FormClosing);
+            this.Load += new System.EventHandler(this.Scanner_Form_Load);
+            this.Shown += new System.EventHandler(this.Scanner_Form_Shown);
             ((System.ComponentModel.ISupportInitialize)(this.outputPictureBox)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -82,5 +97,6 @@
         private Label cameraLabel;
         private ComboBox cameradeviceComboBox;
         private PictureBox outputPictureBox;
+        private System.Windows.Forms.Timer scannerTimer;
     }
 }

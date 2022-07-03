@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using QRCoder;
 
 namespace ContactTracingApp.Dalangin
 {
@@ -64,7 +65,7 @@ namespace ContactTracingApp.Dalangin
 
         private void twentyButton_Click(object sender, EventArgs e)
         {
-            datalistBox.Items.Clear();
+            dataListBox.Items.Clear();
 
             string healthDataFile = "Health-Declaration-Data.txt";
             List<string> healthList = new List<string>();
@@ -72,14 +73,14 @@ namespace ContactTracingApp.Dalangin
 
             foreach (string line in healthList)
             {
-                datalistBox.Items.Add(line);
+                dataListBox.Items.Add(line);
             }
             File.WriteAllLines(healthDataFile, healthList.ToArray());
         }
 
         private void twentyoneButton_Click(object sender, EventArgs e)
         {
-            datalistBox.Items.Clear();
+            dataListBox.Items.Clear();
 
             string healthDataFile = "Health-Declaration-Data-21.txt";
             List<string> healthList = new List<string>();
@@ -87,14 +88,14 @@ namespace ContactTracingApp.Dalangin
 
             foreach (string line in healthList)
             {
-                datalistBox.Items.Add(line);
+                dataListBox.Items.Add(line);
             }
             File.WriteAllLines(healthDataFile, healthList.ToArray());
         }
 
         private void twentytwoButton_Click(object sender, EventArgs e)
         {
-            datalistBox.Items.Clear();
+            dataListBox.Items.Clear();
 
             string healthDataFile = "Health-Declaration-Data-22.txt";
             List<string> healthList = new List<string>();
@@ -102,7 +103,7 @@ namespace ContactTracingApp.Dalangin
 
             foreach (string line in healthList)
             {
-                datalistBox.Items.Add(line);
+                dataListBox.Items.Add(line);
             }
             File.WriteAllLines(healthDataFile, healthList.ToArray());
         }
@@ -111,6 +112,7 @@ namespace ContactTracingApp.Dalangin
         {
             this.Close();
         }
+
     }
 }
 

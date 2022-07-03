@@ -12,6 +12,7 @@ namespace ContactTracingApp.Dalangin
 {
     public partial class ReviewForm : Form
     {
+
         public ReviewForm()
         {
             InitializeComponent();

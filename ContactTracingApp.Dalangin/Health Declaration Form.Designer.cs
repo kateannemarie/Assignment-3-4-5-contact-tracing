@@ -92,6 +92,10 @@
             this.resetButton = new System.Windows.Forms.Button();
             this.symptomsGroupBox = new System.Windows.Forms.GroupBox();
             this.qrcodeButton = new System.Windows.Forms.Button();
+            this.showQRPictureBox = new System.Windows.Forms.PictureBox();
+            this.generateButton = new System.Windows.Forms.Button();
+            this.label2 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
             this.sexGroupBox.SuspendLayout();
             this.yesornoGroupBox1.SuspendLayout();
             this.yesornoGroupBox2.SuspendLayout();
@@ -100,6 +104,7 @@
             this.yesornoGroupBox5.SuspendLayout();
             this.yesornoGroupBox6.SuspendLayout();
             this.symptomsGroupBox.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.showQRPictureBox)).BeginInit();
             this.SuspendLayout();
             // 
             // reminderLabel
@@ -735,13 +740,58 @@
             this.qrcodeButton.UseVisualStyleBackColor = true;
             this.qrcodeButton.Click += new System.EventHandler(this.qrcodeButton_Click);
             // 
+            // showQRPictureBox
+            // 
+            this.showQRPictureBox.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.showQRPictureBox.Location = new System.Drawing.Point(1003, 110);
+            this.showQRPictureBox.Name = "showQRPictureBox";
+            this.showQRPictureBox.Size = new System.Drawing.Size(251, 266);
+            this.showQRPictureBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.showQRPictureBox.TabIndex = 59;
+            this.showQRPictureBox.TabStop = false;
+            // 
+            // generateButton
+            // 
+            this.generateButton.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.generateButton.Location = new System.Drawing.Point(1003, 398);
+            this.generateButton.Name = "generateButton";
+            this.generateButton.Size = new System.Drawing.Size(251, 63);
+            this.generateButton.TabIndex = 60;
+            this.generateButton.Text = "Generate QR Code";
+            this.generateButton.UseVisualStyleBackColor = true;
+            this.generateButton.Click += new System.EventHandler(this.generateButton_Click);
+            // 
+            // label2
+            // 
+            this.label2.BackColor = System.Drawing.Color.Silver;
+            this.label2.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.label2.Location = new System.Drawing.Point(947, 9);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(19, 575);
+            this.label2.TabIndex = 61;
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.BackColor = System.Drawing.Color.White;
+            this.label3.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point);
+            this.label3.Location = new System.Drawing.Point(976, 66);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(291, 16);
+            this.label3.TabIndex = 62;
+            this.label3.Text = "Click the button below to generate your QR Code\r\n";
+            // 
             // Health_Declaration_Form
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoScroll = true;
             this.BackColor = System.Drawing.Color.DarkSeaGreen;
-            this.ClientSize = new System.Drawing.Size(953, 593);
+            this.ClientSize = new System.Drawing.Size(1279, 593);
+            this.Controls.Add(this.label3);
+            this.Controls.Add(this.label2);
+            this.Controls.Add(this.generateButton);
+            this.Controls.Add(this.showQRPictureBox);
             this.Controls.Add(this.qrcodeButton);
             this.Controls.Add(this.symptomsGroupBox);
             this.Controls.Add(this.resetButton);
@@ -781,10 +831,9 @@
             this.Controls.Add(this.reminderLabel);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;
-            this.MaximumSize = new System.Drawing.Size(969, 632);
             this.MinimizeBox = false;
-            this.MinimumSize = new System.Drawing.Size(969, 632);
             this.Name = "Health_Declaration_Form";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Health Declaration Form";
             this.Load += new System.EventHandler(this.Health_Declaration_Form_Load);
             this.sexGroupBox.ResumeLayout(false);
@@ -803,6 +852,7 @@
             this.yesornoGroupBox6.PerformLayout();
             this.symptomsGroupBox.ResumeLayout(false);
             this.symptomsGroupBox.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.showQRPictureBox)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -873,5 +923,9 @@
         private Button resetButton;
         private GroupBox symptomsGroupBox;
         private Button qrcodeButton;
+        private PictureBox showQRPictureBox;
+        private Button generateButton;
+        private Label label2;
+        private Label label3;
     }
 }

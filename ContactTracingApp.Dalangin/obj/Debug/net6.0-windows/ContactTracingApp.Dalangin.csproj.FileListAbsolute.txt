@@ -18,3 +18,10 @@ C:\Users\kitka\source\repos\Assignment-3-contact-tracing\ContactTracingApp.Dalan
 C:\Users\kitka\source\repos\Assignment-3-contact-tracing\ContactTracingApp.Dalangin\obj\Debug\net6.0-windows\ContactTracingApp.Dalangin.pdb
 C:\Users\kitka\source\repos\Assignment-3-contact-tracing\ContactTracingApp.Dalangin\obj\Debug\net6.0-windows\ContactTracingApp.Dalangin.genruntimeconfig.cache
 C:\Users\kitka\source\repos\Assignment-3-contact-tracing\ContactTracingApp.Dalangin\obj\Debug\net6.0-windows\ref\ContactTracingApp.Dalangin.dll
+C:\Users\kitka\source\repos\Assignment-3-contact-tracing\ContactTracingApp.Dalangin\bin\Debug\net6.0-windows\AForge.dll
+C:\Users\kitka\source\repos\Assignment-3-contact-tracing\ContactTracingApp.Dalangin\bin\Debug\net6.0-windows\AForge.Video.dll
+C:\Users\kitka\source\repos\Assignment-3-contact-tracing\ContactTracingApp.Dalangin\bin\Debug\net6.0-windows\AForge.Video.DirectShow.dll
+C:\Users\kitka\source\repos\Assignment-3-contact-tracing\ContactTracingApp.Dalangin\bin\Debug\net6.0-windows\zxing.dll
+C:\Users\kitka\source\repos\Assignment-3-contact-tracing\ContactTracingApp.Dalangin\obj\Debug\net6.0-windows\ContactTracingApp.Dalangin.Scanner_Form.resources
+C:\Users\kitka\source\repos\Assignment-3-contact-tracing\ContactTracingApp.Dalangin\obj\Debug\net6.0-windows\ContactTracingApp.Dalangin.csproj.CopyComplete
+C:\Users\kitka\source\repos\Assignment-3-contact-tracing\ContactTracingApp.Dalangin\bin\Debug\net6.0-windows\QRCoder.dll
