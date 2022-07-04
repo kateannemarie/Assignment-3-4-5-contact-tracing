@@ -95,6 +95,18 @@
             "fileVersion": "0.16.8.0"
           }
         }
+      },
+      "ZXing.Net.Bindings.Windows.Compatibility/0.16.10": {
+        "dependencies": {
+          "System.Drawing.Common": "6.0.0",
+          "ZXing.Net": "0.16.8"
+        },
+        "runtime": {
+          "lib/net6.0/ZXing.Windows.Compatibility.dll": {
+            "assemblyVersion": "0.16.10.0",
+            "fileVersion": "0.16.10.0"
+          }
+        }
       }
     }
   },
@@ -147,6 +159,13 @@
       "sha512": "sha512-Cbbe+x7I7E+VJ0VxU1fPc7AktIw/9xea/ZY/fh38sXqTQ75LJp9ooGUjpzFqfpPfIKozAoXgJ4yvY4GzKpPBzQ==",
       "path": "zxing.net/0.16.8",
       "hashPath": "zxing.net.0.16.8.nupkg.sha512"
+    },
+    "ZXing.Net.Bindings.Windows.Compatibility/0.16.10": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-euWnxHf1jJ+jYyOjX/TAv9uVx4LKJPaUbuUG3O1F3Vkyp0LaXmutgKaJqHITvomyFp+cGt4N3CdC1Ftd5fQkmw==",
+      "path": "zxing.net.bindings.windows.compatibility/0.16.10",
+      "hashPath": "zxing.net.bindings.windows.compatibility.0.16.10.nupkg.sha512"
     }
   }
 }

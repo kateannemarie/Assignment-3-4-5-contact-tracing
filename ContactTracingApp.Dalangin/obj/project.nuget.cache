@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "C8jt914oYK90dMAjrX10/CTQyG4hJpHYdqoyNn/FpCM71OgRWBNiEWwi4iYPuc89Q5xQ46Y/N2hCIRioGC+sfg==",
+  "dgSpecHash": "+7b8KqjreJmSNXgNHpsfjt1kUVs7HuvWpMq/PEooHQdyUPU8pXdOJheQ/o/8bXGrZbEPew9Oqgn+PWA3oBMueg==",
   "success": true,
   "projectFilePath": "C:\\Users\\kitka\\source\\repos\\Assignment-3-contact-tracing\\ContactTracingApp.Dalangin\\ContactTracingApp.Dalangin.csproj",
   "expectedPackageFiles": [
@@ -10,7 +10,8 @@
     "C:\\Users\\kitka\\.nuget\\packages\\microsoft.win32.systemevents\\6.0.0\\microsoft.win32.systemevents.6.0.0.nupkg.sha512",
     "C:\\Users\\kitka\\.nuget\\packages\\qrcoder\\1.4.3\\qrcoder.1.4.3.nupkg.sha512",
     "C:\\Users\\kitka\\.nuget\\packages\\system.drawing.common\\6.0.0\\system.drawing.common.6.0.0.nupkg.sha512",
-    "C:\\Users\\kitka\\.nuget\\packages\\zxing.net\\0.16.8\\zxing.net.0.16.8.nupkg.sha512"
+    "C:\\Users\\kitka\\.nuget\\packages\\zxing.net\\0.16.8\\zxing.net.0.16.8.nupkg.sha512",
+    "C:\\Users\\kitka\\.nuget\\packages\\zxing.net.bindings.windows.compatibility\\0.16.10\\zxing.net.bindings.windows.compatibility.0.16.10.nupkg.sha512"
   ],
   "logs": [
     {

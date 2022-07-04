@@ -98,6 +98,19 @@
         "runtime": {
           "lib/net6.0/zxing.dll": {}
         }
+      },
+      "ZXing.Net.Bindings.Windows.Compatibility/0.16.10": {
+        "type": "package",
+        "dependencies": {
+          "System.Drawing.Common": "6.0.0",
+          "ZXing.Net": "0.16.7"
+        },
+        "compile": {
+          "lib/net6.0/ZXing.Windows.Compatibility.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/ZXing.Windows.Compatibility.dll": {}
+        }
       }
     }
   },
@@ -310,6 +323,36 @@
         "zxing.net.0.16.8.nupkg.sha512",
         "zxing.net.nuspec"
       ]
+    },
+    "ZXing.Net.Bindings.Windows.Compatibility/0.16.10": {
+      "sha512": "euWnxHf1jJ+jYyOjX/TAv9uVx4LKJPaUbuUG3O1F3Vkyp0LaXmutgKaJqHITvomyFp+cGt4N3CdC1Ftd5fQkmw==",
+      "type": "package",
+      "path": "zxing.net.bindings.windows.compatibility/0.16.10",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net5.0/ZXing.Windows.Compatibility.dll",
+        "lib/net5.0/ZXing.Windows.Compatibility.pdb",
+        "lib/net5.0/ZXing.Windows.Compatibility.xml",
+        "lib/net6.0/ZXing.Windows.Compatibility.dll",
+        "lib/net6.0/ZXing.Windows.Compatibility.pdb",
+        "lib/net6.0/ZXing.Windows.Compatibility.xml",
+        "lib/netcoreapp3.0/ZXing.Windows.Compatibility.dll",
+        "lib/netcoreapp3.0/ZXing.Windows.Compatibility.pdb",
+        "lib/netcoreapp3.0/ZXing.Windows.Compatibility.xml",
+        "lib/netcoreapp3.1/ZXing.Windows.Compatibility.dll",
+        "lib/netcoreapp3.1/ZXing.Windows.Compatibility.pdb",
+        "lib/netcoreapp3.1/ZXing.Windows.Compatibility.xml",
+        "lib/netstandard2.0/ZXing.Windows.Compatibility.dll",
+        "lib/netstandard2.0/ZXing.Windows.Compatibility.pdb",
+        "lib/netstandard2.0/ZXing.Windows.Compatibility.xml",
+        "lib/netstandard2.1/ZXing.Windows.Compatibility.dll",
+        "lib/netstandard2.1/ZXing.Windows.Compatibility.pdb",
+        "lib/netstandard2.1/ZXing.Windows.Compatibility.xml",
+        "logo.jpg",
+        "zxing.net.bindings.windows.compatibility.0.16.10.nupkg.sha512",
+        "zxing.net.bindings.windows.compatibility.nuspec"
+      ]
     }
   },
   "projectFileDependencyGroups": {
@@ -317,7 +360,8 @@
       "AForge.Video >= 2.2.5",
       "AForge.Video.DirectShow >= 2.2.5",
       "QRCoder >= 1.4.3",
-      "ZXing.Net >= 0.16.8"
+      "ZXing.Net >= 0.16.8",
+      "ZXing.Net.Bindings.Windows.Compatibility >= 0.16.10"
     ]
   },
   "packageFolders": {
@@ -379,6 +423,10 @@
           "ZXing.Net": {
             "target": "Package",
             "version": "[0.16.8, )"
+          },
+          "ZXing.Net.Bindings.Windows.Compatibility": {
+            "target": "Package",
+            "version": "[0.16.10, )"
           }
         },
         "imports": [

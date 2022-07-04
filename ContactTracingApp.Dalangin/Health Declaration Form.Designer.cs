@@ -96,6 +96,7 @@
             this.generateButton = new System.Windows.Forms.Button();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
             this.sexGroupBox.SuspendLayout();
             this.yesornoGroupBox1.SuspendLayout();
             this.yesornoGroupBox2.SuspendLayout();
@@ -743,7 +744,7 @@
             // showQRPictureBox
             // 
             this.showQRPictureBox.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.showQRPictureBox.Location = new System.Drawing.Point(1003, 110);
+            this.showQRPictureBox.Location = new System.Drawing.Point(1000, 136);
             this.showQRPictureBox.Name = "showQRPictureBox";
             this.showQRPictureBox.Size = new System.Drawing.Size(251, 266);
             this.showQRPictureBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -753,7 +754,7 @@
             // generateButton
             // 
             this.generateButton.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.generateButton.Location = new System.Drawing.Point(1003, 398);
+            this.generateButton.Location = new System.Drawing.Point(1000, 438);
             this.generateButton.Name = "generateButton";
             this.generateButton.Size = new System.Drawing.Size(251, 63);
             this.generateButton.TabIndex = 60;
@@ -774,12 +775,24 @@
             // 
             this.label3.AutoSize = true;
             this.label3.BackColor = System.Drawing.Color.White;
-            this.label3.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point);
-            this.label3.Location = new System.Drawing.Point(976, 66);
+            this.label3.Font = new System.Drawing.Font("Arial Narrow", 11.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point);
+            this.label3.Location = new System.Drawing.Point(972, 82);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(291, 16);
+            this.label3.Size = new System.Drawing.Size(302, 20);
             this.label3.TabIndex = 62;
             this.label3.Text = "Click the button below to generate your QR Code\r\n";
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.BackColor = System.Drawing.Color.LightCoral;
+            this.label4.Font = new System.Drawing.Font("Arial Narrow", 8.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point);
+            this.label4.Location = new System.Drawing.Point(1017, 405);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(218, 30);
+            this.label4.TabIndex = 63;
+            this.label4.Text = "Note: This QR Code generates only your personal \r\ninformation.";
+            this.label4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // Health_Declaration_Form
             // 
@@ -788,6 +801,7 @@
             this.AutoScroll = true;
             this.BackColor = System.Drawing.Color.DarkSeaGreen;
             this.ClientSize = new System.Drawing.Size(1279, 593);
+            this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.generateButton);
@@ -927,5 +941,6 @@
         private Button generateButton;
         private Label label2;
         private Label label3;
+        private Label label4;
     }
 }
