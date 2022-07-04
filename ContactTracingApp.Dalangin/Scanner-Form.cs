@@ -18,9 +18,12 @@ namespace ContactTracingApp.Dalangin
 {
     public partial class Scanner_Form : Form
     {
+        public static Scanner_Form instance;
+
         public Scanner_Form()
         {
             InitializeComponent();
+            instance = this;
         }
 
         FilterInfoCollection filterInfoCollection;
@@ -72,7 +75,17 @@ namespace ContactTracingApp.Dalangin
         {
             File.WriteAllText("Information.txt", scannedqrTextBox.Text);
             saveButton.Enabled = false;
-            Application.Exit();
+
+
+
+            Health_Declaration_Form hdf = new Health_Declaration_Form();
+            hdf.Show();
+
+            string line1 = File.ReadLines("Information.txt").First();
+
+            Health_Declaration_Form.instance.nameTxtBx.Text = line1;
+
+
         }
     }
 }

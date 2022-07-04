@@ -13,9 +13,14 @@ namespace ContactTracingApp.Dalangin
 {
     public partial class Health_Declaration_Form : Form
     {
+
+        public static Health_Declaration_Form instance;
+        public TextBox nameTxtBx;
         public Health_Declaration_Form()
         {
             InitializeComponent();
+            instance = this;
+            nameTxtBx = nameTextBox2;
         }
 
 

@@ -1,7 +1,1 @@
-NAME: TEST
-DATE OF VISIT: Monday, July 4, 2022
-AGE: TEST
-SEX: Female
-ADDRESS: TEST
-VACCINATED? No
-TEMPERATURE: TEST
+pakopya sa purcom
