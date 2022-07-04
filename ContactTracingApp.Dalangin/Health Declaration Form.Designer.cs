@@ -683,6 +683,7 @@
             // 
             // datePicker
             // 
+            this.datePicker.CustomFormat = "";
             this.datePicker.Location = new System.Drawing.Point(302, 91);
             this.datePicker.Name = "datePicker";
             this.datePicker.Size = new System.Drawing.Size(132, 23);
@@ -845,7 +846,9 @@
             this.Controls.Add(this.reminderLabel);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;
+            this.MaximumSize = new System.Drawing.Size(1295, 632);
             this.MinimizeBox = false;
+            this.MinimumSize = new System.Drawing.Size(1278, 632);
             this.Name = "Health_Declaration_Form";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Health Declaration Form";

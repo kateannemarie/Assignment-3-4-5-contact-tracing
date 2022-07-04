@@ -134,7 +134,10 @@
             this.Controls.Add(this.filterLabel);
             this.Controls.Add(this.backButton);
             this.Controls.Add(this.fullData);
+            this.MaximumSize = new System.Drawing.Size(420, 489);
+            this.MinimumSize = new System.Drawing.Size(420, 489);
             this.Name = "Filter_Data";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Filter Data";
             this.Load += new System.EventHandler(this.Filter_Data_Load_1);
             this.ResumeLayout(false);

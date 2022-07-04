@@ -59,5 +59,27 @@ namespace ContactTracingApp.Dalangin.Properties {
                 resourceCulture = value;
             }
         }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Cute_Cartoon_Game_Buttons__Game__Button__Cartoon_PNG_Transparent_Clipart_Image_and_PSD_File_for_Free {
+            get {
+                object obj = ResourceManager.GetObject("Cute-Cartoon-Game-Buttons_-Game_-Button_-Cartoon-PNG-Transparent-Clipart-Image-an" +
+                        "d-PSD-File-for-Free", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Cute_Cartoon_Game_Buttons__Game__Button__Cartoon_PNG_Transparent_Clipart_Image_and_PSD_File_for_Free_Download__1_ {
+            get {
+                object obj = ResourceManager.GetObject("Cute Cartoon Game Buttons, Game, Button, Cartoon PNG Transparent Clipart Image an" +
+                        "d PSD File for Free Download (1)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
     }
 }

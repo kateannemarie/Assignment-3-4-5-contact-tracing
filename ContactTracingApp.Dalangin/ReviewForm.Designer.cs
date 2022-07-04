@@ -33,6 +33,7 @@
             this.showButton = new System.Windows.Forms.Button();
             this.saveData = new System.Windows.Forms.Button();
             this.searchdataButton = new System.Windows.Forms.Button();
+            this.hdfFormButton = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // descriptionLabel
@@ -63,7 +64,7 @@
             // 
             // showButton
             // 
-            this.showButton.Location = new System.Drawing.Point(172, 395);
+            this.showButton.Location = new System.Drawing.Point(123, 395);
             this.showButton.Name = "showButton";
             this.showButton.Size = new System.Drawing.Size(117, 43);
             this.showButton.TabIndex = 2;
@@ -73,7 +74,7 @@
             // 
             // saveData
             // 
-            this.saveData.Location = new System.Drawing.Point(295, 395);
+            this.saveData.Location = new System.Drawing.Point(246, 395);
             this.saveData.Name = "saveData";
             this.saveData.Size = new System.Drawing.Size(117, 43);
             this.saveData.TabIndex = 4;
@@ -83,13 +84,23 @@
             // 
             // searchdataButton
             // 
-            this.searchdataButton.Location = new System.Drawing.Point(418, 395);
+            this.searchdataButton.Location = new System.Drawing.Point(492, 395);
             this.searchdataButton.Name = "searchdataButton";
             this.searchdataButton.Size = new System.Drawing.Size(117, 43);
             this.searchdataButton.TabIndex = 5;
             this.searchdataButton.Text = "Search data";
             this.searchdataButton.UseVisualStyleBackColor = true;
             this.searchdataButton.Click += new System.EventHandler(this.exitButton_Click);
+            // 
+            // hdfFormButton
+            // 
+            this.hdfFormButton.Location = new System.Drawing.Point(369, 395);
+            this.hdfFormButton.Name = "hdfFormButton";
+            this.hdfFormButton.Size = new System.Drawing.Size(117, 43);
+            this.hdfFormButton.TabIndex = 6;
+            this.hdfFormButton.Text = "Fill-in Again";
+            this.hdfFormButton.UseVisualStyleBackColor = true;
+            this.hdfFormButton.Click += new System.EventHandler(this.hdfFormButton_Click);
             // 
             // ReviewForm
             // 
@@ -98,6 +109,7 @@
             this.BackColor = System.Drawing.Color.DarkSeaGreen;
             this.ClientSize = new System.Drawing.Size(701, 450);
             this.ControlBox = false;
+            this.Controls.Add(this.hdfFormButton);
             this.Controls.Add(this.searchdataButton);
             this.Controls.Add(this.saveData);
             this.Controls.Add(this.showButton);
@@ -106,6 +118,8 @@
             this.MaximumSize = new System.Drawing.Size(717, 489);
             this.MinimumSize = new System.Drawing.Size(717, 489);
             this.Name = "ReviewForm";
+            this.ShowIcon = false;
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Review Form";
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -119,5 +133,6 @@
         private Button showButton;
         private Button saveData;
         private Button searchdataButton;
+        private Button hdfFormButton;
     }
 }

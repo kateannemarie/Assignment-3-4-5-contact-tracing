@@ -90,5 +90,22 @@ namespace ContactTracingApp.Dalangin
         {
 
         }
+
+        private void backPictureBox_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void backButton_Click(object sender, EventArgs e)
+        {
+            Health_Declaration_Form hdf = new Health_Declaration_Form();
+            hdf.Show();
+            this.Close();
+        }
+
+        private void exitButton_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
     }
 }

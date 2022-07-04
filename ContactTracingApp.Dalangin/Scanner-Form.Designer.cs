@@ -29,11 +29,14 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Scanner_Form));
             this.cameradevicesComboBox = new System.Windows.Forms.ComboBox();
             this.cameraLabel = new System.Windows.Forms.Label();
             this.previewButton = new System.Windows.Forms.Button();
             this.outputPictureBox = new System.Windows.Forms.PictureBox();
             this.scannerTimer = new System.Windows.Forms.Timer(this.components);
+            this.backButton = new System.Windows.Forms.Button();
+            this.exitButton = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.outputPictureBox)).BeginInit();
             this.SuspendLayout();
             // 
@@ -81,18 +84,48 @@
             this.scannerTimer.Interval = 1000;
             this.scannerTimer.Tick += new System.EventHandler(this.scannerTimer_Tick);
             // 
+            // backButton
+            // 
+            this.backButton.BackgroundImage = global::ContactTracingApp.Dalangin.Properties.Resources.Cute_Cartoon_Game_Buttons__Game__Button__Cartoon_PNG_Transparent_Clipart_Image_and_PSD_File_for_Free;
+            this.backButton.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.backButton.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.backButton.Location = new System.Drawing.Point(12, 12);
+            this.backButton.Name = "backButton";
+            this.backButton.Size = new System.Drawing.Size(39, 39);
+            this.backButton.TabIndex = 6;
+            this.backButton.UseVisualStyleBackColor = true;
+            this.backButton.Click += new System.EventHandler(this.backButton_Click);
+            // 
+            // exitButton
+            // 
+            this.exitButton.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("exitButton.BackgroundImage")));
+            this.exitButton.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.exitButton.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.exitButton.Location = new System.Drawing.Point(327, 12);
+            this.exitButton.Name = "exitButton";
+            this.exitButton.Size = new System.Drawing.Size(39, 39);
+            this.exitButton.TabIndex = 7;
+            this.exitButton.UseVisualStyleBackColor = true;
+            this.exitButton.Click += new System.EventHandler(this.exitButton_Click);
+            // 
             // Scanner_Form
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.DarkSeaGreen;
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.ClientSize = new System.Drawing.Size(378, 388);
             this.ControlBox = false;
+            this.Controls.Add(this.exitButton);
+            this.Controls.Add(this.backButton);
             this.Controls.Add(this.outputPictureBox);
             this.Controls.Add(this.previewButton);
             this.Controls.Add(this.cameraLabel);
             this.Controls.Add(this.cameradevicesComboBox);
+            this.MaximumSize = new System.Drawing.Size(394, 427);
+            this.MinimumSize = new System.Drawing.Size(394, 427);
             this.Name = "Scanner_Form";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "QR Code Scanner";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.Scanner_Form_FormClosing);
             this.Load += new System.EventHandler(this.Scanner_Form_Load);
@@ -109,5 +142,7 @@
         private Button previewButton;
         private PictureBox outputPictureBox;
         private System.Windows.Forms.Timer scannerTimer;
+        private Button backButton;
+        private Button exitButton;
     }
 }

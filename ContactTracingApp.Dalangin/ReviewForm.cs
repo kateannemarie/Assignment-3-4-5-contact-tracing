@@ -50,7 +50,7 @@ namespace ContactTracingApp.Dalangin
         {
             Filter_Data filterData = new Filter_Data();
             filterData.Show();
-            this.Hide();
+            this.Close();
         }
 
         private void descriptionLabel_Click(object sender, EventArgs e)
@@ -60,6 +60,13 @@ namespace ContactTracingApp.Dalangin
 
         private void saveData_Click(object sender, EventArgs e)
         {
+            Application.Exit();
+        }
+
+        private void hdfFormButton_Click(object sender, EventArgs e)
+        {
+            Health_Declaration_Form hdf = new Health_Declaration_Form();
+            hdf.Show();
             this.Close();
         }
     }
