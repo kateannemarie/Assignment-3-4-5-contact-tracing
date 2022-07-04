@@ -16,11 +16,19 @@ namespace ContactTracingApp.Dalangin
 
         public static Health_Declaration_Form instance;
         public TextBox nameTxtBx;
+        public TextBox ageTxtBx;
+        public TextBox contactaddTxtBx;
+        public TextBox contactnumTxtBx;
+        public TextBox contactemTxtBx;
         public Health_Declaration_Form()
         {
             InitializeComponent();
             instance = this;
             nameTxtBx = nameTextBox2;
+            ageTxtBx = ageTextBox;
+            contactaddTxtBx = contactaddressTextBox;
+            contactnumTxtBx = contactnumberTextBox2;
+            contactemTxtBx = emailaddressTextBox;
         }
 
 
@@ -321,12 +329,12 @@ namespace ContactTracingApp.Dalangin
 
 
 
-            var fulldata = "Name: " + nameTextBox2.Text + "\n"
-                + "Sex: " + Sex + "\n"
-                + "Age: " + ageTextBox.Text + " years old" + "\n"
-                + "Contact Address: " + contactaddressTextBox.Text + "\n"
-                + "Mobile No./Telephone No.: " + contactnumberTextBox2.Text + "\n"
-                + "Email Address: " + emailaddressTextBox.Text;
+            var fulldata = nameTextBox2.Text + "\n"
+                + Sex + "\n"
+                + ageTextBox.Text + "\n"
+                + contactaddressTextBox.Text + "\n"
+                + contactnumberTextBox2.Text + "\n"
+                + emailaddressTextBox.Text;
 
             QRCodeGenerator qr = new QRCodeGenerator();
             QRCodeData datainfo = qr.CreateQrCode(fulldata, QRCodeGenerator.ECCLevel.Q);

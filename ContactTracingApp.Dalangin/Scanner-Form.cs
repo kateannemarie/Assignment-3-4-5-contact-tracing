@@ -58,8 +58,22 @@ namespace ContactTracingApp.Dalangin
                 Result result = barcodeReader.Decode((Bitmap)outputPictureBox.Image);
                 if (result != null)
                 {
-                    scannedqrTextBox.Text = result.ToString();
+                    Health_Declaration_Form hdf = new Health_Declaration_Form();
+                    hdf.Show();
+
+                    result.ToString();
+                    string[] index = result.ToString().Split(new char[] { '\n' });
+                    if (index.Length > 0)
+                    {
+                        Health_Declaration_Form.instance.nameTxtBx.Text = index[0];
+                        Health_Declaration_Form.instance.ageTxtBx.Text = index[2];
+                        Health_Declaration_Form.instance.contactaddTxtBx.Text = index[3];
+                        Health_Declaration_Form.instance.contactnumTxtBx.Text = index[4];
+                        Health_Declaration_Form.instance.contactemTxtBx.Text = index[5];
+                    }
                     scannerTimer.Stop();
+
+                    this.Close();
 
                 }
             }
@@ -68,23 +82,6 @@ namespace ContactTracingApp.Dalangin
 
         private void Scanner_Form_FormClosing(object sender, FormClosingEventArgs e)
         {
-
-        }
-
-        private void saveButton_Click(object sender, EventArgs e)
-        {
-            File.WriteAllText("Information.txt", scannedqrTextBox.Text);
-            saveButton.Enabled = false;
-
-
-
-            Health_Declaration_Form hdf = new Health_Declaration_Form();
-            hdf.Show();
-
-            string line1 = File.ReadLines("Information.txt").First();
-
-            Health_Declaration_Form.instance.nameTxtBx.Text = line1;
-
 
         }
     }
