@@ -20,6 +20,8 @@ namespace ContactTracingApp.Dalangin
         public TextBox contactaddTxtBx;
         public TextBox contactnumTxtBx;
         public TextBox contactemTxtBx;
+        public RadioButton radiobuttonF;
+        public RadioButton radiobuttonM;
         public Health_Declaration_Form()
         {
             InitializeComponent();
@@ -29,6 +31,8 @@ namespace ContactTracingApp.Dalangin
             contactaddTxtBx = contactaddressTextBox;
             contactnumTxtBx = contactnumberTextBox2;
             contactemTxtBx = emailaddressTextBox;
+            radiobuttonF = femaleRadioButton;
+            radiobuttonM = maleRadioButton;
         }
 
 

@@ -63,6 +63,12 @@ namespace ContactTracingApp.Dalangin
 
                     result.ToString();
                     string[] index = result.ToString().Split(new char[] { '\n' });
+
+                    if (index[1].Trim().ToLower().Contains("Female"))
+                        Health_Declaration_Form.instance.radiobuttonF.Checked = true;
+                    else
+                        Health_Declaration_Form.instance.radiobuttonM.Checked = true;
+
                     if (index.Length > 0)
                     {
                         Health_Declaration_Form.instance.nameTxtBx.Text = index[0];

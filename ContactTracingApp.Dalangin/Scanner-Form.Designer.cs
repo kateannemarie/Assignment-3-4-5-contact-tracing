@@ -39,6 +39,7 @@
             // 
             // cameradevicesComboBox
             // 
+            this.cameradevicesComboBox.BackColor = System.Drawing.Color.LightGoldenrodYellow;
             this.cameradevicesComboBox.FormattingEnabled = true;
             this.cameradevicesComboBox.Location = new System.Drawing.Point(94, 55);
             this.cameradevicesComboBox.Name = "cameradevicesComboBox";
@@ -48,17 +49,19 @@
             // cameraLabel
             // 
             this.cameraLabel.AutoSize = true;
-            this.cameraLabel.Location = new System.Drawing.Point(37, 58);
+            this.cameraLabel.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.cameraLabel.Location = new System.Drawing.Point(30, 57);
             this.cameraLabel.Name = "cameraLabel";
-            this.cameraLabel.Size = new System.Drawing.Size(51, 15);
+            this.cameraLabel.Size = new System.Drawing.Size(58, 17);
             this.cameraLabel.TabIndex = 2;
             this.cameraLabel.Text = "Camera:";
             // 
             // previewButton
             // 
+            this.previewButton.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.previewButton.Location = new System.Drawing.Point(244, 55);
             this.previewButton.Name = "previewButton";
-            this.previewButton.Size = new System.Drawing.Size(75, 23);
+            this.previewButton.Size = new System.Drawing.Size(91, 23);
             this.previewButton.TabIndex = 3;
             this.previewButton.Text = "Scan";
             this.previewButton.UseVisualStyleBackColor = true;
@@ -82,6 +85,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.DarkSeaGreen;
             this.ClientSize = new System.Drawing.Size(378, 388);
             this.ControlBox = false;
             this.Controls.Add(this.outputPictureBox);

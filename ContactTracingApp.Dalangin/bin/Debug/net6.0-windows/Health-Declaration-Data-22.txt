@@ -1,15 +1,90 @@
-Date: Thursday, 9 June 2022
-Name: Kate Anne Marie Dalangin
+Date: Tuesday, 5 January 2022
+Name: Ethan Lee Batumbakal
+Sex: Male
+Age: 19 years old
+Contact Address: Antipolo City
+Mobile No./Telephone No.: 09124498235
+Email Address: ethanlee@gmail.com
+Symptoms are: "Cough""Fatigue""Body Aches""Nausea""Body Weakness"
+Ethan Lee Batumbakal did not visit any health worker, hospital, or clinic during the past 14 days.
+Ethan Lee Batumbakal was not confined in a hospital or clinic during the past 14 days.
+Ethan Lee Batumbakal doesn't have anyone such as household member/s or close contact/s who are currently having fever, cough and/or respiratory problems.
+Ethan Lee Batumbakal, in the last 14 days, has been in close contact or exposed to any person suspected of COVID-19.
+Ethan Lee Batumbakal has been in Face-to-face contact with a confirmed case within 1 meter and for more than 15 minutes.
+Ethan Lee Batumbakal, in the last 14 days, was not in contact with a person confirmed with COVID-19.
+ 
+Date: Tuesday, 7 January 2022
+Name: Aira Mae Hernandez
+Sex: Female
+Age: 20 years old
+Contact Address: San Pablo City, Laguna
+Mobile No./Telephone No.: 09456321998
+Email Address: airamae03@gmail.com
+Symptoms are: "Fever""Headache""Cough""Fatigue""Diarrhea"
+Aira Mae Hernandez did not visit any health worker, hospital, or clinic during the past 14 days.
+Aira Mae Hernandez was confined in a hospital or clinic during the past 14 days.
+Aira Mae Hernandez have anyone such as household member/s or close contact/s who are currently having fever, cough and/or respiratory problems.
+Aira Mae Hernandez, in the last 14 days, has been in close contact or exposed to any person suspected of COVID-19.
+Aira Mae Hernandez has not been in Face-to-face contact with a confirmed case within 1 meter and for more than 15 minutes.
+Aira Mae Hernandez, in the last 14 days, was not in contact with a person confirmed with COVID-19.
+
+Date: Thursday, 9 March 2022
+Name: Janice Ocampo
+Sex: Female
+Age: 34 years old
+Contact Address: Tiaong, Quezon
+Mobile No./Telephone No.: 09098826481
+Email Address: janiceocampo@gmail.com
+Symptoms are: "Headache""Sore Throat""Difficulty or Shortness of Breath""Body Weakness"
+Janice Ocampo did not visit any health worker, hospital, or clinic during the past 14 days.
+Janice Ocampo was not confined in a hospital or clinic during the past 14 days.
+Janice Ocampo doesn't have anyone such as household member/s or close contact/s who are currently having fever, cough and/or respiratory problems.
+Janice Ocampo, in the last 14 days, has been in close contact or exposed to any person suspected of COVID-19.
+Janice Ocampo has been in Face-to-face contact with a confirmed case within 1 meter and for more than 15 minutes.
+Janice Ocampo, in the last 14 days, has been in contact with a person confirmed with COVID-19.
+ 
+Date: Thursday, 23 June 2022
+Name: Kadija De Guzman
 Sex: Female
 Age: 19 years old
-Contact Address: Brgy. San Rafael, San Pablo City, Laguna
-Mobile No./Telephone No.: 09125682415
-Email Address: katefdalangin@gmail.com
-Symptoms are: "Cough""Fatigue""Body Aches"
-Kate Anne Marie Dalangin did not visit any health worker, hospital, or clinic during the past 14 days.
-Kate Anne Marie Dalangin was not confined in a hospital or clinic during the past 14 days.
-Kate Anne Marie Dalangin doesn't have anyone such as household member/s or close contact/s who are currently having fever, cough and/or respiratory problems.
-Kate Anne Marie Dalangin, in the last 14 days, was not in close contact or exposed to any person suspected of COVID-19.
-Kate Anne Marie Dalangin has not been in Face-to-face contact with a confirmed case within 1 meter and for more than 15 minutes.
-Kate Anne Marie Dalangin, in the last 14 days, was not in contact with a person confirmed with COVID-19.
+Contact Address: Candelaria, Quezon
+Mobile No./Telephone No.: 09840923001
+Email Address: kadijadeguzman@gmail.com
+Symptoms are: "Fever""Headache""Sore Throat""Nausea""Body Weakness""Runny Nose"
+Kadija De Guzman did not visit any health worker, hospital, or clinic during the past 14 days.
+Kadija De Guzman was confined in a hospital or clinic during the past 14 days.
+Kadija De Guzman have anyone such as household member/s or close contact/s who are currently having fever, cough and/or respiratory problems.
+Kadija De Guzman, in the last 14 days, has been in close contact or exposed to any person suspected of COVID-19.
+Kadija De Guzman has been in Face-to-face contact with a confirmed case within 1 meter and for more than 15 minutes.
+Kadija De Guzman, in the last 14 days, has been in contact with a person confirmed with COVID-19.
+ 
+Date: Wednesday, 22 June 2022
+Name: Gaeus Caskie Fabro
+Sex: Male
+Age: 19 years old
+Contact Address: Laguna
+Mobile No./Telephone No.: 09120083409
+Email Address: gaeuscaskie@gmail.com
+Symptoms are: "Cough"
+Gaeus Caskie Fabro did not visit any health worker, hospital, or clinic during the past 14 days.
+Gaeus Caskie Fabro was not confined in a hospital or clinic during the past 14 days.
+Gaeus Caskie Fabro doesn't have anyone such as household member/s or close contact/s who are currently having fever, cough and/or respiratory problems.
+Gaeus Caskie Fabro, in the last 14 days, was not in close contact or exposed to any person suspected of COVID-19.
+Gaeus Caskie Fabro has not been in Face-to-face contact with a confirmed case within 1 meter and for more than 15 minutes.
+Gaeus Caskie Fabro, in the last 14 days, was not in contact with a person confirmed with COVID-19.
+ 
+Date: Monday, 4 July 2022
+Name: Zechaiah Montefalco
+Sex: Male
+Age: 23 years old
+Contact Address: Antipolo, Rizal
+Mobile No./Telephone No.: 09125679012
+Email Address: zechaiahmontefalco@gmail.com
+Symptoms are: "Fever""Headache""Sore Throat"
+Zechaiah Montefalco did visit any health worker, hospital, or clinic during the past 14 days.
+Zechaiah Montefalco was not confined in a hospital or clinic during the past 14 days.
+Zechaiah Montefalco doesn't have anyone such as household member/s or close contact/s who are currently having fever, cough and/or respiratory problems.
+Zechaiah Montefalco, in the last 14 days, has been in close contact or exposed to any person suspected of COVID-19.
+Zechaiah Montefalco has not been in Face-to-face contact with a confirmed case within 1 meter and for more than 15 minutes.
+Zechaiah Montefalco, in the last 14 days, has been in contact with a person confirmed with COVID-19.
  
